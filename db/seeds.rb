@@ -49,7 +49,9 @@
 # end
 
 #Item seeds
-resp = Faraday.get ''
+res = Faraday.get 'https://api.kroger.com/v1/products?filter.term=milk' 
+
+puts res.body
 
 #Order seeds
 
