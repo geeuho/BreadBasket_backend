@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2020_08_04_021033) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "cart_items", force: :cascade do |t|
     t.integer "order_id"
     t.integer "item_id"
@@ -31,7 +34,7 @@ ActiveRecord::Schema.define(version: 2020_08_04_021033) do
     t.string "city"
     t.string "state"
     t.integer "zip_code"
-    t.integer "phone"
+    t.string "phone"
     t.string "image"
     t.string "email"
     t.datetime "created_at", precision: 6, null: false
@@ -68,7 +71,7 @@ ActiveRecord::Schema.define(version: 2020_08_04_021033) do
     t.string "city"
     t.string "state"
     t.integer "zip_code"
-    t.integer "phone"
+    t.string "phone"
     t.string "image"
     t.string "email"
     t.datetime "created_at", precision: 6, null: false
@@ -81,7 +84,7 @@ ActiveRecord::Schema.define(version: 2020_08_04_021033) do
     t.string "city"
     t.string "state"
     t.integer "zip_code"
-    t.integer "phone"
+    t.string "phone"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

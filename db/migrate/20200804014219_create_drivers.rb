@@ -9,7 +9,7 @@ class CreateDrivers < ActiveRecord::Migration[6.0]
       t.string :city
       t.string :state
       t.integer :zip_code
-      t.integer :phone
+      t.string :phone
       t.string :image
       t.string :email
 

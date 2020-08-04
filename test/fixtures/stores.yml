@@ -6,7 +6,7 @@ one:
   city: MyString
   state: MyString
   zip_code: 1
-  phone: 1
+  phone: MyString
 
 two:
   name: MyString
@@ -14,4 +14,4 @@ two:
   city: MyString
   state: MyString
   zip_code: 1
-  phone: 1
+  phone: MyString
