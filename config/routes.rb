@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :orders
   resources :items
-  resources :names
+  resources :stores
   resources :cart_items
   resources :drivers
   resources :shoppers
