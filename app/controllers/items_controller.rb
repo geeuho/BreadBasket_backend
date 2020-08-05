@@ -10,26 +10,10 @@ class ItemsController < ApplicationController
         res json: ItemSerializer.new(item)
     end
 
-    def new
-        
-    end
-
-    def create
-
-    end
-
-    def update
-        
-    end
-
-    def destroy
-
-    end
-
     private
 
     def item_params
-        
+        params.require(:item).permit(:name, :price, :category, :image, :store_id)
     end
 
     def query_params
