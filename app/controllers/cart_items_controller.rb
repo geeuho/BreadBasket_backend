@@ -1,6 +1,6 @@
 class CartItemsController < ApplicationController
     def index 
-        cart_items =
+        cart_items = CartItem.where(query_params)
     end
 
     def create
@@ -34,5 +34,10 @@ class CartItemsController < ApplicationController
     def cart_item_params
         params.require(:cart_item).permit(:order_id, :item_id, :status, :quantity_unit, :quantity_num)
     end
+
+    def query_params
+        params.permit(:order_id, :status)
+    end
+
 
 end

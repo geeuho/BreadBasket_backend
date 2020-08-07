@@ -49,7 +49,10 @@
 # end
 
 #Item seeds
-
+@resp = Faraday.get 'https://api.propublica.org/congress/v1/116/senate/members.json' do |req|
+    req.headers[‘X-API-Key’] = ENV[‘PROPUBLICA_API_KEY’]
+    end
+    senate_data = JSON.parse(@resp.body)
 
 #Order seeds
 
