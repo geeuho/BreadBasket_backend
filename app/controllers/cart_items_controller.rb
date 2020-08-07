@@ -1,12 +1,13 @@
 class CartItemsController < ApplicationController
     def index 
         cart_items = CartItem.where(query_params)
+        render json: CartItemSerializer.new(cart_items)
     end
 
     def create
         cart_item = CartItem.create(cart_item_params)
         if cart_item.valid?
-            render json: { cart_item: CartItemSeriazer.new(cart_item) }
+            render json: CartItemSeriazer.new(cart_item) 
         else 
             render json: {error: "Cart_Item not valid"}
         end
@@ -20,13 +21,13 @@ class CartItemsController < ApplicationController
     def update
         cart_item = CartItem.find(cart_item_params)
         cart_item.update(cart_item_params)
-        render json: CartItemSerializer.new(cart_item)
+        render json: {update: params[:id]}
     end
 
     def destroy
         cart_item = CartItem.find(params[:id])
         cart_item.destroy
-        render json: { destroy: cart_item}
+        render json: { destroy: params[:id]}
     end
     
     private

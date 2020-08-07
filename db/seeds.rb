@@ -16,13 +16,17 @@
 # Store.create(name: 'Smart and Final', address: '31070 Dyer St', city: 'Union City', state: 'CA', zip_code: 94587, phone: '5104752633')
 # Store.create(name: 'FoodMaxx', address: '30073 Industrial Pkwy SW', city: 'Hayward', state: 'CA', zip_code: 94587, phone: '5104753663')
 
-#Shopper seeds
+# Shopper seeds
+
+5.times do 
+    puts Faker::Hipster.word
+end
 # 5.times do 
 #     Shopper.create(
 #         username: Faker::Hipster.word,
-#         first_name: Faker::Name.first_name,
-#         last_name: Faker::Name.last_name,
-#         address: Faker::Address.street_address,
+#         first_name: Faker::Name.firstName,
+#         last_name: Faker::Name.lastName,
+#         address: Faker::Address.streetAddress,
 #         city: Faker::Address.city,
 #         state: Faker::Address.state,
 #         zip_code: Faker::Address.zip_code,
@@ -32,7 +36,7 @@
 #     )
 # end
 
-#Driver seeds
+# # Driver seeds
 # 5.times do 
 #     Driver.create(
 #         username: Faker::Hipster.word,
@@ -49,11 +53,23 @@
 # end
 
 #Item seeds
-@resp = Faraday.get 'https://api.propublica.org/congress/v1/116/senate/members.json' do |req|
-    req.headers[‘X-API-Key’] = ENV[‘PROPUBLICA_API_KEY’]
-    end
-    senate_data = JSON.parse(@resp.body)
+# @resp = Faraday.get 'https://api.propublica.org/congress/v1/116/senate/members.json' do |req|
+#     req.headers[‘X-API-Key’] = ENV[‘PROPUBLICA_API_KEY’]
+# end
+#     senate_data = JSON.parse(@resp.body)
+#     puts senate_data
+
+#name, price, category, image, store_id 
 
 #Order seeds
+
+# 5.times do 
+#     Order.create(
+#         shopper_id: Shopper.all.sample.id,
+#         store_id: Store.all.sample.id
+
+#     )
+
+#driver_id, shopper_id, store_id, total, payment, status
 
 

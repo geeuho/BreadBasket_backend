@@ -1,17 +1,18 @@
 class ShoppersController < ApplicationController
     def index 
         shoppers = Shopper.all
+        render json: ShopperSerializer.new(shoppers)
     end
 
     def show 
         shopper = Shopper.find(params[:id])
-        render json: {shopper: ShopperSerializer.new(shopper)}
+        render json: ShopperSerializer.new(shopper)
     end
 
     def create
         shopper = Shopper.create(shopper_params)
         if shopper.valid?
-            render json: {shopper : ShopperSerializer.new(shopper)}
+            render json: ShopperSerializer.new(shopper)
         else 
             render json: {error: "Shopper is not valid"}
         end

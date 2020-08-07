@@ -1,19 +1,20 @@
 class DriversController < ApplicationController
     def index 
         drivers = Driver.all
+        render json: DriverSerializer.new(drivers)
     end
 
     def show 
         driver = Driver.find(params[:id])
-        render json: {driver: DriverSerializer.new(driver)}
+        render json: DriverSerializer.new(driver)
     end
 
     def create
         driver = Driver.create(driver_params)
         if driver.valid?
-            render json: {driver : DriverSerializer.new(driver)}
+            render json: DriverSerializer.new(driver) 
         else 
-            render json: {error: "Driver is not valid"}
+            render json: { error: "Driver is not valid" } 
         end
     end
 

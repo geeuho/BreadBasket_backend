@@ -26,6 +26,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'rest-client'
 gem 'faraday'
 
+
 gem 'rack-cors'
 gem 'fast_jsonapi'
 

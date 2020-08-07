@@ -3,6 +3,7 @@ class ItemsController < ApplicationController
     #need to display items based on store and category
     def index
         items = Item.where(query_params)
+        render json: ItemSerializer.new(items)
     end
     
     def show
