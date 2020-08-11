@@ -17,52 +17,54 @@
 # Store.create(name: 'FoodMaxx', address: '30073 Industrial Pkwy SW', city: 'Hayward', state: 'CA', zip_code: 94587, phone: '5104753663')
 
 # Shopper seeds
-Shopper.create(
-    username: 'geeuho',
-        first_name: 'joe',
-        last_name: 'schmo',
-        address: '5600 Pacific Grove Way',
-        age: 29,
-        city: 'Union City',
-        state: 'CA',
-        zip_code: 94587,
-        phone: '5107899938',
-        image: 'image_url',
-        email: 'geeuho@gmail.com'
-)
+# Shopper.create(
+#     username: 'geeuho',
+#         first_name: 'joe',
+#         last_name: 'schmo',
+#         address: '5600 Pacific Grove Way',
+#         age: 29,
+#         city: 'Union City',
+#         state: 'CA',
+#         zip_code: 94587,
+#         phone: '5107899938',
+#         image: 'image_url',
+#         email: 'geeuho@gmail.com'
+# )
 
-5.times do 
-    Shopper.create(
-        username: Faker::Hipster.word,
-        first_name: Faker::Name.first_name,
-        last_name: Faker::Name.last_name,
-        address: Faker::Address.street_address,
-        age: rand(18..35),
-        city: Faker::Address.city,
-        state: Faker::Address.state,
-        zip_code: Faker::Address.zip_code,
-        phone: Faker::PhoneNumber.phone_number,
-        image: 'image_url',
-        email: Faker::Internet.email
-    )
-end
+# 5.times do 
+#     s = Shopper.create(
+#         username: Faker::Hipster.word,
+#         first_name: Faker::Name.first_name,
+#         last_name: Faker::Name.last_name,
+#         address: Faker::Address.street_address,
+#         age: rand(18..35),
+#         city: Faker::Address.city,
+#         state: Faker::Address.state,
+#         zip_code: Faker::Address.zip_code,
+#         phone: Faker::PhoneNumber.phone_number,
+#         image: 'image_url',
+#         email: Faker::Internet.email
+#     )
+#     # p s
+# end
 
-# Driver seeds
-5.times do 
-    Driver.create(
-        username: Faker::Hipster.word,
-        first_name: Faker::Name.first_name,
-        last_name: Faker::Name.last_name,
-        address: Faker::Address.street_address,
-        age: rand(18..35),
-        city: Faker::Address.city,
-        state: Faker::Address.state,
-        zip_code: Faker::Address.zip_code,
-        phone: Faker::PhoneNumber.phone_number,
-        image: 'image_url',
-        email: Faker::Internet.email
-    )
-end
+# # Driver seeds
+# 5.times do 
+#     d = Driver.create(
+#         username: Faker::Hipster.word,
+#         first_name: Faker::Name.first_name,
+#         last_name: Faker::Name.last_name,
+#         address: Faker::Address.street_address,
+#         age: rand(18..35),
+#         city: Faker::Address.city,
+#         state: Faker::Address.state,
+#         zip_code: Faker::Address.zip_code,
+#         phone: Faker::PhoneNumber.phone_number,
+#         image: 'image_url',
+#         email: Faker::Internet.email
+#     )
+#     # p d
+# end
 
 #Item seeds
 # @resp = Faraday.get 'https://api.propublica.org/congress/v1/116/senate/members.json' do |req|
@@ -71,8 +73,13 @@ end
 #     senate_data = JSON.parse(@resp.body)
 #     puts senate_data
 
+#each store slightly different variations
+#6 items needed for each category, total of 12 items
+#need item name, category to item name association
+#for each name get image with api search 
+search_term = "tomato"
 
-response = Faraday.get('https://api.spoonacular.com/food/ingredients/search?apiKey=d13fed7db72047438e1c87007a7afc2b&query=&number=5')
+response = Faraday.get(`https://api.unsplash.com/search/photos?page=1&per_page=1&query=#{search_term}`)
 
 response_data = JSON.parse(response.body)
 
