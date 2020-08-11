@@ -289,37 +289,37 @@ beverages = [
     {
         name: 'Soda',
         price: 1.50,
-        image: ,
+        image: 'https://5.imimg.com/data5/SV/BA/MY-16122996/masala-lemon-soda-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
         name: 'Water',
         price: 1.00,
-        image: ,
+        image: 'https://4.imimg.com/data4/DI/VN/MY-2801063/water-bottle-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
         name: 'Lemonade',
         price: 3.50,
-        image: ,
+        image: 'https://tastesbetterfromscratch.com/wp-content/uploads/2015/05/Lemonade-5-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
         name: 'Apple Juice',
         price: 2.00,
-        image: ,
+        image: 'https://cdnimg.webstaurantstore.com/uploads/blog/2019/10/cider_articleimage.jpg',
         quantity_unit: 'unit'
     },
     {
         name: 'Iced Tea',
         price: 2.00,
-        image: ,
+        image: 'https://copykat.com/wp-content/uploads/2019/02/homemade-copycat-mcdonalds-sweet-tea-2-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
         name: 'Orange Juice',
         price: 3.00,
-        image: ,
+        image: 'https://www.mustlovehome.com/wp-content/uploads/2018/03/orange-syrup-5-500x500.jpg',
         quantity_unit: 'unit'
     }
 ]
@@ -328,37 +328,37 @@ frozen = [
     {
         name: 'Waffles',
         price: 3.00,
-        image: ,
+        image: 'https://www.thismomsmenu.com/wp-content/uploads/2017/11/IMG_0576-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
         name: 'Frozen Pizza',
         price: 3.50,
-        image: ,
+        image: 'https://thecookspyjamas.com/wp-content/uploads/Homemade-Frozen-Pizza-3-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
         name: 'Frozen Peas',
         price: 2.50,
-        image: ,
+        image: 'https://static.wixstatic.com/media/191fd4_3386076d9b1643b690e28e387a6e560e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg',
         quantity_unit: 'unit'
     },
     {
         name: 'Chicken Nuggets',
         price: 3.00,
-        image: ,
+        image: 'https://recipefairy.com/wp-content/uploads/2020/05/mcdonalds-chicken-nuggets-recipe-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
         name: 'Ice Cream',
         price: 5.00,
-        image: ,
+        image: 'https://www.theroastedroot.net/wp-content/uploads/2018/06/vanilla_keto_ice_cream_1-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
         name: 'Frozen Strawberries',
         price: 4.00,
-        image: ,
+        image: 'https://5.imimg.com/data5/XK/DR/MY-30273368/frozen-strawberries-500x500.jpg',
         quantity_unit: 'unit'
     }
 ]
@@ -367,37 +367,37 @@ household = [
     {
         name: 'Paper Towels',
         price: 3.00,
-        image: ,
+        image: 'https://cdn3.volusion.com/drued.qmxxg/v/vspfiles/photos/BWK%206212-2.jpg?v-cache=1518242293',
         quantity_unit: 'unit'
     },
     {
         name: 'Garbage Bags',
         price: 3.50,
-        image: ,
+        image: 'https://cdn.shopify.com/s/files/1/0279/4373/1334/products/Garbage-Bags_ee5e9dbc-f0e4-48d4-b890-76b675bc799a_530x@2x.jpg?v=1590698286',
         quantity_unit: 'unit'
     },
     {
         name: 'Toilet Paper',
         price: 100.00,
-        image: ,
+        image: 'https://mcdonaldpaper.com/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/b/w/bwk6145.jpg',
         quantity_unit: 'unit'
     },
     {
         name: 'Paper Plates',
         price: 3.00,
-        image: ,
+        image: 'https://m.media-amazon.com/images/I/71ca8STSacL._SR500,500_.jpg',
         quantity_unit: 'unit'
     },
     {
         name: 'Gloves',
         price: 50.00,
-        image: ,
+        image: 'https://5.imimg.com/data5/UA/AB/LQ/SELLER-23539647/non-sterile-powdered-examination-hand-gloves-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
         name: 'Hand Sanitizer',
         price: 75.00,
-        image: ,
+        image: 'https://www.vitamix.com/media/other/images/500xNxHandSanitizer_500x500.jpg.pagespeed.ic.ls7Y2CmKnH.jpg',
         quantity_unit: 'unit'
     }
 ]
@@ -414,13 +414,7 @@ categories.each do |category, items|
         )
     end
 end
-search_term = "tomato"
 
-response = Faraday.get(`https://api.unsplash.com/search/photos?page=1&per_page=1&query=#{search_term}`)
-
-response_data = JSON.parse(response.body)
-
-p response_data
 
 #name, price, category, image, store_id 
 
