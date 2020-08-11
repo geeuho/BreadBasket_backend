@@ -77,6 +77,21 @@
 #6 items needed for each category, total of 12 items
 #need item name, category to item name association
 #for each name get image with api search 
+
+
+categories = [
+    "meats", "produce", "dairy", "bakery", "snacks", "beverages", "frozen", "household"
+]
+    
+
+
+Item.create(
+    category: ,
+    name: ,
+    price: ,
+    image: ,
+    store_id 
+)
 search_term = "tomato"
 
 response = Faraday.get(`https://api.unsplash.com/search/photos?page=1&per_page=1&query=#{search_term}`)
