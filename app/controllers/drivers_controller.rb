@@ -17,7 +17,7 @@ class DriversController < ApplicationController
             render json: { error: "Driver is not valid" } 
         end
     end
-
+ 
     def update
         driver = Driver.find(params[:id])
         driver.update(driver_params)

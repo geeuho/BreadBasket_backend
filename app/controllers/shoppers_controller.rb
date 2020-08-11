@@ -3,7 +3,7 @@ class ShoppersController < ApplicationController
         shoppers = Shopper.all
         render json: ShopperSerializer.new(shoppers)
     end
-
+ 
     def show 
         shopper = Shopper.find(params[:id])
         render json: ShopperSerializer.new(shopper)
@@ -21,7 +21,7 @@ class ShoppersController < ApplicationController
     def update
         shopper = Shopper.find(params[:id])
         shopper.update(shopper_params)
-        render json: {update: params[:id]}
+        render json: { update: params[:id] }
     end
 
     def destroy
