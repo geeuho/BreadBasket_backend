@@ -454,16 +454,16 @@ categories = {
 
 categories.each do |category, items|
     items.each do |item|
-        p item[:name]
+        
        
-        # Item.create(
-        #     category: item.category,
-        #     name: item.name,
-        #     quantity_unit: item.quantity_unit,
-        #     price: item.price,
-        #     image: item.image,
-        #     store_id: 1
-        # )
+        Item.create(
+            category: item[:category],
+            name: item[:name],
+            quantity_unit: item[:quantity_unit],
+            price: item[:price],
+            image: item[:image],
+            store_id: 1
+        )
     end
 end
 
