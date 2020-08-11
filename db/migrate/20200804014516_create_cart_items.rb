@@ -4,7 +4,6 @@ class CreateCartItems < ActiveRecord::Migration[6.0]
       t.integer :order_id
       t.integer :item_id
       t.string :status
-      t.string :quantity_unit
       t.integer :quantity_num
 
       t.timestamps

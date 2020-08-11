@@ -4,6 +4,7 @@ class CreateItems < ActiveRecord::Migration[6.0]
       t.string :name
       t.float :price
       t.string :category
+      t.string :quantity_unit
       t.string :image
       t.integer :store_id
 

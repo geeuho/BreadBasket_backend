@@ -19,7 +19,6 @@ ActiveRecord::Schema.define(version: 2020_08_04_021033) do
     t.integer "order_id"
     t.integer "item_id"
     t.string "status"
-    t.string "quantity_unit"
     t.integer "quantity_num"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -45,6 +44,7 @@ ActiveRecord::Schema.define(version: 2020_08_04_021033) do
     t.string "name"
     t.float "price"
     t.string "category"
+    t.string "quantity_unit"
     t.string "image"
     t.integer "store_id"
     t.datetime "created_at", precision: 6, null: false
