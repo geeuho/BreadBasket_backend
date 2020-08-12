@@ -17,7 +17,17 @@
 # Store.create(name: 'FoodMaxx', address: '30073 Industrial Pkwy SW', city: 'Hayward', state: 'CA', zip_code: 94587, phone: '5104753663')
 
 # Shopper seeds
-
+Shopper.create(username: Faker::Hipster.word,
+        first_name: Faker::Name.first_name,
+        last_name: Faker::Name.last_name,
+        address: Faker::Address.street_address,
+        age: rand(18..35),
+        city: Faker::Address.city,
+        state: Faker::Address.state,
+        zip_code: Faker::Address.zip_code,
+        phone: Faker::PhoneNumber.phone_number,
+        image: 'image_url',
+        email: Faker::Internet.email)
 5.times do 
     s = Shopper.create(
         username: Faker::Hipster.word,
@@ -32,10 +42,10 @@
         image: 'image_url',
         email: Faker::Internet.email
     )
-    p s
+  
 end
 
-# # Driver seeds
+# # # Driver seeds
 5.times do 
     d = Driver.create(
         username: Faker::Hipster.word,
