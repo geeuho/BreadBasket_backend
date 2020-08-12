@@ -7,11 +7,11 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 # Store seeds
-# Store.create(name: 'Safeway', address: '5877 Jarvis Avenue', city: 'Newark', state: 'CA', zip_code: 94560, phone: '5107133180')
-# Store.create(name: 'Costco', address: '28505 Hesperian Blvd', city: 'Hayward', state: 'CA', zip_code: 94545, phone: '5109213128')
-# Store.create(name: 'Rite Aid', address: '31836 Alvarado Blvd', city: 'Union City', state: 'CA', zip_code: 94587, phone: '5104893955')
-# Store.create(name: 'Smart and Final', address: '31070 Dyer St', city: 'Union City', state: 'CA', zip_code: 94587, phone: '5104752633')
-# Store.create(name: 'FoodMaxx', address: '30073 Industrial Pkwy SW', city: 'Hayward', state: 'CA', zip_code: 94587, phone: '5104753663')
+Store.create(name: 'Safeway', address: '5877 Jarvis Avenue', city: 'Newark', state: 'CA', zip_code: 94560, phone: '5107133180')
+Store.create(name: 'Costco', address: '28505 Hesperian Blvd', city: 'Hayward', state: 'CA', zip_code: 94545, phone: '5109213128')
+Store.create(name: 'Rite Aid', address: '31836 Alvarado Blvd', city: 'Union City', state: 'CA', zip_code: 94587, phone: '5104893955')
+Store.create(name: 'Smart and Final', address: '31070 Dyer St', city: 'Union City', state: 'CA', zip_code: 94587, phone: '5104752633')
+Store.create(name: 'FoodMaxx', address: '30073 Industrial Pkwy SW', city: 'Hayward', state: 'CA', zip_code: 94587, phone: '5104753663')
 
 # Shopper seeds
 # Shopper.create(username: Faker::Hipster.word,
@@ -25,40 +25,40 @@
 #         phone: Faker::PhoneNumber.phone_number,
 #         image: 'image_url',
 #         email: Faker::Internet.email)
-# 5.times do 
-#     s = Shopper.create(
-#         username: Faker::Hipster.word,
-#         first_name: Faker::Name.first_name,
-#         last_name: Faker::Name.last_name,
-#         address: Faker::Address.street_address,
-#         age: rand(18..35),
-#         city: Faker::Address.city,
-#         state: Faker::Address.state,
-#         zip_code: Faker::Address.zip_code,
-#         phone: Faker::PhoneNumber.phone_number,
-#         image: 'image_url',
-#         email: Faker::Internet.email
-#     )
+5.times do 
+    s = Shopper.create(
+        username: Faker::Hipster.word,
+        first_name: Faker::Name.first_name,
+        last_name: Faker::Name.last_name,
+        address: Faker::Address.street_address,
+        age: rand(18..35),
+        city: Faker::Address.city,
+        state: Faker::Address.state,
+        zip_code: Faker::Address.zip_code,
+        phone: Faker::PhoneNumber.phone_number,
+        image: 'image_url',
+        email: Faker::Internet.email
+    )
   
-# end
+end
 
-# # # # Driver seeds
-# 5.times do 
-#     d = Driver.create(
-#         username: Faker::Hipster.word,
-#         first_name: Faker::Name.first_name,
-#         last_name: Faker::Name.last_name,
-#         address: Faker::Address.street_address,
-#         age: rand(18..35),
-#         city: Faker::Address.city,
-#         state: Faker::Address.state,
-#         zip_code: Faker::Address.zip_code,
-#         phone: Faker::PhoneNumber.phone_number,
-#         image: 'image_url',
-#         email: Faker::Internet.email
-#     )
-#     p d
-# end
+# # # Driver seeds
+5.times do 
+    d = Driver.create(
+        username: Faker::Hipster.word,
+        first_name: Faker::Name.first_name,
+        last_name: Faker::Name.last_name,
+        address: Faker::Address.street_address,
+        age: rand(18..35),
+        city: Faker::Address.city,
+        state: Faker::Address.state,
+        zip_code: Faker::Address.zip_code,
+        phone: Faker::PhoneNumber.phone_number,
+        image: 'image_url',
+        email: Faker::Internet.email
+    )
+    p d
+end
 
 #Item seeds
 # @resp = Faraday.get 'https://api.propublica.org/congress/v1/116/senate/members.json' do |req|
@@ -445,20 +445,20 @@ categories = {
     "household": household
 }
 
-# categories.each do |category, items|
-#     items.each do |item|
+categories.each do |category, items|
+    items.each do |item|
         
        
-#         Item.create(
-#             category: item[:category],
-#             name: item[:name],
-#             quantity_unit: item[:quantity_unit],
-#             price: item[:price],
-#             image: item[:image],
-#             store_id: 1
-#         )
-#     end
-# end
+        Item.create(
+            category: item[:category],
+            name: item[:name],
+            quantity_unit: item[:quantity_unit],
+            price: item[:price],
+            image: item[:image],
+            store_id: 1
+        )
+    end
+end
 
 
 #name, price, category, image, store_id 

@@ -4,7 +4,6 @@ class CreateAssignments < ActiveRecord::Migration[6.0]
       t.integer :driver_id
       t.integer :order_id
     
-
       t.timestamps
     end
   end
