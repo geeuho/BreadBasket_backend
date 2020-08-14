@@ -33,7 +33,7 @@ class OrdersController < ApplicationController
     private
 
     def order_params
-        params.require(:order).permit(:driver_id, :shopper_id, :store_id, :status, :payment, :total)
+        params.require(:order).permit(:driver_id, :shopper_id, :store_id, :status, :payment, :tip, :total)
     end
 
     def query_params

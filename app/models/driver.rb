@@ -1,6 +1,6 @@
 class Driver < ApplicationRecord
     has_many :assignments
-    has_many :orders through: :assignments
+    has_many :orders, through: :assignments
     validates :username, presence: true
     validates :first_name, presence: true
     validates :last_name, presence: true
