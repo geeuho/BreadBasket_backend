@@ -8,14 +8,10 @@ class ItemsController < ApplicationController
     
     def show
         item = Item.find(params[:id])
-        res json: ItemSerializer.new(item) 
+        render json: ItemSerializer.new(item) 
     end
 
     private
-
-    def item_params
-        params.require(:item).permit(:name, :price, :category, :image, :store_id)
-    end
 
     def query_params
         params.permit(:store_id, :category)

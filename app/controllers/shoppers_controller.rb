@@ -1,9 +1,5 @@
 class ShoppersController < ApplicationController
-    def index 
-        shoppers = Shopper.all
-        render json: ShopperSerializer.new(shoppers)
-    end
- 
+    
     def show 
         shopper = Shopper.find(params[:id])
         render json: ShopperSerializer.new(shopper)
