@@ -1,4 +1,4 @@
-class StoreSerializer
+class StoreSerializer 
   include FastJsonapi::ObjectSerializer
-  attributes :name, :address, :city, :state, :zip_code, :phone
+  attributes :id, :name, :address, :city, :state, :zip_code, :phone
 end

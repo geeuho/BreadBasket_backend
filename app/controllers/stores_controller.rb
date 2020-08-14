@@ -9,4 +9,9 @@ class StoresController < ApplicationController
         render json: StoreSerializer.new(store)
     end
 
+    private 
+
+    def query_params 
+        params.permit()
+    end
 end

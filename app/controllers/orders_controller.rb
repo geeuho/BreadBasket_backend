@@ -37,6 +37,6 @@ class OrdersController < ApplicationController
     end
 
     def query_params
-        params.permit(:shopper_id, :store_id)
+        params.permit(:shopper_id, :store_id, :status)
     end
 end
