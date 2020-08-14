@@ -1,9 +1,4 @@
 class DriversController < ApplicationController
-    def index 
-        drivers = Driver.all
-        render json: DriverSerializer.new(drivers)
-    end
-
     def show 
         driver = Driver.find(params[:id])
         render json: DriverSerializer.new(driver)
