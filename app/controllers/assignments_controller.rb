@@ -1,11 +1,11 @@
 class AssignmentsController < ApplicationController
     def index 
-        assignments = Assignments.where(query_params)
+        assignments = Assignment.where(query_params)
         render json: AssignmentSerializer.new(assignments)
     end
 
     def show 
-        assignment = Assignments.find(params[:id])
+        assignment = Assignment.find(params[:id])
         render json: AssignmentSerializer.new(assignment)
     end
 

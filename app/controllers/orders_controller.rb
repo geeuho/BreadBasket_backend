@@ -12,9 +12,9 @@ class OrdersController < ApplicationController
     def create
         order = Order.create(order_params)
         if order.valid?
-            render {order: json: OrderSerializer.new(order)}
+            render json: OrderSerializer.new(order)
         else 
-            render {error: "Order is not valid"}
+            render json: {error: "Order is not valid"}
         end
     end
 
@@ -33,10 +33,10 @@ class OrdersController < ApplicationController
     private
 
     def order_params
-        params.require(:order).permit(:driver_id, :shopper_id, :store_id, :status, :payment, :tip, :total)
+        params.require(:order).permit(:shopper_id, :store_id, :status, :payment, :tip, :total)
     end
 
     def query_params
-        params.permit(:shopper_id, :driver_id, :store_id)
+        params.permit(:shopper_id, :store_id)
     end
 end
