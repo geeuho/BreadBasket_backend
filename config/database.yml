@@ -12,7 +12,9 @@ default: &default
 
 development:
   <<: *default
-  database: breadbasket_development
+  database: 'breadbasket_development'
+  user: 'postgres'
+  password: 'jeeho123'
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
