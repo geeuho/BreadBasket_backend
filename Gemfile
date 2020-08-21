@@ -29,8 +29,9 @@ gem 'faraday'
 gem 'rack-cors'
 gem 'fast_jsonapi'
 
-
+gem 'railties'
 gem 'omniauth'
+gem 'devise'
 gem 'dotenv-rails' 
 gem 'omniauth-google-oauth2'
 # Use Active Storage variant
