@@ -25,40 +25,40 @@ Store.create(name: 'FoodMaxx', address: '30073 Industrial Pkwy SW', city: 'Haywa
 #         phone: Faker::PhoneNumber.phone_number,
 #         image: 'image_url',
 #         email: Faker::Internet.email)
-5.times do 
-    s = Shopper.create(
-        username: Faker::Hipster.word,
-        first_name: Faker::Name.first_name,
-        last_name: Faker::Name.last_name,
-        address: Faker::Address.street_address,
-        age: rand(18..35),
-        city: Faker::Address.city,
-        state: Faker::Address.state,
-        zip_code: Faker::Address.zip_code,
-        phone: Faker::PhoneNumber.phone_number,
-        image: 'image_url',
-        email: Faker::Internet.email
-    )
+# 5.times do 
+#     s = Shopper.create(
+#         username: Faker::Hipster.word,
+#         first_name: Faker::Name.first_name,
+#         last_name: Faker::Name.last_name,
+#         address: Faker::Address.street_address,
+#         age: rand(18..35),
+#         city: Faker::Address.city,
+#         state: Faker::Address.state,
+#         zip_code: Faker::Address.zip_code,
+#         phone: Faker::PhoneNumber.phone_number,
+#         image: 'image_url',
+#         email: Faker::Internet.email
+#     )
   
-end
+# end
 
-# # # Driver seeds
-5.times do 
-    d = Driver.create(
-        username: Faker::Hipster.word,
-        first_name: Faker::Name.first_name,
-        last_name: Faker::Name.last_name,
-        address: Faker::Address.street_address,
-        age: rand(18..35),
-        city: Faker::Address.city,
-        state: Faker::Address.state,
-        zip_code: Faker::Address.zip_code,
-        phone: Faker::PhoneNumber.phone_number,
-        image: 'image_url',
-        email: Faker::Internet.email
-    )
-    p d
-end
+# # # # Driver seeds
+# 5.times do 
+#     d = Driver.create(
+#         username: Faker::Hipster.word,
+#         first_name: Faker::Name.first_name,
+#         last_name: Faker::Name.last_name,
+#         address: Faker::Address.street_address,
+#         age: rand(18..35),
+#         city: Faker::Address.city,
+#         state: Faker::Address.state,
+#         zip_code: Faker::Address.zip_code,
+#         phone: Faker::PhoneNumber.phone_number,
+#         image: 'image_url',
+#         email: Faker::Internet.email
+#     )
+#     p d
+# end
 
 #Item seeds
 # @resp = Faraday.get 'https://api.propublica.org/congress/v1/116/senate/members.json' do |req|
