@@ -34,6 +34,7 @@ gem 'omniauth'
 gem 'devise'
 gem 'dotenv-rails' 
 gem 'omniauth-google-oauth2'
+# gem 'activerecord-session_store'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 

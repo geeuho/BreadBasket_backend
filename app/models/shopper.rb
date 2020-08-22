@@ -1,11 +1,7 @@
 class Shopper < ApplicationRecord
-  # Include default devise modules. Others available are:
-  # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
-  devise :database_authenticatable, :registerable,
-         :recoverable, :rememberable, :validatable
 
      def self.from_omniauth(auth)
-        where(provider: auth.provider, uid: auth.uid).first_or_initialize do |shopper|
+        where(email: auth.info.email).first_or_initialize do |shopper|
           shopper.shopper_name = auth.info.name
           shopper.email = auth.info.email
           shopper.password = SecureRandom.hex
