@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(version: 2020_08_14_210142) do
     t.string "phone"
     t.string "image"
     t.string "email"
+    t.string "password"
     t.string "google_token"
     t.string "google_refresh_token"
     t.datetime "created_at", precision: 6, null: false
@@ -83,6 +84,7 @@ ActiveRecord::Schema.define(version: 2020_08_14_210142) do
     t.string "phone"
     t.string "image"
     t.string "email"
+    t.string "password"
     t.string "google_token"
     t.string "google_refresh_token"
     t.datetime "created_at", precision: 6, null: false

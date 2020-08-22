@@ -12,6 +12,7 @@ class CreateShoppers < ActiveRecord::Migration[6.0]
       t.string :phone
       t.string :image
       t.string :email
+      t.string :password
       t.string :google_token
       t.string :google_refresh_token
 

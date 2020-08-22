@@ -1,10 +1,6 @@
 class SessionsController < ApplicationController
-    def create
-        auth_hash = request.env['omniauth.auth']
-        render :text => auth_hash.inspect
-
-    end
-    def shopperGoogleAuth
+    
+    def GoogleAuth
         # Get access tokens from the google server
         access_token = request.env["omniauth.auth"]
         shopper = Shopper.from_omniauth(access_token)
@@ -14,9 +10,11 @@ class SessionsController < ApplicationController
         # Refresh_token to request new access_token
         # Note: Refresh_token is only sent once during the first request
         refresh_token = access_token.credentials.refresh_token
-        shopper.google_refresh_token = refresh_token if refresh_token.present?
+        shopper.google_refresh_token = refresh_token
+        p shopper
         shopper.save
-        redirect_to root_path
+
+        redirect_to '/'
     end
 
     def driverGoogleAuth
