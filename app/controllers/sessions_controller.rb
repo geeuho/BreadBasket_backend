@@ -1,5 +1,9 @@
 class SessionsController < ApplicationController
+    def create
+        auth_hash = request.env['omniauth.auth']
+        render :text => auth_hash.inspect
 
+    end
     def shopperGoogleAuth
         # Get access tokens from the google server
         access_token = request.env["omniauth.auth"]

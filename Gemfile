@@ -30,7 +30,6 @@ gem 'rack-cors'
 gem 'fast_jsonapi'
 
 gem 'railties'
-gem 'omniauth'
 gem 'devise'
 gem 'dotenv-rails' 
 gem 'omniauth-google-oauth2'

@@ -1,8 +1,12 @@
 class Shopper < ApplicationRecord
 
      def self.from_omniauth(auth)
+        p auth.info
+        p auth.given_name
+        p auth.first_name
         where(email: auth.info.email).first_or_initialize do |shopper|
-          shopper.shopper_name = auth.info.name
+          shopper.first_name = auth.info.given_name
+          shopper.last_name = auth.info.family_name
           shopper.email = auth.info.email
           shopper.password = SecureRandom.hex
         end
