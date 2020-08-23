@@ -32,15 +32,8 @@ ActiveRecord::Schema.define(version: 2020_08_14_210142) do
   end
 
   create_table "drivers", force: :cascade do |t|
-    t.string "username"
     t.string "first_name"
     t.string "last_name"
-    t.integer "age"
-    t.string "address"
-    t.string "city"
-    t.string "state"
-    t.integer "zip_code"
-    t.string "phone"
     t.string "image"
     t.string "email"
     t.string "password"
@@ -73,20 +66,12 @@ ActiveRecord::Schema.define(version: 2020_08_14_210142) do
   end
 
   create_table "shoppers", force: :cascade do |t|
-    t.string "username"
     t.string "first_name"
     t.string "last_name"
-    t.integer "age"
-    t.string "address"
-    t.string "city"
-    t.string "state"
-    t.integer "zip_code"
-    t.string "phone"
     t.string "image"
     t.string "email"
     t.string "password"
     t.string "google_token"
-    t.string "google_refresh_token"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
