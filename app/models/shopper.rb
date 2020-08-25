@@ -1,13 +1,13 @@
 class Shopper < ApplicationRecord
 
-     def self.from_omniauth(auth)
-        p auth.info
-        where(email: auth.info.email).first_or_initialize do |shopper|
-            shopper.image = auth.info.image
-            shopper.first_name = auth.info.first_name
-            shopper.last_name = auth.info.last_name
-            shopper.email = auth.info.email
-            shopper.password = SecureRandom.hex
+     def self.from_omniauth(params)
+        p params[:email]
+        p 'hello'
+        where(email: params[:email]).first_or_initialize do |shopper|
+            shopper.image = 'image'
+            shopper.first_name = 'first_name'
+            shopper.last_name = 'last_name'
+            shopper.email = params[:email]
         end
     end
 

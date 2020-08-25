@@ -13,20 +13,20 @@ class SessionsController < ApplicationController
     end
 
     def create 
-        shopperValid = Shopper.find_by(email: user_login_params[:email])
-        shopper = Shopper.from_omniauth(user_login_params)
-        token = JWT.encode_token(shopper.id)
+        shopperValid = Shopper.find_by(email: shopper_login_params[:email])
+        shopper = Shopper.from_omniauth(shopper_login_params)
+        token = encode_token({shopper_id: shopper.id})
         if !!shopperValid
-            render json: {status: `New user created! Welcome #{shopper.name}`, jwt: token}
+            render json: {shopper: ShopperSerializer.new(shopper), jwt: token}
         else
-            render json: {status: `You are logged in #{shopper.name}`, jwt: token}
+            render json: {shopper: ShopperSerializer.new(shopper), jwt: token}
         end
     end
 
 
     private
 
-    def user_login_params
-        params.require(:user).permit(:email)
+    def shopper_login_params
+        params.require(:shopper).permit(:email)
     end
 end
