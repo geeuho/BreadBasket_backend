@@ -4,7 +4,7 @@ class ApplicationController < ActionController::API
     end
 
     def encode_token(payload)
-        JWT.encode(payload)
+        JWT.encode(payload, 'hello', 'HS256')
     end
 
     def auth_header
@@ -24,7 +24,7 @@ class ApplicationController < ActionController::API
 
     def current_user
         if decoded_token
-            user_id = decodedtoken[0]['user_id']
+            user_id = decoded_token[0]['user_id']
             user = User.find_by(id: user_id)
         end
     end
