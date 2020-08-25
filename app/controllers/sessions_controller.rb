@@ -9,7 +9,6 @@ class SessionsController < ApplicationController
         p shopper
         shopper.save
         token = encode_token({shopper_id: shopper.id})
-        token = encode_token({shopper_id: shopper.id})
     end
 
     def create 
@@ -23,10 +22,9 @@ class SessionsController < ApplicationController
         end
     end
 
-
     private
 
     def shopper_login_params
-        params.require(:shopper).permit(:email)
+        params.require(:shopper).permit(:email, :first_name, :last_name, :image)
     end
 end

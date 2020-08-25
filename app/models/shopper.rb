@@ -4,9 +4,9 @@ class Shopper < ApplicationRecord
         p params[:email]
         p 'hello'
         where(email: params[:email]).first_or_initialize do |shopper|
-            shopper.image = 'image'
-            shopper.first_name = 'first_name'
-            shopper.last_name = 'last_name'
+            shopper.image = params[:image]
+            shopper.first_name = params[:first_name]
+            shopper.last_name = params[:last_name]
             shopper.email = params[:email]
         end
     end
