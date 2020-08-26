@@ -1,5 +1,5 @@
 class SessionsController < ApplicationController
-    
+    skip_before_action :authorized
     def GoogleAuth
         # Get access tokens from the google server
         access_token = request.env["omniauth.auth"]
@@ -14,7 +14,7 @@ class SessionsController < ApplicationController
     def create 
         shopperValid = Shopper.find_by(email: shopper_login_params[:email])
         shopper = Shopper.from_omniauth(shopper_login_params)
-        token = encode_token({shopper_id: shopper.id})
+        token = encode_token({shopper_id: shopper.id, type: 'shopper'})
         if !!shopperValid
             render json: {shopper: ShopperSerializer.new(shopper), jwt: token}
         else

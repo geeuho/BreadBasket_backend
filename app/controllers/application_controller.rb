@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::API
+    before_action :authorized
     def current_cart
         cart = session[:cart]
     end
@@ -8,6 +9,7 @@ class ApplicationController < ActionController::API
     end
 
     def auth_header
+        p request.headers["Authorization"]
         request.headers['Authorization']
     end
 
@@ -23,9 +25,15 @@ class ApplicationController < ActionController::API
     end
 
     def current_user
+        user = decoded_token[0]
         if decoded_token
-            user_id = decoded_token[0]['user_id']
-            user = User.find_by(id: user_id)
+            if !!user['shopper_id']
+                shopper_id = user['shopper_id']
+                shopper = Shopper.find_by(id: shopper_id)
+            else 
+                driver_id = user['driver_id']
+                driver = Driver.find_by(id: driver_id)
+            end
         end
     end
     
