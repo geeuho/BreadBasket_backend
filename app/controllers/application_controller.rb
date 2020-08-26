@@ -26,11 +26,11 @@ class ApplicationController < ActionController::API
     def current_user
       
         if decoded_token
-            if !!user[0]['shopper_id']
-                shopper_id = user[0]['shopper_id']
+            if !!decoded_token[0]['shopper_id']
+                shopper_id = decoded_token[0]['shopper_id']
                 shopper = Shopper.find_by(id: shopper_id)
             else 
-                driver_id = user[0]['driver_id']
+                driver_id = decoded_token[0]['driver_id']
                 driver = Driver.find_by(id: driver_id)
             end
         end

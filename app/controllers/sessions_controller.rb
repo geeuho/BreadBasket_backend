@@ -15,7 +15,6 @@ class SessionsController < ApplicationController
         shopperValid = Shopper.find_by(email: shopper_login_params[:email])
         shopper = Shopper.from_omniauth(shopper_login_params)
         token = encode_token({shopper_id: shopper.id})
-        p token, shopper
         render json: {shopper: ShopperSerializer.new(shopper), jwt: token}
     end
 

@@ -1,8 +1,6 @@
 class Shopper < ApplicationRecord
 
      def self.from_omniauth(params)
-        p params[:email]
-        p 'hello'
         where(email: params[:email]).first_or_initialize do |shopper|
             shopper.image = params[:image]
             shopper.first_name = params[:first_name]
