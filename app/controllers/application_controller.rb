@@ -9,8 +9,7 @@ class ApplicationController < ActionController::API
     end
 
     def auth_header
-        p request.headers["Authorization"]
-        request.headers['Authorization']
+        request.headers["Authorization"]
     end
 
     def decoded_token
@@ -25,13 +24,13 @@ class ApplicationController < ActionController::API
     end
 
     def current_user
-        user = decoded_token[0]
+      
         if decoded_token
-            if !!user['shopper_id']
-                shopper_id = user['shopper_id']
+            if !!user[0]['shopper_id']
+                shopper_id = user[0]['shopper_id']
                 shopper = Shopper.find_by(id: shopper_id)
             else 
-                driver_id = user['driver_id']
+                driver_id = user[0]['driver_id']
                 driver = Driver.find_by(id: driver_id)
             end
         end
