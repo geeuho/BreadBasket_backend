@@ -29,7 +29,7 @@ class ApplicationController < ActionController::API
             token = cart_header
             begin 
                 JWT.decode(token, 'hello', true, {algorithm: 'HS256'})
-            rescue JWT:DecodeError
+            rescue JWT::DecodeError
                 nil
             end
         end 

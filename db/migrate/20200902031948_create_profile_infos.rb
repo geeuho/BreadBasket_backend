@@ -7,6 +7,7 @@ class CreateProfileInfos < ActiveRecord::Migration[6.0]
       t.string :state
       t.string :zip_code
       t.string :phone
+      t.integer :user_id
 
       t.timestamps
     end
