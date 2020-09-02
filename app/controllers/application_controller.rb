@@ -24,7 +24,6 @@ class ApplicationController < ActionController::API
     end
 
     def current_user
-      
         if decoded_token
             if !!decoded_token[0]['shopper_id']
                 shopper_id = decoded_token[0]['shopper_id']

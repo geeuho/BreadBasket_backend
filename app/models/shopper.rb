@@ -8,7 +8,7 @@ class Shopper < ApplicationRecord
             shopper.email = params[:email]
         end
     end
-
+    has_one :cart
     has_many :order
     validates :first_name, presence: true
     validates :last_name, presence: true
