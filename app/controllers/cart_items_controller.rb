@@ -33,7 +33,7 @@ class CartItemsController < ApplicationController
     private
 
     def cart_item_params
-        params.require(:cart_item).permit(:order_id, :item_id, :status, :quantity_num)
+        params.require(:cart_item).permit(:cart_id, :item_id, :quantity_num)
     end
 
     def query_params

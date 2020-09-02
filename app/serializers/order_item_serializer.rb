@@ -1,3 +1,3 @@
 class OrderItemSerializer < ActiveModel::Serializer
-  attributes :id, :order_id, :item_id
+  attributes :order_id, :item_id, :quantity_num, :status
 end
