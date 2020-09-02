@@ -9,7 +9,7 @@ class Shopper < ApplicationRecord
         end
     end
     has_one :cart
-    has_many :order
+    has_many :orders
     validates :first_name, presence: true
     validates :last_name, presence: true
     # validates :age, presence: true
