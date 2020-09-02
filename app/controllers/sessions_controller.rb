@@ -12,8 +12,13 @@ class SessionsController < ApplicationController
     end
 
     def create 
-        shopperValid = Shopper.find_by(email: shopper_login_params[:email])
-        shopper = Shopper.from_omniauth(shopper_login_params)
+        shopperExists = Shopper.find_by(email: shopper_login_params[:email])
+        if !shopperExists
+            shopper = Shopper.create(shopper_login_params)
+        else
+            shopper = shopperExists
+        end
+        p shopper
         token = encode_token({shopper_id: shopper.id})
         render json: {shopper: ShopperSerializer.new(shopper), jwt: token}
     end

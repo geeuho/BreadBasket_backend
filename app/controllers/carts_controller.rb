@@ -11,6 +11,7 @@ class CartsController < ApplicationController
             cart = Cart.find_by(id: cart_id)
             render json: CartSerializer.new(cart)
         else
+            p cart_params
             cart = Cart.create(cart_params)
             cart.save
             token = encode_token({cart_id: cart.id})
@@ -21,6 +22,6 @@ class CartsController < ApplicationController
     private
 
     def cart_params
-        params.require(:cart).permit(:user_id)
+        params.require(:cart).permit(:shopper_id)
     end
 end

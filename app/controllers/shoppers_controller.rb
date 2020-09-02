@@ -1,4 +1,9 @@
 class ShoppersController < ApplicationController
+    skip_before_action :authorized
+    def index
+        shoppers = Shopper.all
+        render json: ShopperSerializer.new(shoppers)
+    end
 
     def show 
         shopper = Shopper.find(params[:id])

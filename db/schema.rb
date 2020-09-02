@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 2020_09_02_032309) do
   end
 
   create_table "carts", force: :cascade do |t|
-    t.integer "user_id"
+    t.integer "shopper_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -96,8 +96,6 @@ ActiveRecord::Schema.define(version: 2020_09_02_032309) do
     t.string "last_name"
     t.string "image"
     t.string "email"
-    t.string "password"
-    t.string "google_token"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
