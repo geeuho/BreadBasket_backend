@@ -19,7 +19,7 @@ class CartItemsController < ApplicationController
     end
 
     def update
-        cart_item = CartItem.find(cart_item_params)
+        cart_item = CartItem.find(params[:id])
         cart_item.update(cart_item_params)
         render json: {update: params[:id]}
     end
@@ -37,7 +37,7 @@ class CartItemsController < ApplicationController
     end
 
     def query_params
-        params.permit(:order_id, :status)
+        params.permit(:cart_id)
     end
 
 
