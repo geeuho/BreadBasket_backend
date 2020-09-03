@@ -6,14 +6,15 @@ class ApplicationController < ActionController::API
     end
 
     def auth_header
-        request.headers["Authorization"]["shopper"]
+        request.headers['Authorization']
     end
     
     def cart_header
-        params["headers"]["Authorization"]
+        request.headers["Cart"]
     end
 
     def shopper_token
+        p auth_header
         if auth_header 
             token = auth_header
             begin 
@@ -22,6 +23,24 @@ class ApplicationController < ActionController::API
                 nil
             end
         end
+    end
+    
+    def current_shopper
+        p shopper_token
+
+        if shopper_token
+            shopper_id = shopper_token[0]['shopper_id']
+            shopper = Shopper.find_by(id: shopper_id)
+            
+        end
+    end
+    
+    def logged_in
+        !!current_shopper
+    end
+    
+    def authorized
+        render json: {message: 'Please log in'}, status: :unauthorized unless logged_in
     end
 
     def cart_token
@@ -43,21 +62,5 @@ class ApplicationController < ActionController::API
             cart = Cart.find_by(id: cart_id)
         end
     end
-
-    def current_shopper
-        if shopper_token
-            shopper_id = shopper_token[0]['shopper_id']
-            shopper = Shopper.find_by(id: shopper_id)
-            
-        end
-    end
     
-    def logged_in
-        !!current_user
-    end
-
-    def authorized
-        render json: {message: 'Please log in'}, status: :unauthorized unless logged_in
-    end
-                
 end
