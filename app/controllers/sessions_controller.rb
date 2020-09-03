@@ -29,3 +29,4 @@ class SessionsController < ApplicationController
         params.require(:shopper).permit(:email, :first_name, :last_name, :image)
     end
 end
+

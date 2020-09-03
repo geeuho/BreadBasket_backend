@@ -1,4 +1,5 @@
 class CartItemsController < ApplicationController
+    skip_before_action :authorized
     def index 
         cart_items = CartItem.where(query_params)
         render json: CartItemSerializer.new(cart_items)
@@ -7,7 +8,7 @@ class CartItemsController < ApplicationController
     def create
         cart_item = CartItem.create(cart_item_params)
         if cart_item.valid?
-            render json: CartItemSeriazer.new(cart_item) 
+            render json: CartItemSerializer.new(cart_item) 
         else 
             render json: {error: "Cart_Item not valid"}
         end
