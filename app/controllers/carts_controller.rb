@@ -6,17 +6,14 @@ class CartsController < ApplicationController
     end
 
     def create 
-        if(!!cart_token)
-            cart_id = cart_token[0]['cart_id']
-            cart = Cart.find_by(id: cart_id)
-            render json: CartSerializer.new(cart)
-        else
-            p cart_params
+        shopper_id = cart_params["shopper_id"]
+        cart = Cart.find_by(shopper_id: shopper_id)
+        if !cart
             cart = Cart.create(cart_params)
-            cart.save
-            token = encode_token({cart_id: cart.id})
-            render json: {cart: CartSerializer.new(cart), jwt: token}
+            cart.save  
         end
+        render json: {cart: CartSerializer.new(cart)}
+        session[:cart_id] = cart.id
     end
     
     private
