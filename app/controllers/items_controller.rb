@@ -1,5 +1,5 @@
 class ItemsController < ApplicationController
-    skip_before_action :authorized
+    # skip_before_action :authorized
     #need to display items based on store and category
     def index
         items = Item.where(query_params)

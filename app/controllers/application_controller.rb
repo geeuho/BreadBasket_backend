@@ -1,31 +1,19 @@
 class ApplicationController < ActionController::API
-    before_action :authorized, :check_cart
-
-    def check_cart
-        p session
-        p "sessions"
-        cart = Cart.find(session[:cart_id])
-        p cart
-        p "cart found"
-        rescue ActiveRecord::RecordNotFound
-        p "Cart not found"
-    end
+    before_action :authorized
 
     def encode_token(payload)
         JWT.encode(payload, 'hello', 'HS256')
     end
 
     def auth_header
-        request.headers["Authorization"]
+        request.headers["Authorization"]["shopper"]
     end
     
-    # def cart_header
-    #     p request.headers["Cookie"]
-    #     p 'GOD REALLY EXISTS'
-    #     request.headers["Cookie"]
-    # end
+    def cart_header
+        params["headers"]["Authorization"]
+    end
 
-    def user_token
+    def shopper_token
         if auth_header 
             token = auth_header
             begin 
@@ -36,27 +24,31 @@ class ApplicationController < ActionController::API
         end
     end
 
-    # def cart_token
-    #     if cart_header
-    #         token = cart_header
-    #         p token
-    #         begin 
-    #             JWT.decode(token, 'hello', true, {algorithm: 'HS256'})
-    #         rescue JWT::DecodeError
-    #             nil
-    #         end
-    #     end 
-    # end
-
-    def current_user
-        if user_token
-            if !!user_token[0]['shopper_id']
-                shopper_id = user_token[0]['shopper_id']
-                shopper = Shopper.find_by(id: shopper_id)
-            else 
-                driver_id = user_token[0]['driver_id']
-                driver = Driver.find_by(id: driver_id)
+    def cart_token
+        if cart_header
+            token = cart_header
+            p token
+            begin 
+                JWT.decode(token, 'hello', true, {algorithm: 'HS256'})
+            rescue JWT::DecodeError
+                nil
             end
+        end 
+    end
+
+    def current_cart
+        p cart_token
+        if cart_token
+            cart_id = cart_token[0]["cart_id"]
+            cart = Cart.find_by(id: cart_id)
+        end
+    end
+
+    def current_shopper
+        if shopper_token
+            shopper_id = shopper_token[0]['shopper_id']
+            shopper = Shopper.find_by(id: shopper_id)
+            
         end
     end
     
