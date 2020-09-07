@@ -1,7 +1,7 @@
 class Shopper < ApplicationRecord
 
     has_one :cart
-    has_one :profile_info
+    has_one :shopper_info
     has_many :orders
     validates :first_name, presence: true
     validates :last_name, presence: true

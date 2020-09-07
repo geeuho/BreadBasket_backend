@@ -1,15 +1,22 @@
 class ShopperInfosController < ApplicationController
+    skip_before_action :authorized
+    def index
+        shopper_infos = ShopperInfo.all
+        render json: ShopperSerializer.new(shopper_infos)
+    end
+
     def create 
         shopper_info = ShopperInfo.create(shopper_info_params)
         if shopper_info.valid?
-            render json: {ShopperSerializer.new(shopper_info)}
+            render json: ShopperSerializer.new(shopper_info)
         else 
-            render {error: "Shopper Info not valid"}
+            render json: {error: "Shopper Info not valid"}
         end
     end
 
     private
 
     def shopper_info_params
-        params.require(:shopper_info).permit()
+        params.require(:shopper_info).permit(:age, :address, :city, :state, :zip_code, :phone, :shopper_id)
+    end
 end
