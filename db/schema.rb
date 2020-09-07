@@ -79,14 +79,14 @@ ActiveRecord::Schema.define(version: 2020_09_02_032309) do
     t.float "tip"
   end
 
-  create_table "profile_infos", force: :cascade do |t|
+  create_table "shopper_infos", force: :cascade do |t|
     t.integer "age"
     t.string "address"
     t.string "city"
     t.string "state"
     t.string "zip_code"
     t.string "phone"
-    t.integer "user_id"
+    t.integer "shopper_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
