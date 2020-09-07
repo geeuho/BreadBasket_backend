@@ -1,3 +1,3 @@
 class ShopperInfo < ApplicationRecord
-    belongs_to :user
+    belongs_to :shopper
 end
