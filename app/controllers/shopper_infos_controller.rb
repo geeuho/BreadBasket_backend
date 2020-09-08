@@ -15,6 +15,12 @@ class ShopperInfosController < ApplicationController
         end
     end
 
+    def update
+        shopper_info = ShopperInfo.find(params[:id])
+        shopper_info.update(shopper_info_params)
+        render json: {update: params[:id]}
+    end
+
     private
 
     def shopper_info_params
