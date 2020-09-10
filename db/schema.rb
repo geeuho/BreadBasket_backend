@@ -73,6 +73,7 @@ ActiveRecord::Schema.define(version: 2020_09_02_032309) do
     t.integer "store_id"
     t.integer "total"
     t.integer "payment"
+    t.integer "subtotal"
     t.string "status"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

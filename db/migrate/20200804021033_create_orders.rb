@@ -5,6 +5,7 @@ class CreateOrders < ActiveRecord::Migration[6.0]
       t.integer :store_id
       t.integer :total
       t.integer :payment
+      t.integer :subtotal
       t.string :status
 
       t.timestamps

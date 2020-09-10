@@ -22,7 +22,7 @@ class OrdersController < ApplicationController
     def update
         order = Order.find(params[:id])
         order.update(order_params)
-        render json: {update: params[:id]}
+        render json: OrderSerializer.new(order)
     end
 
     def destroy
@@ -34,7 +34,7 @@ class OrdersController < ApplicationController
     private
 
     def order_params
-        params.require(:order).permit(:shopper_id, :store_id, :status, :payment, :tip, :total)
+        params.require(:order).permit(:shopper_id, :store_id, :status, :subtotal, :payment, :tip, :total)
     end
 
     def query_params
