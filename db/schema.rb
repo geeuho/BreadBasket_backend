@@ -71,12 +71,12 @@ ActiveRecord::Schema.define(version: 2020_09_02_032309) do
   create_table "orders", force: :cascade do |t|
     t.integer "shopper_id"
     t.integer "store_id"
-    t.float "total"
-    t.float "payment"
+    t.integer "total"
+    t.integer "payment"
     t.string "status"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.float "tip"
+    t.integer "tip"
   end
 
   create_table "shopper_infos", force: :cascade do |t|

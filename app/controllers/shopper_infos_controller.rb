@@ -6,7 +6,6 @@ class ShopperInfosController < ApplicationController
     end
 
     def create 
-        p "we in the shopper create"
         shopper_info = ShopperInfo.create(shopper_info_params)
         if shopper_info.valid?
             render json: ShopperInfoSerializer.new(shopper_info)
@@ -18,7 +17,7 @@ class ShopperInfosController < ApplicationController
     def update
         shopper_info = ShopperInfo.find(params[:id])
         shopper_info.update(shopper_info_params)
-        render json: {update: params[:id]}
+        render json: ShopperInfoSerializer.new(shopper_info)
     end
 
     private

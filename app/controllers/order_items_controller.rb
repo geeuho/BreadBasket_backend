@@ -12,7 +12,7 @@ class OrderItemsController < ApplicationController
     def create
         order_item = OrderItem.create(order_item_params)
         if order_item.valid?
-            render json: OrderItemSeriazer.new(order_item) 
+            render json: OrderItemSerializer.new(order_item) 
         else 
             render json: {error: "Order_Item not valid"}
         end

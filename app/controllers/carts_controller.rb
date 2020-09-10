@@ -16,6 +16,12 @@ class CartsController < ApplicationController
         token = encode_token({cart_id: cart.id})
         render json: {cart: CartSerializer.new(cart), jwt: token}
     end
+
+    def destroy
+        cart = Cart.find(params[:id])
+        cart.destroy
+        render json: {destroy: params[:id]}
+    end
     
     private
 

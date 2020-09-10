@@ -1,4 +1,5 @@
 class OrdersController < ApplicationController
+    skip_before_action :authorized
     def index
         orders = Order.where(query_params)
         render json: OrderSerializer.new(orders)
