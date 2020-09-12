@@ -27,6 +27,7 @@ class OrdersController < ApplicationController
 
     def destroy
         order = Order.find(params[:id])
+        OrderItem.where(order_id: params[:id]).delete_all
         order.destroy
         render json: {destroy: params[:id]}
     end
@@ -40,4 +41,5 @@ class OrdersController < ApplicationController
     def query_params
         params.permit(:shopper_id, :store_id, :status)
     end
+
 end
