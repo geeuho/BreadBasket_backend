@@ -80,42 +80,42 @@ meats = [
         name: 'Fish',
         price: 350,
         image: 'https://www.skinnytaste.com/wp-content/uploads/2018/12/Baked-Salmon-1.jpg',
-        quantity_unit: 'units'
+        quantity_unit: 'pound'
     }, 
     {
         category: 'meats',
         name: 'Steak',
         price: 700,
         image: 'https://www.jlgreenfarm.com/images/product/large/49.jpg',
-        quantity_unit: 'units'
+        quantity_unit: 'pound'
     },
     {
         category: 'meats',
         name: 'Sausage',
         price: 400,
         image: 'https://www.jlgreenfarm.com/watermark?ImageSize=large&ImageUrl=%2Fimages%2Fproduct%2Flarge%2F36.jpg',
-        quantity_unit: 'units'
+        quantity_unit: 'pound'
     },
     {
         category: 'meats',
         name: 'Chicken',
         price: 500,
         image: 'https://cdn.shopify.com/s/files/1/0364/9277/1372/products/700104869_1-me-fresh-chicken-boneless-breast_600x600.jpg?v=1586545190',
-        quantity_unit: 'units'
+        quantity_unit: 'pound'
     },
     {
         category: 'meats',
         name: 'Eggs',
         price: 250,
         image: 'https://kudishop.com/wp-content/uploads/2020/03/kudishop-eggs-500x500.jpg',
-        quantity_unit: 'units'
+        quantity_unit: 'unit'
     },
     {
         category: 'meats',
         name: 'Pork Chop',
         price: 300,
         image: 'https://images-na.ssl-images-amazon.com/images/I/412TgjX2bIL.jpg',
-        quantity_unit: 'units'
+        quantity_unit: 'unit'
     }
 ]
 
@@ -125,42 +125,42 @@ produce = [
         name: 'Tomato',
         price: 100,
         image: 'https://i.frog.ink/huYuxeQ/263229105550-0.jpg',
-        quantity_unit: 'pounds'
+        quantity_unit: 'pound'
     },
     {
         category: 'produce',
         name: 'Apples',
         price: 100,
         image: 'https://cdn.shopify.com/s/files/1/0267/1841/products/6709-apple-flavor_1200x.jpeg?v=1571266448',
-        quantity_unit: 'pounds'
+        quantity_unit: 'pound'
     },
     {
         category: 'produce',
         name: 'Carrot',
         price: 100,
         image: 'https://5.imimg.com/data5/WQ/UG/KG/SELLER-98223548/red-carrot-500x500.jpg',
-        quantity_unit: 'pounds'
+        quantity_unit: 'pound'
     },
     {
         category: 'produce',
         name: 'Sweet Potatoes',
         price: 200,
         image: 'https://cdnimg.webstaurantstore.com/uploads/blog/2019/11/sp.jpg',
-        quantity_unit: 'pounds'
+        quantity_unit: 'pound'
     },
     {
         category: 'produce',
         name: 'Bananas',
         price: 150,
         image: 'https://4.imimg.com/data4/GY/GR/MY-488295/banana-flavors-500x500.jpg',
-        quantity_unit: 'pounds'
+        quantity_unit: 'pound'
     },
     {
         category: 'produce',
         name: 'Onion',
         price: 200,
         image: 'https://sc01.alicdn.com/kf/H4165ee0b4bc34b4bad5e37f98363d17dP.jpg',
-        quantity_unit: 'pounds'
+        quantity_unit: 'pound'
     }
 ]
 
