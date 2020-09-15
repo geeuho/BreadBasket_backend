@@ -176,7 +176,7 @@ dairy = [
         category: 'dairy',
         name: 'Sliced Cheese',
         price: 350,
-        image: 'https://www.igourmet.com/images/productsLG/150highland.jpg',
+        image: 'https://lh3.googleusercontent.com/proxy/rKYMrz1Pqr0QTJeXERaV1lD91Ax5ZDq7M2_ozV5TIw-9l9Q_80NcieJBPYVdNAlD6RWcYtx5jgIyWBd625P4UILdWusW5iq8sBRE14HQv0g7EdQXAWKUWDtbKoBsLaVSGaVH',
         quantity_unit: 'unit'
     },
     {
