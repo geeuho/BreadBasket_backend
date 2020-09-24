@@ -18,6 +18,7 @@ module BreadBasketBackend
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
     config.api_only = true
+    config.assets.initialize_on_precompile = false
 
     # config.before_configuration do
     #   env_file = File.join(Rails.root, 'config', 'local_env.yml')
