@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root to: '/'
   resources :carts
   resources :order_items
   resources :shopper_infos
