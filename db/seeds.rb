@@ -176,7 +176,7 @@ dairy = [
         category: 'dairy',
         name: 'Sliced Cheese',
         price: 350,
-        image: 'https://lh3.googleusercontent.com/proxy/rKYMrz1Pqr0QTJeXERaV1lD91Ax5ZDq7M2_ozV5TIw-9l9Q_80NcieJBPYVdNAlD6RWcYtx5jgIyWBd625P4UILdWusW5iq8sBRE14HQv0g7EdQXAWKUWDtbKoBsLaVSGaVH',
+        image: 'https://cdn-endpoint-website.azureedge.net/uploads/PhotoModel/8927/image/dacheese8bb.gallery.png?t=1437607958',
         quantity_unit: 'unit'
     },
     {
