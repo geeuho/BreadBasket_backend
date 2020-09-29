@@ -19,6 +19,7 @@ class CartsController < ApplicationController
 
     def destroy
         cart = Cart.find(params[:id])
+        CartItem.where(cart_id: params[:id]).delete_all
         cart.destroy
         render json: {destroy: params[:id]}
     end
