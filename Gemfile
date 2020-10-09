@@ -29,6 +29,7 @@ gem 'faraday'
 
 gem 'rack-cors'
 gem 'fast_jsonapi'
+gem 'stripe'
 
 gem 'railties'
 gem 'dotenv-rails' 
