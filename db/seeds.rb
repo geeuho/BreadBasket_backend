@@ -384,7 +384,7 @@ frozen = [
         category: 'frozen',
         name: 'Frozen Strawberries',
         price: 400,
-        image: 'https://5.imimg.com/data5/XK/DR/MY-30273368/frozen-strawberries-500x500.jpg',
+        image: 'https://sc01.alicdn.com/kf/Hdb1d7384c89d421c9031c44d2e0c2791m.jpg',
         quantity_unit: 'unit'
     }
 ]
