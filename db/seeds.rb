@@ -79,7 +79,7 @@ meats = [
         category: 'meats',
         name: 'Fish',
         price: 350,
-        image: 'https://www.skinnytaste.com/wp-content/uploads/2018/12/Baked-Salmon-1.jpg',
+        image: 'https://cdn.shopify.com/s/files/1/2530/7762/products/sushi-grade-salmon-006_500x500_crop_center.jpg?v=1574866529',
         quantity_unit: 'pound'
     }, 
     {
@@ -124,21 +124,21 @@ produce = [
         category: 'produce',
         name: 'Tomato',
         price: 100,
-        image: 'https://i.frog.ink/huYuxeQ/263229105550-0.jpg',
+        image: 'https://www.fruitssouq.com/image/cache/catalog/a%20product/vegetables/Beef-tomato-1000x1000.jpg',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
         name: 'Apples',
         price: 100,
-        image: 'https://cdn.shopify.com/s/files/1/0267/1841/products/6709-apple-flavor_1200x.jpeg?v=1571266448',
+        image: 'https://usapple.org/wp-content/uploads/2019/10/apple-red-delicious.png',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
         name: 'Carrot',
         price: 100,
-        image: 'https://5.imimg.com/data5/WQ/UG/KG/SELLER-98223548/red-carrot-500x500.jpg',
+        image: 'https://images.squarespace-cdn.com/content/v1/550c3e74e4b0ae51ead40e86/1594556133574-C5G1TOR3ATSSIRU63VC9/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/baby+carrots.jpg',
         quantity_unit: 'pound'
     },
     {
@@ -169,7 +169,7 @@ dairy = [
         category: 'dairy',
         name: 'Milk',
         price: 250,
-        image: 'https://bloximages.newyork1.vip.townnews.com/nny360.com/content/tncms/assets/v3/editorial/6/a0/6a087a1e-b268-5e6e-9d63-bbeeeeacca92/5ee7b738c855e.image.jpg?resize=500%2C759',
+        image: 'https://mojosavings.com/wp-content/uploads/2014/02/gvmilk.jpg',
         quantity_unit: 'unit'
     },
     {
