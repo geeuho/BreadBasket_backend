@@ -14,5 +14,6 @@ Rails.application.routes.draw do
   post '/login', to: 'sessions#create'
   get 'auth/google_oauth2/callback', to: 'sessions#GoogleAuth'
   get 'auth/failure', to: redirect('/')
+  post '/create-stripe-token' to 'stripe#create'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

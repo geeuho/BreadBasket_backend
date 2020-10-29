@@ -107,7 +107,7 @@ meats = [
         category: 'meats',
         name: 'Eggs',
         price: 250,
-        image: 'https://kudishop.com/wp-content/uploads/2020/03/kudishop-eggs-500x500.jpg',
+        image: 'https://images-na.ssl-images-amazon.com/images/I/41Yrtf5nzkL.jpg',
         quantity_unit: 'unit'
     },
     {
