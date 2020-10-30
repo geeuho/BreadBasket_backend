@@ -439,9 +439,44 @@ safewaySnacks = [
     },
     {
         category: 'snacks',
-        name: 'Cookies',
+        name: 'Cheese Puffs',
         price: 250,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Tortilla Chips',
+        price: 250,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Saltine Crackers',
+        price: 275,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Choclate Chip Cookies',
+        price: 350,
         image: 'https://www.simplejoy.com/wp-content/uploads/2019/06/oatmeal_chocolate_chip_cookies-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Oreos',
+        price: 450,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Triscuit',
+        price: 375,
+        image: '',
         quantity_unit: 'unit'
     },
     {
@@ -467,6 +502,13 @@ safewaySnacks = [
     },
     {
         category: 'snacks',
+        name: 'Graham Crackers',
+        price: 400,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
         name: 'Popcorn',
         price: 300,
         image: 'https://www.pamperedchef.ca/iceberg/com/recipe/1317011-lg.jpg',
@@ -477,29 +519,50 @@ safewaySnacks = [
 safewayBeverages = [
     {
         category: 'beverages',
-        name: 'Soda',
+        name: 'Coke (2 Liter)',
         price: 150,
-        image: 'https://5.imimg.com/data5/SV/BA/MY-16122996/masala-lemon-soda-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'beverages',
-        name: 'Water',
-        price: 100,
-        image: 'https://4.imimg.com/data4/DI/VN/MY-2801063/water-bottle-500x500.jpg',
+        name: 'Sprite (2 Liter)',
+        price: 150,
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'beverages',
-        name: 'Lemonade',
+        name: 'Fanta (12 Pack)',
+        price: 550,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Root Beer (12 Pack)',
+        price: 550,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Water (2.5 gallon)',
+        price: 200,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Water Bottles (32 ct.)',
         price: 350,
-        image: 'https://tastesbetterfromscratch.com/wp-content/uploads/2015/05/Lemonade-5-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'beverages',
         name: 'Apple Juice',
-        price: 200,
+        price: 350,
         image: 'https://cdnimg.webstaurantstore.com/uploads/blog/2019/10/cider_articleimage.jpg',
         quantity_unit: 'unit'
     },
