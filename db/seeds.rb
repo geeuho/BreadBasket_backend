@@ -800,10 +800,94 @@ costcoMeats = [
         price: 300,
         image: '',
         quantity_unit: 'unit'
+    },
+    {
+        category: 'meats',
+        name: 'Fish',
+        price: 350,
+        image: '',
+        quantity_unit: 'pound'
+    }, 
+    {
+        category: 'meats',
+        name: 'Steak',
+        price: 700,
+        image: '',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Sausage',
+        price: 400,
+        image: '',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Chicken',
+        price: 500,
+        image: '',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Eggs',
+        price: 250,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'meats',
+        name: 'Pork Chop',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
     }
 ]
 
 costcoProduce = [
+    {
+        category: 'produce',
+        name: 'Tomato',
+        price: 100,
+        image: '',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Apples',
+        price: 100,
+        image: '',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Carrot',
+        price: 100,
+        image: '',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Sweet Potatoes',
+        price: 200,
+        image: '',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Bananas',
+        price: 150,
+        image: '',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Onion',
+        price: 200,
+        image: '',
+        quantity_unit: 'pound'
+    },
     {
         category: 'produce',
         name: 'Tomato',
@@ -890,10 +974,94 @@ costcoDairynEggs = [
         price: 300,
         image: '',
         quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Milk',
+        price: 250,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Sliced Cheese',
+        price: 350,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Shredded Cheese',
+        price: 400,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Yogurt',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Sour Cream',
+        price: 500,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Butter',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
     }
 ]
 
 costcoBakery = [
+    {
+        category: 'bakery',
+        name: 'Bagel',
+        price: 500,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Donut',
+        price: 100,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Sliced Bread',
+        price: 200,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Croissants',
+        price: 100,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Baguette',
+        price: 150,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Muffins',
+        price: 100,
+        image: '',
+        quantity_unit: 'unit'
+    },
     {
         category: 'bakery',
         name: 'Bagel',
@@ -980,10 +1148,94 @@ costcoSnacks = [
         price: 300,
         image: '',
         quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Potato Chips',
+        price: 200,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Cookies',
+        price: 250,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Gummy Bears',
+        price: 250,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Chocolate',
+        price: 100,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Granola',
+        price: 400,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Popcorn',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
     }
 ]
 
 costcoPantryndry = [
+    {
+        category: 'pantryndry',
+        name: 'Soda',
+        price: 150,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'pantryndry',
+        name: 'Water',
+        price: 100,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'pantryndry',
+        name: 'Lemonade',
+        price: 350,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'pantryndry',
+        name: 'Apple Juice',
+        price: 200,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'pantryndry',
+        name: 'Iced Tea',
+        price: 200,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'pantryndry',
+        name: 'Orange Juice',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
     {
         category: 'pantryndry',
         name: 'Soda',
@@ -1070,10 +1322,94 @@ costcoSeafood = [
         price: 400,
         image: '',
         quantity_unit: 'unit'
+    },
+    {
+        category: 'seafood',
+        name: 'Waffles',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'seafood',
+        name: 'Frozen Pizza',
+        price: 350,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'seafood',
+        name: 'Frozen Peas',
+        price: 250,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'seafood',
+        name: 'Chicken Nuggets',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'seafood',
+        name: 'Ice Cream',
+        price: 500,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'seafood',
+        name: 'Frozen Strawberries',
+        price: 400,
+        image: '',
+        quantity_unit: 'unit'
     }
 ]
 
 costcoPapernplastic = [
+    {
+        category: 'papernplastic',
+        name: 'Paper Towels',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'papernplastic',
+        name: 'Garbage Bags',
+        price: 350,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'papernplastic',
+        name: 'Toilet Paper',
+        price: 10000,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'papernplastic',
+        name: 'Paper Plates',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'papernplastic',
+        name: 'Gloves',
+        price: 5000,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'papernplastic',
+        name: 'Hand Sanitizer',
+        price: 7500,
+        image: '',
+        quantity_unit: 'unit'
+    },
     {
         category: 'papernplastic',
         name: 'Paper Towels',
