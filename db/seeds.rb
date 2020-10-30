@@ -789,7 +789,7 @@ safewayHousehold = [
 costcoMeats = [
     {
         category: 'meats',
-        name: 'Fish',
+        name: 'Rotisserie Chicken',
         price: 350,
         image: '',
         quantity_unit: 'pound'
@@ -803,70 +803,70 @@ costcoMeats = [
     },
     {
         category: 'meats',
-        name: 'Sausage',
+        name: 'Ground Beef',
         price: 400,
         image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
-        name: 'Chicken',
+        name: 'Hot Links',
         price: 500,
         image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
-        name: 'Eggs',
+        name: 'Chicken Sausage',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'meats',
-        name: 'Pork Chop',
+        name: 'Chicken Breast',
+        price: 350,
+        image: '',
+        quantity_unit: 'pound'
+    }, 
+    {
+        category: 'meats',
+        name: 'Carnitas',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'meats',
-        name: 'Fish',
-        price: 350,
-        image: '',
-        quantity_unit: 'pound'
-    }, 
-    {
-        category: 'meats',
-        name: 'Steak',
+        name: 'Drumsticks',
         price: 700,
         image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
-        name: 'Sausage',
+        name: 'Burger Patties',
         price: 400,
         image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
-        name: 'Chicken',
+        name: 'Chicken Thigh',
         price: 500,
         image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
-        name: 'Eggs',
+        name: 'Sliced Turkey',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'meats',
-        name: 'Pork Chop',
+        name: 'Sliced Ham',
         price: 300,
         image: '',
         quantity_unit: 'unit'
@@ -876,13 +876,6 @@ costcoMeats = [
 costcoProduce = [
     {
         category: 'produce',
-        name: 'Tomato',
-        price: 100,
-        image: '',
-        quantity_unit: 'pound'
-    },
-    {
-        category: 'produce',
         name: 'Apples',
         price: 100,
         image: '',
@@ -890,70 +883,77 @@ costcoProduce = [
     },
     {
         category: 'produce',
-        name: 'Carrot',
+        name: 'Bananas',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
-        name: 'Sweet Potatoes',
+        name: 'Clementines',
+        price: 100,
+        image: '',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Avocados (5)',
         price: 200,
         image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
-        name: 'Bananas',
+        name: 'Strawberries',
         price: 150,
         image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
-        name: 'Onion',
+        name: 'Pineapple',
         price: 200,
         image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
-        name: 'Tomato',
+        name: 'Potatoes',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
-        name: 'Apples',
+        name: 'Green Beans',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
-        name: 'Carrot',
+        name: 'Baby Spinach',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
-        name: 'Sweet Potatoes',
+        name: 'Bell Peppers',
         price: 200,
         image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
-        name: 'Bananas',
+        name: 'Tomatoes',
         price: 150,
         image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
-        name: 'Onion',
+        name: 'Broccoli Florets',
         price: 200,
         image: '',
         quantity_unit: 'pound'
@@ -963,28 +963,28 @@ costcoProduce = [
 costcoDairynEggs = [
     {
         category: 'dairyneggs',
-        name: 'Milk',
+        name: 'Whole Milk',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
-        name: 'Sliced Cheese',
+        name: 'Reduced Fat Milk',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
-        name: 'Shredded Cheese',
+        name: 'Cottage Cheese',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
-        name: 'Yogurt',
+        name: 'Shredded Cheese',
         price: 300,
         image: '',
         quantity_unit: 'unit'
@@ -1005,22 +1005,8 @@ costcoDairynEggs = [
     },
     {
         category: 'dairyneggs',
-        name: 'Milk',
+        name: 'Cream Cheese',
         price: 250,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'dairyneggs',
-        name: 'Sliced Cheese',
-        price: 350,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'dairyneggs',
-        name: 'Shredded Cheese',
-        price: 400,
         image: '',
         quantity_unit: 'unit'
     },
@@ -1033,14 +1019,28 @@ costcoDairynEggs = [
     },
     {
         category: 'dairyneggs',
-        name: 'Sour Cream',
+        name: 'Eggs',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
-        name: 'Butter',
+        name: 'Brown Eggs',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Almond Milk',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Soy Milk',
         price: 300,
         image: '',
         quantity_unit: 'unit'
