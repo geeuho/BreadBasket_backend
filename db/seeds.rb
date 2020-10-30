@@ -1050,84 +1050,84 @@ costcoDairynEggs = [
 costcoBakery = [
     {
         category: 'bakery',
-        name: 'Bagel',
+        name: 'Croissant',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
-        name: 'Donut',
+        name: 'Bagel (Plain)',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
-        name: 'Sliced Bread',
+        name: 'Bagel (Cheese)',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
-        name: 'Croissants',
+        name: 'Chocolate Chip Cookies',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
-        name: 'Baguette',
+        name: 'Oatmeal Raisin Cookies',
         price: 150,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
-        name: 'Muffins',
+        name: 'Ciabatta Bread',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
-        name: 'Bagel',
+        name: 'Garlic Bread',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
-        name: 'Donut',
+        name: 'Blueberry Muffin',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
-        name: 'Sliced Bread',
+        name: 'Chocolate Muffin',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
-        name: 'Croissants',
+        name: 'Artesano White Bread',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
-        name: 'Baguette',
+        name: 'Oatnut Bread',
         price: 150,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
-        name: 'Muffins',
+        name: 'Corn Tortillas',
         price: 100,
         image: '',
         quantity_unit: 'unit'
@@ -1137,84 +1137,84 @@ costcoBakery = [
 costcoSnacks = [
     {
         category: 'snacks',
-        name: 'Potato Chips',
+        name: 'Madeleines',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Cookies',
+        name: 'Mixed Nuts',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Gummy Bears',
+        name: 'Cashews',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Chocolate',
+        name: 'Pistachios',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Granola',
+        name: 'Shitake Mushrooms',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Popcorn',
+        name: 'Peanut Butter Pretzels',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Potato Chips',
+        name: 'Gardetto\'s',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Cookies',
+        name: 'ClifBar',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Gummy Bears',
+        name: 'Nature Valley Protein',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Chocolate',
+        name: 'Beef Jerky',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Granola',
+        name: 'Fruit Snacks',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Popcorn',
+        name: 'Biscotti',
         price: 300,
         image: '',
         quantity_unit: 'unit'
@@ -1224,85 +1224,85 @@ costcoSnacks = [
 costcoPantryndry = [
     {
         category: 'pantryndry',
-        name: 'Soda',
+        name: 'Basmati Rice',
         price: 150,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'pantryndry',
-        name: 'Water',
+        name: 'Himalayan Pink Salt',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'pantryndry',
-        name: 'Lemonade',
+        name: 'Olive Oil',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'pantryndry',
-        name: 'Apple Juice',
+        name: 'Balsamic Vinegar',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'pantryndry',
-        name: 'Iced Tea',
-        price: 200,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'pantryndry',
-        name: 'Orange Juice',
+        name: 'Heinz Variety Pack',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'pantryndry',
-        name: 'Soda',
+        name: 'Mayonaise',
+        price: 200,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'pantryndry',
+        name: 'Peanut Butter',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'pantryndry',
+        name: 'Flour',
+        price: 100,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'pantryndry',
+        name: 'Organic Sugar',
+        price: 350,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'pantryndry',
+        name: 'Black Pepper',
         price: 150,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'pantryndry',
-        name: 'Water',
-        price: 100,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'pantryndry',
-        name: 'Lemonade',
-        price: 350,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'pantryndry',
-        name: 'Apple Juice',
+        name: 'Garlic Powder',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'pantryndry',
-        name: 'Iced Tea',
+        name: 'Quinoa',
         price: 200,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'pantryndry',
-        name: 'Orange Juice',
-        price: 300,
         image: '',
         quantity_unit: 'unit'
     }
@@ -1311,84 +1311,84 @@ costcoPantryndry = [
 costcoSeafood = [
     {
         category: 'seafood',
-        name: 'Waffles',
+        name: 'Lobster Tail',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
-        name: 'Frozen Pizza',
+        name: 'Scallops',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
-        name: 'Frozen Peas',
+        name: 'Jumbo Shrimp',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
-        name: 'Chicken Nuggets',
+        name: 'Oysters',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
-        name: 'Ice Cream',
+        name: 'Salmon',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
-        name: 'Frozen Strawberries',
+        name: 'King Crab Legs',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
-        name: 'Waffles',
+        name: 'Sockeye Salmon',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
-        name: 'Frozen Pizza',
+        name: 'Mahi Mahi',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
-        name: 'Frozen Peas',
+        name: 'Halibut',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
-        name: 'Chicken Nuggets',
+        name: 'Atlantic Cod',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
-        name: 'Ice Cream',
+        name: 'Tuna',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
-        name: 'Frozen Strawberries',
+        name: 'Tilapia',
         price: 400,
         image: '',
         quantity_unit: 'unit'
@@ -1405,14 +1405,14 @@ costcoPapernplastic = [
     },
     {
         category: 'papernplastic',
-        name: 'Garbage Bags',
+        name: 'Plastic Knives',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
-        name: 'Toilet Paper',
+        name: 'Plastic Forks',
         price: 10000,
         image: '',
         quantity_unit: 'unit'
@@ -1426,56 +1426,56 @@ costcoPapernplastic = [
     },
     {
         category: 'papernplastic',
-        name: 'Gloves',
+        name: 'Toilet Paper',
         price: 5000,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
-        name: 'Hand Sanitizer',
+        name: 'Napkins',
         price: 7500,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
-        name: 'Paper Towels',
+        name: 'Aluminum Foil',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
-        name: 'Garbage Bags',
+        name: 'Paper Bowls',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
-        name: 'Toilet Paper',
+        name: 'Trash Bags',
         price: 10000,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
-        name: 'Paper Plates',
+        name: 'Plastic Cups',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
-        name: 'Gloves',
+        name: 'Tissues',
         price: 5000,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
-        name: 'Hand Sanitizer',
+        name: 'Parchment Paper',
         price: 7500,
         image: '',
         quantity_unit: 'unit'
