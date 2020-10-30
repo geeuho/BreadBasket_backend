@@ -72,7 +72,21 @@ Store.create(name: 'FoodMaxx', address: '30073 Industrial Pkwy SW', city: 'Haywa
 #need item name, category to item name association
 #for each name get image with api search 
 
+
+
+
+
+
+
+#########################
 ##### SAFEWAY ITEMS #####
+#########################
+
+
+
+
+
+
 
 safewayMeats = [
     {
@@ -756,7 +770,21 @@ safewayHousehold = [
     }
 ]
 
+
+
+
+
+
+
+########################
 ##### COSTCO ITEMS #####
+########################
+
+
+
+
+
+
 
 costcoMeats = [
     {
@@ -1454,7 +1482,21 @@ costcoPapernplastic = [
     }
 ]
 
+
+
+
+
+
+
+###########################
 ##### RITE AID ITEMS ######
+###########################
+
+
+
+
+
+
 
 costcoMeats = [
     {
@@ -2152,7 +2194,21 @@ costcoPapernplastic = [
     }
 ]
 
+
+
+
+
+
+
+#################################
 ##### SMART AND FINAL ITEMS #####
+#################################
+
+
+
+
+
+
 
 costcoMeats = [
     {
@@ -2850,7 +2906,21 @@ costcoPapernplastic = [
     }
 ]
 
+
+
+
+
+
+
+##########################
 ##### FOODMAXX ITEMS #####
+##########################
+
+
+
+
+
+
 
 costcoMeats = [
     {
