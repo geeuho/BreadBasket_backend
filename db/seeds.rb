@@ -763,42 +763,42 @@ costcoMeats = [
         category: 'meats',
         name: 'Fish',
         price: 350,
-        image: 'https://cdn.shopify.com/s/files/1/2530/7762/products/sushi-grade-salmon-006_500x500_crop_center.jpg?v=1574866529',
+        image: '',
         quantity_unit: 'pound'
     }, 
     {
         category: 'meats',
         name: 'Steak',
         price: 700,
-        image: 'https://www.jlgreenfarm.com/images/product/large/49.jpg',
+        image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
         name: 'Sausage',
         price: 400,
-        image: 'https://www.jlgreenfarm.com/watermark?ImageSize=large&ImageUrl=%2Fimages%2Fproduct%2Flarge%2F36.jpg',
+        image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
         name: 'Chicken',
         price: 500,
-        image: 'https://cdn.shopify.com/s/files/1/0364/9277/1372/products/700104869_1-me-fresh-chicken-boneless-breast_600x600.jpg?v=1586545190',
+        image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
         name: 'Eggs',
         price: 250,
-        image: 'https://images-na.ssl-images-amazon.com/images/I/41Yrtf5nzkL.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'meats',
         name: 'Pork Chop',
         price: 300,
-        image: 'https://images-na.ssl-images-amazon.com/images/I/412TgjX2bIL.jpg',
+        image: '',
         quantity_unit: 'unit'
     }
 ]
@@ -808,42 +808,42 @@ costcoProduce = [
         category: 'produce',
         name: 'Tomato',
         price: 100,
-        image: 'https://www.fruitssouq.com/image/cache/catalog/a%20product/vegetables/Beef-tomato-1000x1000.jpg',
+        image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
         name: 'Apples',
         price: 100,
-        image: 'https://usapple.org/wp-content/uploads/2019/10/apple-red-delicious.png',
+        image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
         name: 'Carrot',
         price: 100,
-        image: 'https://images.squarespace-cdn.com/content/v1/550c3e74e4b0ae51ead40e86/1594556133574-C5G1TOR3ATSSIRU63VC9/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/baby+carrots.jpg',
+        image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
         name: 'Sweet Potatoes',
         price: 200,
-        image: 'https://cdnimg.webstaurantstore.com/uploads/blog/2019/11/sp.jpg',
+        image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
         name: 'Bananas',
         price: 150,
-        image: 'https://4.imimg.com/data4/GY/GR/MY-488295/banana-flavors-500x500.jpg',
+        image: '',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
         name: 'Onion',
         price: 200,
-        image: 'https://sc01.alicdn.com/kf/H4165ee0b4bc34b4bad5e37f98363d17dP.jpg',
+        image: '',
         quantity_unit: 'pound'
     }
 ]
@@ -853,42 +853,42 @@ costcoDairynEggs = [
         category: 'dairyneggs',
         name: 'Milk',
         price: 250,
-        image: 'https://mojosavings.com/wp-content/uploads/2014/02/gvmilk.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
         name: 'Sliced Cheese',
         price: 350,
-        image: 'https://cdn-endpoint-website.azureedge.net/uploads/PhotoModel/8927/image/dacheese8bb.gallery.png?t=1437607958',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
         name: 'Shredded Cheese',
         price: 400,
-        image: 'https://www.favfamilyrecipes.com/wp-content/uploads/2020/02/How-to-freeze-cheese-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
         name: 'Yogurt',
         price: 300,
-        image: 'https://amindfullmom.com/wp-content/uploads/2018/02/nonfat-instant-pot-yogurt-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
         name: 'Sour Cream',
         price: 500,
-        image: 'https://www.mustlovehome.com/wp-content/uploads/2020/02/Sour-Cream-Chip-Dip-5-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
         name: 'Butter',
         price: 300,
-        image: 'https://5.imimg.com/data5/NQ/CX/GC/SELLER-9087679/pure-butter-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     }
 ]
@@ -898,42 +898,42 @@ costcoBakery = [
         category: 'bakery',
         name: 'Bagel',
         price: 500,
-        image: 'https://bakingamoment.com/wp-content/uploads/2020/06/IMG_8813-bagel-recipe-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Donut',
         price: 100,
-        image: 'https://lilluna.com/wp-content/uploads/2013/01/donuts-resize-9-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Sliced Bread',
         price: 200,
-        image: 'https://www.jocooks.com/wp-content/uploads/2020/03/white-bread-1-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Croissants',
         price: 100,
-        image: 'https://www.alphafoodie.com/wp-content/uploads/2020/04/Homemade-Croissant-1-of-1-6-500x500.jpeg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Baguette',
         price: 150,
-        image: 'https://tasteofartisan.com/wp-content/uploads/2019/05/French-baguette-recipe-4-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Muffins',
         price: 100,
-        image: 'https://www.alsothecrumbsplease.com/wp-content/uploads/2019/03/Carrot-Cake-Muffins-19-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     }
 ]
@@ -943,42 +943,42 @@ costcoSnacks = [
         category: 'snacks',
         name: 'Potato Chips',
         price: 200,
-        image: 'https://inthekitchenwithmatt.com/wp-content/uploads/2019/09/Thin-crispy-potato-chips-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Cookies',
         price: 250,
-        image: 'https://www.simplejoy.com/wp-content/uploads/2019/06/oatmeal_chocolate_chip_cookies-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Gummy Bears',
         price: 250,
-        image: 'https://www.kehrs.com/Content/files/GenCart/ProductImages/Albanese%20bears.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Chocolate',
         price: 100,
-        image: 'https://www.wholesomeyum.com/wp-content/uploads/2018/10/wholesomeyum-low-carb-keto-chocolate-bar-recipe-5-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Granola',
         price: 400,
-        image: 'https://tastesbetterfromscratch.com/wp-content/uploads/2019/01/Granola-6-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Popcorn',
         price: 300,
-        image: 'https://www.pamperedchef.ca/iceberg/com/recipe/1317011-lg.jpg',
+        image: '',
         quantity_unit: 'unit'
     }
 ]
@@ -988,42 +988,42 @@ costcoPantryndry = [
         category: 'pantryndry',
         name: 'Soda',
         price: 150,
-        image: 'https://5.imimg.com/data5/SV/BA/MY-16122996/masala-lemon-soda-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'pantryndry',
         name: 'Water',
         price: 100,
-        image: 'https://4.imimg.com/data4/DI/VN/MY-2801063/water-bottle-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'pantryndry',
         name: 'Lemonade',
         price: 350,
-        image: 'https://tastesbetterfromscratch.com/wp-content/uploads/2015/05/Lemonade-5-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'pantryndry',
         name: 'Apple Juice',
         price: 200,
-        image: 'https://cdnimg.webstaurantstore.com/uploads/blog/2019/10/cider_articleimage.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'pantryndry',
         name: 'Iced Tea',
         price: 200,
-        image: 'https://copykat.com/wp-content/uploads/2019/02/homemade-copycat-mcdonalds-sweet-tea-2-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'pantryndry',
         name: 'Orange Juice',
         price: 300,
-        image: 'https://www.mustlovehome.com/wp-content/uploads/2018/03/orange-syrup-5-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     }
 ]
@@ -1033,42 +1033,42 @@ costcoSeafood = [
         category: 'seafood',
         name: 'Waffles',
         price: 300,
-        image: 'https://www.thismomsmenu.com/wp-content/uploads/2017/11/IMG_0576-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
         name: 'Frozen Pizza',
         price: 350,
-        image: 'https://thecookspyjamas.com/wp-content/uploads/Homemade-Frozen-Pizza-3-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
         name: 'Frozen Peas',
         price: 250,
-        image: 'https://static.wixstatic.com/media/191fd4_3386076d9b1643b690e28e387a6e560e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
         name: 'Chicken Nuggets',
         price: 300,
-        image: 'https://recipefairy.com/wp-content/uploads/2020/05/mcdonalds-chicken-nuggets-recipe-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
         name: 'Ice Cream',
         price: 500,
-        image: 'https://www.theroastedroot.net/wp-content/uploads/2018/06/vanilla_keto_ice_cream_1-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
         name: 'Frozen Strawberries',
         price: 400,
-        image: 'https://sc01.alicdn.com/kf/Hdb1d7384c89d421c9031c44d2e0c2791m.jpg',
+        image: '',
         quantity_unit: 'unit'
     }
 ]
@@ -1078,42 +1078,42 @@ costcoPapernplastic = [
         category: 'papernplastic',
         name: 'Paper Towels',
         price: 300,
-        image: 'https://cdn3.volusion.com/drued.qmxxg/v/vspfiles/photos/BWK%206212-2.jpg?v-cache=1518242293',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
         name: 'Garbage Bags',
         price: 350,
-        image: 'https://cdn.shopify.com/s/files/1/0279/4373/1334/products/Garbage-Bags_ee5e9dbc-f0e4-48d4-b890-76b675bc799a_530x@2x.jpg?v=1590698286',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
         name: 'Toilet Paper',
         price: 10000,
-        image: 'https://mcdonaldpaper.com/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/b/w/bwk6145.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
         name: 'Paper Plates',
         price: 300,
-        image: 'https://m.media-amazon.com/images/I/71ca8STSacL._SR500,500_.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
         name: 'Gloves',
         price: 5000,
-        image: 'https://5.imimg.com/data5/UA/AB/LQ/SELLER-23539647/non-sterile-powdered-examination-hand-gloves-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
         name: 'Hand Sanitizer',
         price: 7500,
-        image: 'https://www.vitamix.com/media/other/images/500xNxHandSanitizer_500x500.jpg.pagespeed.ic.ls7Y2CmKnH.jpg',
+        image: '',
         quantity_unit: 'unit'
     }
 ]
