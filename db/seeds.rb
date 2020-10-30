@@ -72,7 +72,7 @@ Store.create(name: 'FoodMaxx', address: '30073 Industrial Pkwy SW', city: 'Haywa
 #need item name, category to item name association
 #for each name get image with api search 
 
-
+##### SAFEWAY ITEMS #####
 
 safewayMeats = [
     {
@@ -756,7 +756,9 @@ safewayHousehold = [
     }
 ]
 
-safewayMeats = [
+##### COSTCO ITEMS #####
+
+costcoMeats = [
     {
         category: 'meats',
         name: 'Fish',
@@ -801,7 +803,7 @@ safewayMeats = [
     }
 ]
 
-safewayProduce = [
+costcoProduce = [
     {
         category: 'produce',
         name: 'Tomato',
@@ -846,44 +848,44 @@ safewayProduce = [
     }
 ]
 
-safewayDairy = [
+costcoDairynEggs = [
     {
-        category: 'dairy',
+        category: 'dairyneggs',
         name: 'Milk',
         price: 250,
         image: 'https://mojosavings.com/wp-content/uploads/2014/02/gvmilk.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairy',
+        category: 'dairyneggs',
         name: 'Sliced Cheese',
         price: 350,
         image: 'https://cdn-endpoint-website.azureedge.net/uploads/PhotoModel/8927/image/dacheese8bb.gallery.png?t=1437607958',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairy',
+        category: 'dairyneggs',
         name: 'Shredded Cheese',
         price: 400,
         image: 'https://www.favfamilyrecipes.com/wp-content/uploads/2020/02/How-to-freeze-cheese-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairy',
+        category: 'dairyneggs',
         name: 'Yogurt',
         price: 300,
         image: 'https://amindfullmom.com/wp-content/uploads/2018/02/nonfat-instant-pot-yogurt-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairy',
+        category: 'dairyneggs',
         name: 'Sour Cream',
         price: 500,
         image: 'https://www.mustlovehome.com/wp-content/uploads/2020/02/Sour-Cream-Chip-Dip-5-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairy',
+        category: 'dairyneggs',
         name: 'Butter',
         price: 300,
         image: 'https://5.imimg.com/data5/NQ/CX/GC/SELLER-9087679/pure-butter-500x500.jpg',
@@ -891,7 +893,7 @@ safewayDairy = [
     }
 ]
 
-safewayBakery = [
+costcoBakery = [
     {
         category: 'bakery',
         name: 'Bagel',
@@ -936,7 +938,7 @@ safewayBakery = [
     }
 ]
 
-safewaySnacks = [
+costcoSnacks = [
     {
         category: 'snacks',
         name: 'Potato Chips',
@@ -981,44 +983,44 @@ safewaySnacks = [
     }
 ]
 
-safewayBeverages = [
+safewayPantryndry = [
     {
-        category: 'beverages',
+        category: 'pantryndry',
         name: 'Soda',
         price: 150,
         image: 'https://5.imimg.com/data5/SV/BA/MY-16122996/masala-lemon-soda-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'beverages',
+        category: 'pantryndry',
         name: 'Water',
         price: 100,
         image: 'https://4.imimg.com/data4/DI/VN/MY-2801063/water-bottle-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'beverages',
+        category: 'pantryndry',
         name: 'Lemonade',
         price: 350,
         image: 'https://tastesbetterfromscratch.com/wp-content/uploads/2015/05/Lemonade-5-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'beverages',
+        category: 'pantryndry',
         name: 'Apple Juice',
         price: 200,
         image: 'https://cdnimg.webstaurantstore.com/uploads/blog/2019/10/cider_articleimage.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'beverages',
+        category: 'pantryndry',
         name: 'Iced Tea',
         price: 200,
         image: 'https://copykat.com/wp-content/uploads/2019/02/homemade-copycat-mcdonalds-sweet-tea-2-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'beverages',
+        category: 'pantryndry',
         name: 'Orange Juice',
         price: 300,
         image: 'https://www.mustlovehome.com/wp-content/uploads/2018/03/orange-syrup-5-500x500.jpg',
@@ -1026,44 +1028,44 @@ safewayBeverages = [
     }
 ]
 
-safewayFrozen = [
+costcoSeafood = [
     {
-        category: 'frozen',
+        category: 'seafood',
         name: 'Waffles',
         price: 300,
         image: 'https://www.thismomsmenu.com/wp-content/uploads/2017/11/IMG_0576-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'frozen',
+        category: 'seafood',
         name: 'Frozen Pizza',
         price: 350,
         image: 'https://thecookspyjamas.com/wp-content/uploads/Homemade-Frozen-Pizza-3-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'frozen',
+        category: 'seafood',
         name: 'Frozen Peas',
         price: 250,
         image: 'https://static.wixstatic.com/media/191fd4_3386076d9b1643b690e28e387a6e560e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'frozen',
+        category: 'seafood',
         name: 'Chicken Nuggets',
         price: 300,
         image: 'https://recipefairy.com/wp-content/uploads/2020/05/mcdonalds-chicken-nuggets-recipe-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'frozen',
+        category: 'seafood',
         name: 'Ice Cream',
         price: 500,
         image: 'https://www.theroastedroot.net/wp-content/uploads/2018/06/vanilla_keto_ice_cream_1-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'frozen',
+        category: 'seafood',
         name: 'Frozen Strawberries',
         price: 400,
         image: 'https://sc01.alicdn.com/kf/Hdb1d7384c89d421c9031c44d2e0c2791m.jpg',
@@ -1071,44 +1073,44 @@ safewayFrozen = [
     }
 ]
 
-safewayHousehold = [
+costcoPapernplastic = [
     {
-        category: 'household',
+        category: 'papernplastic',
         name: 'Paper Towels',
         price: 300,
         image: 'https://cdn3.volusion.com/drued.qmxxg/v/vspfiles/photos/BWK%206212-2.jpg?v-cache=1518242293',
         quantity_unit: 'unit'
     },
     {
-        category: 'household',
+        category: 'papernplastic',
         name: 'Garbage Bags',
         price: 350,
         image: 'https://cdn.shopify.com/s/files/1/0279/4373/1334/products/Garbage-Bags_ee5e9dbc-f0e4-48d4-b890-76b675bc799a_530x@2x.jpg?v=1590698286',
         quantity_unit: 'unit'
     },
     {
-        category: 'household',
+        category: 'papernplastic',
         name: 'Toilet Paper',
         price: 10000,
         image: 'https://mcdonaldpaper.com/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/b/w/bwk6145.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'household',
+        category: 'papernplastic',
         name: 'Paper Plates',
         price: 300,
         image: 'https://m.media-amazon.com/images/I/71ca8STSacL._SR500,500_.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'household',
+        category: 'papernplastic',
         name: 'Gloves',
         price: 5000,
         image: 'https://5.imimg.com/data5/UA/AB/LQ/SELLER-23539647/non-sterile-powdered-examination-hand-gloves-500x500.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'household',
+        category: 'papernplastic',
         name: 'Hand Sanitizer',
         price: 7500,
         image: 'https://www.vitamix.com/media/other/images/500xNxHandSanitizer_500x500.jpg.pagespeed.ic.ls7Y2CmKnH.jpg',
