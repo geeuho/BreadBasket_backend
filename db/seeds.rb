@@ -983,7 +983,7 @@ costcoSnacks = [
     }
 ]
 
-safewayPantryndry = [
+costcoPantryndry = [
     {
         category: 'pantryndry',
         name: 'Soda',
@@ -2210,7 +2210,14 @@ safewayCategories = {
 }
 
 costcoCategories = {
-
+    "papernplastic": costcoPapernplastic, 
+    "produce": costcoMeats, 
+    "bakery": costcoBakery, 
+    "meats": costcoMeats, 
+    "seafood": costcoSeafood, 
+    "dairyneggs": costcoDairynEggs, 
+    "pantryndry": costcoPantrynDry,
+    "snacks": costcoSnacks, 
 }
 
 riteaidCategories = {
@@ -2238,7 +2245,7 @@ safewayCategories.each do |category, items|
     end
 end
 
-cosgcoCategories.each do |category, items|
+costcoCategories.each do |category, items|
     items.each do |item|
         Item.create(
             category: item[:category],
