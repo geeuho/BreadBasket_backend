@@ -74,14 +74,35 @@ Store.create(name: 'FoodMaxx', address: '30073 Industrial Pkwy SW', city: 'Haywa
 
 
 
-meats = [
+safewayMeats = [
     {
         category: 'meats',
-        name: 'Fish',
+        name: 'Salmon',
         price: 350,
         image: 'https://cdn.shopify.com/s/files/1/2530/7762/products/sushi-grade-salmon-006_500x500_crop_center.jpg?v=1574866529',
         quantity_unit: 'pound'
     }, 
+    {
+        category: 'meats',
+        name: 'Tilapia',
+        price: 300,
+        image: '',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Scallops',
+        price: 600,
+        image: '',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Shrimp',
+        price: 700,
+        image: '',
+        quantity_unit: 'pound'
+    },
     {
         category: 'meats',
         name: 'Steak',
@@ -98,7 +119,14 @@ meats = [
     },
     {
         category: 'meats',
-        name: 'Chicken',
+        name: 'Drumsticks',
+        price: 300,
+        image: 'https://images-na.ssl-images-amazon.com/images/I/412TgjX2bIL.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'meats',
+        name: 'Chicken Breast',
         price: 500,
         image: 'https://cdn.shopify.com/s/files/1/0364/9277/1372/products/700104869_1-me-fresh-chicken-boneless-breast_600x600.jpg?v=1586545190',
         quantity_unit: 'pound'
@@ -116,22 +144,36 @@ meats = [
         price: 300,
         image: 'https://images-na.ssl-images-amazon.com/images/I/412TgjX2bIL.jpg',
         quantity_unit: 'unit'
+    },
+    {
+        category: 'meats',
+        name: 'Bacon',
+        price: 350,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'meats',
+        name: 'Ground Beef',
+        price: 300,
+        image: '',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Ground Turkey',
+        price: 350,
+        image: '',
+        quantity_unit: 'pound'
     }
 ]
 
-produce = [
+safewayProduce = [
     {
         category: 'produce',
         name: 'Tomato',
         price: 100,
         image: 'https://www.fruitssouq.com/image/cache/catalog/a%20product/vegetables/Beef-tomato-1000x1000.jpg',
-        quantity_unit: 'pound'
-    },
-    {
-        category: 'produce',
-        name: 'Apples',
-        price: 100,
-        image: 'https://usapple.org/wp-content/uploads/2019/10/apple-red-delicious.png',
         quantity_unit: 'pound'
     },
     {
@@ -143,9 +185,37 @@ produce = [
     },
     {
         category: 'produce',
-        name: 'Sweet Potatoes',
+        name: 'Avocado',
         price: 200,
-        image: 'https://cdnimg.webstaurantstore.com/uploads/blog/2019/11/sp.jpg',
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'produce',
+        name: 'Potatoes',
+        price: 200,
+        image: '',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Broccoli',
+        price: 100,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'produce',
+        name: 'Onion',
+        price: 200,
+        image: 'https://sc01.alicdn.com/kf/H4165ee0b4bc34b4bad5e37f98363d17dP.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Apples',
+        price: 100,
+        image: 'https://usapple.org/wp-content/uploads/2019/10/apple-red-delicious.png',
         quantity_unit: 'pound'
     },
     {
@@ -157,14 +227,35 @@ produce = [
     },
     {
         category: 'produce',
-        name: 'Onion',
-        price: 200,
-        image: 'https://sc01.alicdn.com/kf/H4165ee0b4bc34b4bad5e37f98363d17dP.jpg',
+        name: 'Oranges',
+        price: 175,
+        image: '',
         quantity_unit: 'pound'
-    }
+    },
+    {
+        category: 'produce',
+        name: 'Grapes',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'produce',
+        name: 'Blueberries',
+        price: 350,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'produce',
+        name: 'Plums',
+        price: 150,
+        image: '',
+        quantity_unit: 'pound'
+    },
 ]
 
-dairy = [
+safewayDairy = [
     {
         category: 'dairy',
         name: 'Milk',
@@ -174,9 +265,37 @@ dairy = [
     },
     {
         category: 'dairy',
-        name: 'Sliced Cheese',
+        name: 'Chocolate Milk',
+        price: 275,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Oat Milk',
+        price: 375,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Soy Milk',
         price: 350,
-        image: 'https://cdn-endpoint-website.azureedge.net/uploads/PhotoModel/8927/image/dacheese8bb.gallery.png?t=1437607958',
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'American Cheese',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Swiss Cheese',
+        price: 400,
+        image: '',
         quantity_unit: 'unit'
     },
     {
@@ -184,6 +303,13 @@ dairy = [
         name: 'Shredded Cheese',
         price: 400,
         image: 'https://www.favfamilyrecipes.com/wp-content/uploads/2020/02/How-to-freeze-cheese-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Cottage Cheese',
+        price: 350,
+        image: '',
         quantity_unit: 'unit'
     },
     {
@@ -202,6 +328,13 @@ dairy = [
     },
     {
         category: 'dairy',
+        name: 'Coffee Creamer',
+        price: 350,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
         name: 'Butter',
         price: 300,
         image: 'https://5.imimg.com/data5/NQ/CX/GC/SELLER-9087679/pure-butter-500x500.jpg',
@@ -209,7 +342,7 @@ dairy = [
     }
 ]
 
-bakery = [
+safewayBakery = [
     {
         category: 'bakery',
         name: 'Bagel',
@@ -226,9 +359,16 @@ bakery = [
     },
     {
         category: 'bakery',
-        name: 'Sliced Bread',
+        name: 'White Bread',
         price: 200,
         image: 'https://www.jocooks.com/wp-content/uploads/2020/03/white-bread-1-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Rye Bread',
+        price: 250,
+        image: '',
         quantity_unit: 'unit'
     },
     {
@@ -247,14 +387,49 @@ bakery = [
     },
     {
         category: 'bakery',
-        name: 'Muffins',
-        price: 100,
-        image: 'https://www.alsothecrumbsplease.com/wp-content/uploads/2019/03/Carrot-Cake-Muffins-19-500x500.jpg',
+        name: 'Blueberry Muffins',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Chocolate Muffins',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    }
+    {
+        category: 'bakery',
+        name: 'Pumpkin Pie',
+        price: 550,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Apple Pie',
+        price: 550,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Strawberry Cake',
+        price: 700,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Tiramisu',
+        price: 800,
+        image: '',
         quantity_unit: 'unit'
     }
 ]
 
-snacks = [
+safewaySnacks = [
     {
         category: 'snacks',
         name: 'Potato Chips',
@@ -299,7 +474,7 @@ snacks = [
     }
 ]
 
-beverages = [
+safewayBeverages = [
     {
         category: 'beverages',
         name: 'Soda',
@@ -344,7 +519,7 @@ beverages = [
     }
 ]
 
-frozen = [
+safewayFrozen = [
     {
         category: 'frozen',
         name: 'Waffles',
@@ -389,7 +564,7 @@ frozen = [
     }
 ]
 
-household = [
+safewayHousehold = [
     {
         category: 'household',
         name: 'Paper Towels',
@@ -434,21 +609,1527 @@ household = [
     }
 ]
 
-categories = {
-    "meats": meats, 
-    "produce": produce, 
-    "dairy": dairy, 
-    "bakery": bakery, 
-    "snacks": snacks, 
-    "beverages": beverages, 
-    "frozen": frozen, 
-    "household": household
+safewayMeats = [
+    {
+        category: 'meats',
+        name: 'Fish',
+        price: 350,
+        image: 'https://cdn.shopify.com/s/files/1/2530/7762/products/sushi-grade-salmon-006_500x500_crop_center.jpg?v=1574866529',
+        quantity_unit: 'pound'
+    }, 
+    {
+        category: 'meats',
+        name: 'Steak',
+        price: 700,
+        image: 'https://www.jlgreenfarm.com/images/product/large/49.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Sausage',
+        price: 400,
+        image: 'https://www.jlgreenfarm.com/watermark?ImageSize=large&ImageUrl=%2Fimages%2Fproduct%2Flarge%2F36.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Chicken',
+        price: 500,
+        image: 'https://cdn.shopify.com/s/files/1/0364/9277/1372/products/700104869_1-me-fresh-chicken-boneless-breast_600x600.jpg?v=1586545190',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Eggs',
+        price: 250,
+        image: 'https://images-na.ssl-images-amazon.com/images/I/41Yrtf5nzkL.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'meats',
+        name: 'Pork Chop',
+        price: 300,
+        image: 'https://images-na.ssl-images-amazon.com/images/I/412TgjX2bIL.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayProduce = [
+    {
+        category: 'produce',
+        name: 'Tomato',
+        price: 100,
+        image: 'https://www.fruitssouq.com/image/cache/catalog/a%20product/vegetables/Beef-tomato-1000x1000.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Apples',
+        price: 100,
+        image: 'https://usapple.org/wp-content/uploads/2019/10/apple-red-delicious.png',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Carrot',
+        price: 100,
+        image: 'https://images.squarespace-cdn.com/content/v1/550c3e74e4b0ae51ead40e86/1594556133574-C5G1TOR3ATSSIRU63VC9/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/baby+carrots.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Sweet Potatoes',
+        price: 200,
+        image: 'https://cdnimg.webstaurantstore.com/uploads/blog/2019/11/sp.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Bananas',
+        price: 150,
+        image: 'https://4.imimg.com/data4/GY/GR/MY-488295/banana-flavors-500x500.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Onion',
+        price: 200,
+        image: 'https://sc01.alicdn.com/kf/H4165ee0b4bc34b4bad5e37f98363d17dP.jpg',
+        quantity_unit: 'pound'
+    }
+]
+
+safewayDairy = [
+    {
+        category: 'dairy',
+        name: 'Milk',
+        price: 250,
+        image: 'https://mojosavings.com/wp-content/uploads/2014/02/gvmilk.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Sliced Cheese',
+        price: 350,
+        image: 'https://cdn-endpoint-website.azureedge.net/uploads/PhotoModel/8927/image/dacheese8bb.gallery.png?t=1437607958',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Shredded Cheese',
+        price: 400,
+        image: 'https://www.favfamilyrecipes.com/wp-content/uploads/2020/02/How-to-freeze-cheese-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Yogurt',
+        price: 300,
+        image: 'https://amindfullmom.com/wp-content/uploads/2018/02/nonfat-instant-pot-yogurt-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Sour Cream',
+        price: 500,
+        image: 'https://www.mustlovehome.com/wp-content/uploads/2020/02/Sour-Cream-Chip-Dip-5-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Butter',
+        price: 300,
+        image: 'https://5.imimg.com/data5/NQ/CX/GC/SELLER-9087679/pure-butter-500x500.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayBakery = [
+    {
+        category: 'bakery',
+        name: 'Bagel',
+        price: 500,
+        image: 'https://bakingamoment.com/wp-content/uploads/2020/06/IMG_8813-bagel-recipe-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Donut',
+        price: 100,
+        image: 'https://lilluna.com/wp-content/uploads/2013/01/donuts-resize-9-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Sliced Bread',
+        price: 200,
+        image: 'https://www.jocooks.com/wp-content/uploads/2020/03/white-bread-1-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Croissants',
+        price: 100,
+        image: 'https://www.alphafoodie.com/wp-content/uploads/2020/04/Homemade-Croissant-1-of-1-6-500x500.jpeg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Baguette',
+        price: 150,
+        image: 'https://tasteofartisan.com/wp-content/uploads/2019/05/French-baguette-recipe-4-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Muffins',
+        price: 100,
+        image: 'https://www.alsothecrumbsplease.com/wp-content/uploads/2019/03/Carrot-Cake-Muffins-19-500x500.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewaySnacks = [
+    {
+        category: 'snacks',
+        name: 'Potato Chips',
+        price: 200,
+        image: 'https://inthekitchenwithmatt.com/wp-content/uploads/2019/09/Thin-crispy-potato-chips-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Cookies',
+        price: 250,
+        image: 'https://www.simplejoy.com/wp-content/uploads/2019/06/oatmeal_chocolate_chip_cookies-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Gummy Bears',
+        price: 250,
+        image: 'https://www.kehrs.com/Content/files/GenCart/ProductImages/Albanese%20bears.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Chocolate',
+        price: 100,
+        image: 'https://www.wholesomeyum.com/wp-content/uploads/2018/10/wholesomeyum-low-carb-keto-chocolate-bar-recipe-5-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Granola',
+        price: 400,
+        image: 'https://tastesbetterfromscratch.com/wp-content/uploads/2019/01/Granola-6-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Popcorn',
+        price: 300,
+        image: 'https://www.pamperedchef.ca/iceberg/com/recipe/1317011-lg.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayBeverages = [
+    {
+        category: 'beverages',
+        name: 'Soda',
+        price: 150,
+        image: 'https://5.imimg.com/data5/SV/BA/MY-16122996/masala-lemon-soda-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Water',
+        price: 100,
+        image: 'https://4.imimg.com/data4/DI/VN/MY-2801063/water-bottle-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Lemonade',
+        price: 350,
+        image: 'https://tastesbetterfromscratch.com/wp-content/uploads/2015/05/Lemonade-5-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Apple Juice',
+        price: 200,
+        image: 'https://cdnimg.webstaurantstore.com/uploads/blog/2019/10/cider_articleimage.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Iced Tea',
+        price: 200,
+        image: 'https://copykat.com/wp-content/uploads/2019/02/homemade-copycat-mcdonalds-sweet-tea-2-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Orange Juice',
+        price: 300,
+        image: 'https://www.mustlovehome.com/wp-content/uploads/2018/03/orange-syrup-5-500x500.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayFrozen = [
+    {
+        category: 'frozen',
+        name: 'Waffles',
+        price: 300,
+        image: 'https://www.thismomsmenu.com/wp-content/uploads/2017/11/IMG_0576-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Frozen Pizza',
+        price: 350,
+        image: 'https://thecookspyjamas.com/wp-content/uploads/Homemade-Frozen-Pizza-3-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Frozen Peas',
+        price: 250,
+        image: 'https://static.wixstatic.com/media/191fd4_3386076d9b1643b690e28e387a6e560e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Chicken Nuggets',
+        price: 300,
+        image: 'https://recipefairy.com/wp-content/uploads/2020/05/mcdonalds-chicken-nuggets-recipe-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Ice Cream',
+        price: 500,
+        image: 'https://www.theroastedroot.net/wp-content/uploads/2018/06/vanilla_keto_ice_cream_1-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Frozen Strawberries',
+        price: 400,
+        image: 'https://sc01.alicdn.com/kf/Hdb1d7384c89d421c9031c44d2e0c2791m.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayHousehold = [
+    {
+        category: 'household',
+        name: 'Paper Towels',
+        price: 300,
+        image: 'https://cdn3.volusion.com/drued.qmxxg/v/vspfiles/photos/BWK%206212-2.jpg?v-cache=1518242293',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Garbage Bags',
+        price: 350,
+        image: 'https://cdn.shopify.com/s/files/1/0279/4373/1334/products/Garbage-Bags_ee5e9dbc-f0e4-48d4-b890-76b675bc799a_530x@2x.jpg?v=1590698286',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Toilet Paper',
+        price: 10000,
+        image: 'https://mcdonaldpaper.com/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/b/w/bwk6145.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Paper Plates',
+        price: 300,
+        image: 'https://m.media-amazon.com/images/I/71ca8STSacL._SR500,500_.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Gloves',
+        price: 5000,
+        image: 'https://5.imimg.com/data5/UA/AB/LQ/SELLER-23539647/non-sterile-powdered-examination-hand-gloves-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Hand Sanitizer',
+        price: 7500,
+        image: 'https://www.vitamix.com/media/other/images/500xNxHandSanitizer_500x500.jpg.pagespeed.ic.ls7Y2CmKnH.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayMeats = [
+    {
+        category: 'meats',
+        name: 'Fish',
+        price: 350,
+        image: 'https://cdn.shopify.com/s/files/1/2530/7762/products/sushi-grade-salmon-006_500x500_crop_center.jpg?v=1574866529',
+        quantity_unit: 'pound'
+    }, 
+    {
+        category: 'meats',
+        name: 'Steak',
+        price: 700,
+        image: 'https://www.jlgreenfarm.com/images/product/large/49.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Sausage',
+        price: 400,
+        image: 'https://www.jlgreenfarm.com/watermark?ImageSize=large&ImageUrl=%2Fimages%2Fproduct%2Flarge%2F36.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Chicken',
+        price: 500,
+        image: 'https://cdn.shopify.com/s/files/1/0364/9277/1372/products/700104869_1-me-fresh-chicken-boneless-breast_600x600.jpg?v=1586545190',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Eggs',
+        price: 250,
+        image: 'https://images-na.ssl-images-amazon.com/images/I/41Yrtf5nzkL.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'meats',
+        name: 'Pork Chop',
+        price: 300,
+        image: 'https://images-na.ssl-images-amazon.com/images/I/412TgjX2bIL.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayProduce = [
+    {
+        category: 'produce',
+        name: 'Tomato',
+        price: 100,
+        image: 'https://www.fruitssouq.com/image/cache/catalog/a%20product/vegetables/Beef-tomato-1000x1000.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Apples',
+        price: 100,
+        image: 'https://usapple.org/wp-content/uploads/2019/10/apple-red-delicious.png',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Carrot',
+        price: 100,
+        image: 'https://images.squarespace-cdn.com/content/v1/550c3e74e4b0ae51ead40e86/1594556133574-C5G1TOR3ATSSIRU63VC9/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/baby+carrots.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Sweet Potatoes',
+        price: 200,
+        image: 'https://cdnimg.webstaurantstore.com/uploads/blog/2019/11/sp.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Bananas',
+        price: 150,
+        image: 'https://4.imimg.com/data4/GY/GR/MY-488295/banana-flavors-500x500.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Onion',
+        price: 200,
+        image: 'https://sc01.alicdn.com/kf/H4165ee0b4bc34b4bad5e37f98363d17dP.jpg',
+        quantity_unit: 'pound'
+    }
+]
+
+safewayDairy = [
+    {
+        category: 'dairy',
+        name: 'Milk',
+        price: 250,
+        image: 'https://mojosavings.com/wp-content/uploads/2014/02/gvmilk.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Sliced Cheese',
+        price: 350,
+        image: 'https://cdn-endpoint-website.azureedge.net/uploads/PhotoModel/8927/image/dacheese8bb.gallery.png?t=1437607958',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Shredded Cheese',
+        price: 400,
+        image: 'https://www.favfamilyrecipes.com/wp-content/uploads/2020/02/How-to-freeze-cheese-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Yogurt',
+        price: 300,
+        image: 'https://amindfullmom.com/wp-content/uploads/2018/02/nonfat-instant-pot-yogurt-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Sour Cream',
+        price: 500,
+        image: 'https://www.mustlovehome.com/wp-content/uploads/2020/02/Sour-Cream-Chip-Dip-5-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Butter',
+        price: 300,
+        image: 'https://5.imimg.com/data5/NQ/CX/GC/SELLER-9087679/pure-butter-500x500.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayBakery = [
+    {
+        category: 'bakery',
+        name: 'Bagel',
+        price: 500,
+        image: 'https://bakingamoment.com/wp-content/uploads/2020/06/IMG_8813-bagel-recipe-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Donut',
+        price: 100,
+        image: 'https://lilluna.com/wp-content/uploads/2013/01/donuts-resize-9-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Sliced Bread',
+        price: 200,
+        image: 'https://www.jocooks.com/wp-content/uploads/2020/03/white-bread-1-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Croissants',
+        price: 100,
+        image: 'https://www.alphafoodie.com/wp-content/uploads/2020/04/Homemade-Croissant-1-of-1-6-500x500.jpeg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Baguette',
+        price: 150,
+        image: 'https://tasteofartisan.com/wp-content/uploads/2019/05/French-baguette-recipe-4-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Muffins',
+        price: 100,
+        image: 'https://www.alsothecrumbsplease.com/wp-content/uploads/2019/03/Carrot-Cake-Muffins-19-500x500.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewaySnacks = [
+    {
+        category: 'snacks',
+        name: 'Potato Chips',
+        price: 200,
+        image: 'https://inthekitchenwithmatt.com/wp-content/uploads/2019/09/Thin-crispy-potato-chips-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Cookies',
+        price: 250,
+        image: 'https://www.simplejoy.com/wp-content/uploads/2019/06/oatmeal_chocolate_chip_cookies-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Gummy Bears',
+        price: 250,
+        image: 'https://www.kehrs.com/Content/files/GenCart/ProductImages/Albanese%20bears.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Chocolate',
+        price: 100,
+        image: 'https://www.wholesomeyum.com/wp-content/uploads/2018/10/wholesomeyum-low-carb-keto-chocolate-bar-recipe-5-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Granola',
+        price: 400,
+        image: 'https://tastesbetterfromscratch.com/wp-content/uploads/2019/01/Granola-6-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Popcorn',
+        price: 300,
+        image: 'https://www.pamperedchef.ca/iceberg/com/recipe/1317011-lg.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayBeverages = [
+    {
+        category: 'beverages',
+        name: 'Soda',
+        price: 150,
+        image: 'https://5.imimg.com/data5/SV/BA/MY-16122996/masala-lemon-soda-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Water',
+        price: 100,
+        image: 'https://4.imimg.com/data4/DI/VN/MY-2801063/water-bottle-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Lemonade',
+        price: 350,
+        image: 'https://tastesbetterfromscratch.com/wp-content/uploads/2015/05/Lemonade-5-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Apple Juice',
+        price: 200,
+        image: 'https://cdnimg.webstaurantstore.com/uploads/blog/2019/10/cider_articleimage.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Iced Tea',
+        price: 200,
+        image: 'https://copykat.com/wp-content/uploads/2019/02/homemade-copycat-mcdonalds-sweet-tea-2-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Orange Juice',
+        price: 300,
+        image: 'https://www.mustlovehome.com/wp-content/uploads/2018/03/orange-syrup-5-500x500.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayFrozen = [
+    {
+        category: 'frozen',
+        name: 'Waffles',
+        price: 300,
+        image: 'https://www.thismomsmenu.com/wp-content/uploads/2017/11/IMG_0576-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Frozen Pizza',
+        price: 350,
+        image: 'https://thecookspyjamas.com/wp-content/uploads/Homemade-Frozen-Pizza-3-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Frozen Peas',
+        price: 250,
+        image: 'https://static.wixstatic.com/media/191fd4_3386076d9b1643b690e28e387a6e560e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Chicken Nuggets',
+        price: 300,
+        image: 'https://recipefairy.com/wp-content/uploads/2020/05/mcdonalds-chicken-nuggets-recipe-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Ice Cream',
+        price: 500,
+        image: 'https://www.theroastedroot.net/wp-content/uploads/2018/06/vanilla_keto_ice_cream_1-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Frozen Strawberries',
+        price: 400,
+        image: 'https://sc01.alicdn.com/kf/Hdb1d7384c89d421c9031c44d2e0c2791m.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayHousehold = [
+    {
+        category: 'household',
+        name: 'Paper Towels',
+        price: 300,
+        image: 'https://cdn3.volusion.com/drued.qmxxg/v/vspfiles/photos/BWK%206212-2.jpg?v-cache=1518242293',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Garbage Bags',
+        price: 350,
+        image: 'https://cdn.shopify.com/s/files/1/0279/4373/1334/products/Garbage-Bags_ee5e9dbc-f0e4-48d4-b890-76b675bc799a_530x@2x.jpg?v=1590698286',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Toilet Paper',
+        price: 10000,
+        image: 'https://mcdonaldpaper.com/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/b/w/bwk6145.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Paper Plates',
+        price: 300,
+        image: 'https://m.media-amazon.com/images/I/71ca8STSacL._SR500,500_.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Gloves',
+        price: 5000,
+        image: 'https://5.imimg.com/data5/UA/AB/LQ/SELLER-23539647/non-sterile-powdered-examination-hand-gloves-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Hand Sanitizer',
+        price: 7500,
+        image: 'https://www.vitamix.com/media/other/images/500xNxHandSanitizer_500x500.jpg.pagespeed.ic.ls7Y2CmKnH.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayMeats = [
+    {
+        category: 'meats',
+        name: 'Fish',
+        price: 350,
+        image: 'https://cdn.shopify.com/s/files/1/2530/7762/products/sushi-grade-salmon-006_500x500_crop_center.jpg?v=1574866529',
+        quantity_unit: 'pound'
+    }, 
+    {
+        category: 'meats',
+        name: 'Steak',
+        price: 700,
+        image: 'https://www.jlgreenfarm.com/images/product/large/49.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Sausage',
+        price: 400,
+        image: 'https://www.jlgreenfarm.com/watermark?ImageSize=large&ImageUrl=%2Fimages%2Fproduct%2Flarge%2F36.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Chicken',
+        price: 500,
+        image: 'https://cdn.shopify.com/s/files/1/0364/9277/1372/products/700104869_1-me-fresh-chicken-boneless-breast_600x600.jpg?v=1586545190',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Eggs',
+        price: 250,
+        image: 'https://images-na.ssl-images-amazon.com/images/I/41Yrtf5nzkL.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'meats',
+        name: 'Pork Chop',
+        price: 300,
+        image: 'https://images-na.ssl-images-amazon.com/images/I/412TgjX2bIL.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayProduce = [
+    {
+        category: 'produce',
+        name: 'Tomato',
+        price: 100,
+        image: 'https://www.fruitssouq.com/image/cache/catalog/a%20product/vegetables/Beef-tomato-1000x1000.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Apples',
+        price: 100,
+        image: 'https://usapple.org/wp-content/uploads/2019/10/apple-red-delicious.png',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Carrot',
+        price: 100,
+        image: 'https://images.squarespace-cdn.com/content/v1/550c3e74e4b0ae51ead40e86/1594556133574-C5G1TOR3ATSSIRU63VC9/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/baby+carrots.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Sweet Potatoes',
+        price: 200,
+        image: 'https://cdnimg.webstaurantstore.com/uploads/blog/2019/11/sp.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Bananas',
+        price: 150,
+        image: 'https://4.imimg.com/data4/GY/GR/MY-488295/banana-flavors-500x500.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Onion',
+        price: 200,
+        image: 'https://sc01.alicdn.com/kf/H4165ee0b4bc34b4bad5e37f98363d17dP.jpg',
+        quantity_unit: 'pound'
+    }
+]
+
+safewayDairy = [
+    {
+        category: 'dairy',
+        name: 'Milk',
+        price: 250,
+        image: 'https://mojosavings.com/wp-content/uploads/2014/02/gvmilk.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Sliced Cheese',
+        price: 350,
+        image: 'https://cdn-endpoint-website.azureedge.net/uploads/PhotoModel/8927/image/dacheese8bb.gallery.png?t=1437607958',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Shredded Cheese',
+        price: 400,
+        image: 'https://www.favfamilyrecipes.com/wp-content/uploads/2020/02/How-to-freeze-cheese-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Yogurt',
+        price: 300,
+        image: 'https://amindfullmom.com/wp-content/uploads/2018/02/nonfat-instant-pot-yogurt-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Sour Cream',
+        price: 500,
+        image: 'https://www.mustlovehome.com/wp-content/uploads/2020/02/Sour-Cream-Chip-Dip-5-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Butter',
+        price: 300,
+        image: 'https://5.imimg.com/data5/NQ/CX/GC/SELLER-9087679/pure-butter-500x500.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayBakery = [
+    {
+        category: 'bakery',
+        name: 'Bagel',
+        price: 500,
+        image: 'https://bakingamoment.com/wp-content/uploads/2020/06/IMG_8813-bagel-recipe-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Donut',
+        price: 100,
+        image: 'https://lilluna.com/wp-content/uploads/2013/01/donuts-resize-9-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Sliced Bread',
+        price: 200,
+        image: 'https://www.jocooks.com/wp-content/uploads/2020/03/white-bread-1-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Croissants',
+        price: 100,
+        image: 'https://www.alphafoodie.com/wp-content/uploads/2020/04/Homemade-Croissant-1-of-1-6-500x500.jpeg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Baguette',
+        price: 150,
+        image: 'https://tasteofartisan.com/wp-content/uploads/2019/05/French-baguette-recipe-4-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Muffins',
+        price: 100,
+        image: 'https://www.alsothecrumbsplease.com/wp-content/uploads/2019/03/Carrot-Cake-Muffins-19-500x500.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewaySnacks = [
+    {
+        category: 'snacks',
+        name: 'Potato Chips',
+        price: 200,
+        image: 'https://inthekitchenwithmatt.com/wp-content/uploads/2019/09/Thin-crispy-potato-chips-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Cookies',
+        price: 250,
+        image: 'https://www.simplejoy.com/wp-content/uploads/2019/06/oatmeal_chocolate_chip_cookies-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Gummy Bears',
+        price: 250,
+        image: 'https://www.kehrs.com/Content/files/GenCart/ProductImages/Albanese%20bears.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Chocolate',
+        price: 100,
+        image: 'https://www.wholesomeyum.com/wp-content/uploads/2018/10/wholesomeyum-low-carb-keto-chocolate-bar-recipe-5-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Granola',
+        price: 400,
+        image: 'https://tastesbetterfromscratch.com/wp-content/uploads/2019/01/Granola-6-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Popcorn',
+        price: 300,
+        image: 'https://www.pamperedchef.ca/iceberg/com/recipe/1317011-lg.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayBeverages = [
+    {
+        category: 'beverages',
+        name: 'Soda',
+        price: 150,
+        image: 'https://5.imimg.com/data5/SV/BA/MY-16122996/masala-lemon-soda-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Water',
+        price: 100,
+        image: 'https://4.imimg.com/data4/DI/VN/MY-2801063/water-bottle-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Lemonade',
+        price: 350,
+        image: 'https://tastesbetterfromscratch.com/wp-content/uploads/2015/05/Lemonade-5-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Apple Juice',
+        price: 200,
+        image: 'https://cdnimg.webstaurantstore.com/uploads/blog/2019/10/cider_articleimage.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Iced Tea',
+        price: 200,
+        image: 'https://copykat.com/wp-content/uploads/2019/02/homemade-copycat-mcdonalds-sweet-tea-2-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Orange Juice',
+        price: 300,
+        image: 'https://www.mustlovehome.com/wp-content/uploads/2018/03/orange-syrup-5-500x500.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayFrozen = [
+    {
+        category: 'frozen',
+        name: 'Waffles',
+        price: 300,
+        image: 'https://www.thismomsmenu.com/wp-content/uploads/2017/11/IMG_0576-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Frozen Pizza',
+        price: 350,
+        image: 'https://thecookspyjamas.com/wp-content/uploads/Homemade-Frozen-Pizza-3-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Frozen Peas',
+        price: 250,
+        image: 'https://static.wixstatic.com/media/191fd4_3386076d9b1643b690e28e387a6e560e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Chicken Nuggets',
+        price: 300,
+        image: 'https://recipefairy.com/wp-content/uploads/2020/05/mcdonalds-chicken-nuggets-recipe-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Ice Cream',
+        price: 500,
+        image: 'https://www.theroastedroot.net/wp-content/uploads/2018/06/vanilla_keto_ice_cream_1-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Frozen Strawberries',
+        price: 400,
+        image: 'https://sc01.alicdn.com/kf/Hdb1d7384c89d421c9031c44d2e0c2791m.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayHousehold = [
+    {
+        category: 'household',
+        name: 'Paper Towels',
+        price: 300,
+        image: 'https://cdn3.volusion.com/drued.qmxxg/v/vspfiles/photos/BWK%206212-2.jpg?v-cache=1518242293',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Garbage Bags',
+        price: 350,
+        image: 'https://cdn.shopify.com/s/files/1/0279/4373/1334/products/Garbage-Bags_ee5e9dbc-f0e4-48d4-b890-76b675bc799a_530x@2x.jpg?v=1590698286',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Toilet Paper',
+        price: 10000,
+        image: 'https://mcdonaldpaper.com/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/b/w/bwk6145.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Paper Plates',
+        price: 300,
+        image: 'https://m.media-amazon.com/images/I/71ca8STSacL._SR500,500_.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Gloves',
+        price: 5000,
+        image: 'https://5.imimg.com/data5/UA/AB/LQ/SELLER-23539647/non-sterile-powdered-examination-hand-gloves-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Hand Sanitizer',
+        price: 7500,
+        image: 'https://www.vitamix.com/media/other/images/500xNxHandSanitizer_500x500.jpg.pagespeed.ic.ls7Y2CmKnH.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayMeats = [
+    {
+        category: 'meats',
+        name: 'Fish',
+        price: 350,
+        image: 'https://cdn.shopify.com/s/files/1/2530/7762/products/sushi-grade-salmon-006_500x500_crop_center.jpg?v=1574866529',
+        quantity_unit: 'pound'
+    }, 
+    {
+        category: 'meats',
+        name: 'Steak',
+        price: 700,
+        image: 'https://www.jlgreenfarm.com/images/product/large/49.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Sausage',
+        price: 400,
+        image: 'https://www.jlgreenfarm.com/watermark?ImageSize=large&ImageUrl=%2Fimages%2Fproduct%2Flarge%2F36.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Chicken',
+        price: 500,
+        image: 'https://cdn.shopify.com/s/files/1/0364/9277/1372/products/700104869_1-me-fresh-chicken-boneless-breast_600x600.jpg?v=1586545190',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meats',
+        name: 'Eggs',
+        price: 250,
+        image: 'https://images-na.ssl-images-amazon.com/images/I/41Yrtf5nzkL.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'meats',
+        name: 'Pork Chop',
+        price: 300,
+        image: 'https://images-na.ssl-images-amazon.com/images/I/412TgjX2bIL.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayProduce = [
+    {
+        category: 'produce',
+        name: 'Tomato',
+        price: 100,
+        image: 'https://www.fruitssouq.com/image/cache/catalog/a%20product/vegetables/Beef-tomato-1000x1000.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Apples',
+        price: 100,
+        image: 'https://usapple.org/wp-content/uploads/2019/10/apple-red-delicious.png',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Carrot',
+        price: 100,
+        image: 'https://images.squarespace-cdn.com/content/v1/550c3e74e4b0ae51ead40e86/1594556133574-C5G1TOR3ATSSIRU63VC9/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/baby+carrots.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Sweet Potatoes',
+        price: 200,
+        image: 'https://cdnimg.webstaurantstore.com/uploads/blog/2019/11/sp.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Bananas',
+        price: 150,
+        image: 'https://4.imimg.com/data4/GY/GR/MY-488295/banana-flavors-500x500.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Onion',
+        price: 200,
+        image: 'https://sc01.alicdn.com/kf/H4165ee0b4bc34b4bad5e37f98363d17dP.jpg',
+        quantity_unit: 'pound'
+    }
+]
+
+safewayDairy = [
+    {
+        category: 'dairy',
+        name: 'Milk',
+        price: 250,
+        image: 'https://mojosavings.com/wp-content/uploads/2014/02/gvmilk.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Sliced Cheese',
+        price: 350,
+        image: 'https://cdn-endpoint-website.azureedge.net/uploads/PhotoModel/8927/image/dacheese8bb.gallery.png?t=1437607958',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Shredded Cheese',
+        price: 400,
+        image: 'https://www.favfamilyrecipes.com/wp-content/uploads/2020/02/How-to-freeze-cheese-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Yogurt',
+        price: 300,
+        image: 'https://amindfullmom.com/wp-content/uploads/2018/02/nonfat-instant-pot-yogurt-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Sour Cream',
+        price: 500,
+        image: 'https://www.mustlovehome.com/wp-content/uploads/2020/02/Sour-Cream-Chip-Dip-5-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Butter',
+        price: 300,
+        image: 'https://5.imimg.com/data5/NQ/CX/GC/SELLER-9087679/pure-butter-500x500.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayBakery = [
+    {
+        category: 'bakery',
+        name: 'Bagel',
+        price: 500,
+        image: 'https://bakingamoment.com/wp-content/uploads/2020/06/IMG_8813-bagel-recipe-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Donut',
+        price: 100,
+        image: 'https://lilluna.com/wp-content/uploads/2013/01/donuts-resize-9-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Sliced Bread',
+        price: 200,
+        image: 'https://www.jocooks.com/wp-content/uploads/2020/03/white-bread-1-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Croissants',
+        price: 100,
+        image: 'https://www.alphafoodie.com/wp-content/uploads/2020/04/Homemade-Croissant-1-of-1-6-500x500.jpeg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Baguette',
+        price: 150,
+        image: 'https://tasteofartisan.com/wp-content/uploads/2019/05/French-baguette-recipe-4-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'bakery',
+        name: 'Muffins',
+        price: 100,
+        image: 'https://www.alsothecrumbsplease.com/wp-content/uploads/2019/03/Carrot-Cake-Muffins-19-500x500.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewaySnacks = [
+    {
+        category: 'snacks',
+        name: 'Potato Chips',
+        price: 200,
+        image: 'https://inthekitchenwithmatt.com/wp-content/uploads/2019/09/Thin-crispy-potato-chips-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Cookies',
+        price: 250,
+        image: 'https://www.simplejoy.com/wp-content/uploads/2019/06/oatmeal_chocolate_chip_cookies-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Gummy Bears',
+        price: 250,
+        image: 'https://www.kehrs.com/Content/files/GenCart/ProductImages/Albanese%20bears.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Chocolate',
+        price: 100,
+        image: 'https://www.wholesomeyum.com/wp-content/uploads/2018/10/wholesomeyum-low-carb-keto-chocolate-bar-recipe-5-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Granola',
+        price: 400,
+        image: 'https://tastesbetterfromscratch.com/wp-content/uploads/2019/01/Granola-6-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Popcorn',
+        price: 300,
+        image: 'https://www.pamperedchef.ca/iceberg/com/recipe/1317011-lg.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayBeverages = [
+    {
+        category: 'beverages',
+        name: 'Soda',
+        price: 150,
+        image: 'https://5.imimg.com/data5/SV/BA/MY-16122996/masala-lemon-soda-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Water',
+        price: 100,
+        image: 'https://4.imimg.com/data4/DI/VN/MY-2801063/water-bottle-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Lemonade',
+        price: 350,
+        image: 'https://tastesbetterfromscratch.com/wp-content/uploads/2015/05/Lemonade-5-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Apple Juice',
+        price: 200,
+        image: 'https://cdnimg.webstaurantstore.com/uploads/blog/2019/10/cider_articleimage.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Iced Tea',
+        price: 200,
+        image: 'https://copykat.com/wp-content/uploads/2019/02/homemade-copycat-mcdonalds-sweet-tea-2-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Orange Juice',
+        price: 300,
+        image: 'https://www.mustlovehome.com/wp-content/uploads/2018/03/orange-syrup-5-500x500.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayFrozen = [
+    {
+        category: 'frozen',
+        name: 'Waffles',
+        price: 300,
+        image: 'https://www.thismomsmenu.com/wp-content/uploads/2017/11/IMG_0576-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Frozen Pizza',
+        price: 350,
+        image: 'https://thecookspyjamas.com/wp-content/uploads/Homemade-Frozen-Pizza-3-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Frozen Peas',
+        price: 250,
+        image: 'https://static.wixstatic.com/media/191fd4_3386076d9b1643b690e28e387a6e560e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Chicken Nuggets',
+        price: 300,
+        image: 'https://recipefairy.com/wp-content/uploads/2020/05/mcdonalds-chicken-nuggets-recipe-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Ice Cream',
+        price: 500,
+        image: 'https://www.theroastedroot.net/wp-content/uploads/2018/06/vanilla_keto_ice_cream_1-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Frozen Strawberries',
+        price: 400,
+        image: 'https://sc01.alicdn.com/kf/Hdb1d7384c89d421c9031c44d2e0c2791m.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayHousehold = [
+    {
+        category: 'household',
+        name: 'Paper Towels',
+        price: 300,
+        image: 'https://cdn3.volusion.com/drued.qmxxg/v/vspfiles/photos/BWK%206212-2.jpg?v-cache=1518242293',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Garbage Bags',
+        price: 350,
+        image: 'https://cdn.shopify.com/s/files/1/0279/4373/1334/products/Garbage-Bags_ee5e9dbc-f0e4-48d4-b890-76b675bc799a_530x@2x.jpg?v=1590698286',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Toilet Paper',
+        price: 10000,
+        image: 'https://mcdonaldpaper.com/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/b/w/bwk6145.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Paper Plates',
+        price: 300,
+        image: 'https://m.media-amazon.com/images/I/71ca8STSacL._SR500,500_.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Gloves',
+        price: 5000,
+        image: 'https://5.imimg.com/data5/UA/AB/LQ/SELLER-23539647/non-sterile-powdered-examination-hand-gloves-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Hand Sanitizer',
+        price: 7500,
+        image: 'https://www.vitamix.com/media/other/images/500xNxHandSanitizer_500x500.jpg.pagespeed.ic.ls7Y2CmKnH.jpg',
+        quantity_unit: 'unit'
+    }
+]
+
+safewayCategories = {
+    "meats": safewayMeats, 
+    "produce": safewayProduce, 
+    "dairy": safewayDairy, 
+    "bakery": safewayBakery, 
+    "snacks": safewaySnacks, 
+    "beverages": safewayBeverages, 
+    "frozen": safewayFrozen, 
+    "household": safewayHousehold
 }
 
-categories.each do |category, items|
+costcoCategories = {
+
+}
+
+riteaidCategories = {
+
+}
+
+smartnfinalCategories = {
+
+}
+
+foodmaxxCategories = {
+
+}
+
+safewayCategories.each do |category, items|
     items.each do |item|
-        
-       
+        Item.create(
+            category: item[:category],
+            name: item[:name],
+            quantity_unit: item[:quantity_unit],
+            price: item[:price],
+            image: item[:image],
+            store_id: 1
+        )
+    end
+end
+
+cosgcoCategories.each do |category, items|
+    items.each do |item|
+        Item.create(
+            category: item[:category],
+            name: item[:name],
+            quantity_unit: item[:quantity_unit],
+            price: item[:price],
+            image: item[:image],
+            store_id: 2
+        )
+    end
+end
+
+riteaidCategories.each do |category, items|
+    items.each do |item|
+        Item.create(
+            category: item[:category],
+            name: item[:name],
+            quantity_unit: item[:quantity_unit],
+            price: item[:price],
+            image: item[:image],
+            store_id: 3
+        )
+    end
+end
+
+smartnfinalCategories.each do |category, items|
+    items.each do |item|
+        Item.create(
+            category: item[:category],
+            name: item[:name],
+            quantity_unit: item[:quantity_unit],
+            price: item[:price],
+            image: item[:image],
+            store_id: 1
+        )
+    end
+end
+
+foodmaxxCategories.each do |category, items|
+    items.each do |item|
         Item.create(
             category: item[:category],
             name: item[:name],
