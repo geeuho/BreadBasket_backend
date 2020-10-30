@@ -587,7 +587,7 @@ safewayFrozen = [
         category: 'frozen',
         name: 'Waffles',
         price: 300,
-        image: 'https://www.thismomsmenu.com/wp-content/uploads/2017/11/IMG_0576-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
@@ -606,6 +606,13 @@ safewayFrozen = [
     },
     {
         category: 'frozen',
+        name: 'Frozen Corn',
+        price: 250,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
         name: 'Chicken Nuggets',
         price: 300,
         image: 'https://recipefairy.com/wp-content/uploads/2020/05/mcdonalds-chicken-nuggets-recipe-500x500.jpg',
@@ -613,9 +620,44 @@ safewayFrozen = [
     },
     {
         category: 'frozen',
-        name: 'Ice Cream',
+        name: 'Ice Cream (Pint)',
         price: 500,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Ice Cream Sandwiches',
+        price: 550,
         image: 'https://www.theroastedroot.net/wp-content/uploads/2018/06/vanilla_keto_ice_cream_1-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Drumstick Ice Cream',
+        price: 650,
+        image: 'https://www.theroastedroot.net/wp-content/uploads/2018/06/vanilla_keto_ice_cream_1-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Puff Pastry',
+        price: 450,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'TV Dinner',
+        price: 350,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Chicken Pot Pie',
+        price: 250,
+        image: '',
         quantity_unit: 'unit'
     },
     {
@@ -629,6 +671,69 @@ safewayFrozen = [
 
 safewayHousehold = [
     {
+        category: 'household',
+        name: 'Gloves',
+        price: 5000,
+        image: 'https://5.imimg.com/data5/UA/AB/LQ/SELLER-23539647/non-sterile-powdered-examination-hand-gloves-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Hand Sanitizer',
+        price: 7500,
+        image: 'https://www.vitamix.com/media/other/images/500xNxHandSanitizer_500x500.jpg.pagespeed.ic.ls7Y2CmKnH.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Toilet Paper',
+        price: 10000,
+        image: 'https://mcdonaldpaper.com/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/b/w/bwk6145.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Lysol Sanitizer',
+        price: 80000,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Napkins',
+        price: 200,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Paper Plates',
+        price: 300,
+        image: 'https://m.media-amazon.com/images/I/71ca8STSacL._SR500,500_.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Plastic Utensils',
+        price: 350,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Dishwashing Soap',
+        price: 200,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Laundry Detergent',
+        price: 800,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    }
         category: 'household',
         name: 'Paper Towels',
         price: 300,
@@ -644,30 +749,9 @@ safewayHousehold = [
     },
     {
         category: 'household',
-        name: 'Toilet Paper',
-        price: 10000,
-        image: 'https://mcdonaldpaper.com/media/catalog/product/cache/3fba745dcec88e97bfe808bedc471260/b/w/bwk6145.jpg',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'household',
-        name: 'Paper Plates',
-        price: 300,
-        image: 'https://m.media-amazon.com/images/I/71ca8STSacL._SR500,500_.jpg',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'household',
-        name: 'Gloves',
-        price: 5000,
-        image: 'https://5.imimg.com/data5/UA/AB/LQ/SELLER-23539647/non-sterile-powdered-examination-hand-gloves-500x500.jpg',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'household',
-        name: 'Hand Sanitizer',
-        price: 7500,
-        image: 'https://www.vitamix.com/media/other/images/500xNxHandSanitizer_500x500.jpg.pagespeed.ic.ls7Y2CmKnH.jpg',
+        name: 'Alumninum Foil',
+        price: 550,
+        image: 'https://cdn.shopify.com/s/files/1/0279/4373/1334/products/Garbage-Bags_ee5e9dbc-f0e4-48d4-b890-76b675bc799a_530x@2x.jpg?v=1590698286',
         quantity_unit: 'unit'
     }
 ]
