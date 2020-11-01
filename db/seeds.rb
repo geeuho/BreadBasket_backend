@@ -3184,7 +3184,7 @@ foodmaxxDairy = [
     }
 ]
 
-costcoPantryndry = [
+foodmaxxMeatnseafood = [
     {
         category: 'pantryndry',
         name: 'Soda',
@@ -3271,7 +3271,7 @@ costcoPantryndry = [
     }
 ]
 
-costcoSeafood = [
+foodmaxxDeli = [
     {
         category: 'seafood',
         name: 'Waffles',
@@ -3358,7 +3358,7 @@ costcoSeafood = [
     }
 ]
 
-costcoPapernplastic = [
+foodmaxxSnacks = [
     {
         category: 'papernplastic',
         name: 'Paper Towels',
@@ -3444,6 +3444,11 @@ costcoPapernplastic = [
         quantity_unit: 'unit'
     }
 ]
+
+
+
+
+
 
 safewayCategories = {
     "meats": safewayMeats, 
