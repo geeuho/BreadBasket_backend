@@ -3641,7 +3641,10 @@ costcoCategories = {
 }
 
 riteaidCategories = {
-
+    'snacks': riteaidSnacks,
+    'pharmacy': riteaidPharmacy,
+    'beauty' : riteaidBeauty,
+    ''
 }
 
 smartnfinalCategories = {
