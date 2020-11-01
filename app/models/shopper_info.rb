@@ -21,6 +21,7 @@ smartnfinalCategories = {
     'meatnseafood': smartnfinalMeatnseafood, 
     'deli': smartnfinalDeli, 
     'snacks': smartnfinalSnacks, 
+    'household': smartnfinalHousehold
 }
 
 foodmaxxCategories = {

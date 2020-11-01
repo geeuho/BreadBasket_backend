@@ -2732,6 +2732,93 @@ smartnfinalSnacks = [
     }
 ]
 
+smartnfinalHousehold = [
+    {
+        category: 'household',
+        name: 'Waffles',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Frozen Pizza',
+        price: 350,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Frozen Peas',
+        price: 250,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Chicken Nuggets',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Ice Cream',
+        price: 500,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Frozen Strawberries',
+        price: 400,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Waffles',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Frozen Pizza',
+        price: 350,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Frozen Peas',
+        price: 250,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Chicken Nuggets',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Ice Cream',
+        price: 500,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Frozen Strawberries',
+        price: 400,
+        image: '',
+        quantity_unit: 'unit'
+    }
+]
+
 
 
 
@@ -3360,84 +3447,84 @@ foodmaxxHousehold = [
 
 foodmaxxSnacks = [
     {
-        category: 'papernplastic',
+        category: 'snacks',
         name: 'Paper Towels',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'papernplastic',
+        category: 'snacks',
         name: 'Garbage Bags',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'papernplastic',
+        category: 'snacks',
         name: 'Toilet Paper',
         price: 10000,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'papernplastic',
+        category: 'snacks',
         name: 'Paper Plates',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'papernplastic',
+        category: 'snacks',
         name: 'Gloves',
         price: 5000,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'papernplastic',
+        category: 'snacks',
         name: 'Hand Sanitizer',
         price: 7500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'papernplastic',
+        category: 'snacks',
         name: 'Paper Towels',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'papernplastic',
+        category: 'snacks',
         name: 'Garbage Bags',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'papernplastic',
+        category: 'snacks',
         name: 'Toilet Paper',
         price: 10000,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'papernplastic',
+        category: 'snacks',
         name: 'Paper Plates',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'papernplastic',
+        category: 'snacks',
         name: 'Gloves',
         price: 5000,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'papernplastic',
+        category: 'snacks',
         name: 'Hand Sanitizer',
         price: 7500,
         image: '',
@@ -3490,6 +3577,7 @@ smartnfinalCategories = {
     'meatnseafood': smartnfinalMeatnseafood, 
     'deli': smartnfinalDeli, 
     'snacks': smartnfinalSnacks, 
+    'household': smartnfinalHousehold
 }
 
 foodmaxxCategories = {
