@@ -3641,10 +3641,13 @@ costcoCategories = {
 }
 
 riteaidCategories = {
-    'snacks': riteaidSnacks,
-    'pharmacy': riteaidPharmacy,
     'beauty' : riteaidBeauty,
-    ''
+    'household': riteaidHousehold,
+    'grocery': riteaidGrocery,
+    'medicine': riteaidMedicine, 
+    'schoolnoffice': riteaidSchoolnoffice,
+    'diet' : riteaidDiet,
+    'personalcare': riteaidPersonalCare,
 }
 
 smartnfinalCategories = {
