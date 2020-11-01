@@ -3651,7 +3651,14 @@ riteaidCategories = {
 }
 
 smartnfinalCategories = {
-
+    'bakery': smartnfinalBakery , 
+    'beverages': smartnfinalBeverages , 
+    'grocery': smartnfinal , 
+    'frozen': smartnfinalFrozen , 
+    'dairy': smartnfinalDairy , 
+    'meatnseafood': smartnfinalMeatnseafood , 
+    'deli': smartnfinalDeli , 
+    'snacks': smartnfinalSnacks , 
 }
 
 foodmaxxCategories = {
