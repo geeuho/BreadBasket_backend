@@ -30,6 +30,6 @@ foodmaxxCategories = {
     'frozen': foodmaxxFrozen, 
     'dairy': foodmaxxDairy, 
     'meatnseafood': foodmaxxMeatnseafood, 
-    'deli': foodmaxxDeli, 
+    'household': foodmaxxHousehold,
     'snacks': foodmaxxSnacks,      
 }

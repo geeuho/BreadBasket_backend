@@ -2125,84 +2125,84 @@ riteaidPersonalCare = [
 
 smartnfinalBakery = [
     {
-        category: 'meats',
+        category: 'bakery',
         name: 'Fish',
         price: 350,
         image: '',
         quantity_unit: 'pound'
     }, 
     {
-        category: 'meats',
+        category: 'bakery',
         name: 'Steak',
         price: 700,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'bakery',
         name: 'Sausage',
         price: 400,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'bakery',
         name: 'Chicken',
         price: 500,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'bakery',
         name: 'Eggs',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'meats',
+        category: 'bakery',
         name: 'Pork Chop',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'meats',
+        category: 'bakery',
         name: 'Fish',
         price: 350,
         image: '',
         quantity_unit: 'pound'
     }, 
     {
-        category: 'meats',
+        category: 'bakery',
         name: 'Steak',
         price: 700,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'bakery',
         name: 'Sausage',
         price: 400,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'bakery',
         name: 'Chicken',
         price: 500,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'bakery',
         name: 'Eggs',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'meats',
+        category: 'bakery',
         name: 'Pork Chop',
         price: 300,
         image: '',
@@ -2212,84 +2212,84 @@ smartnfinalBakery = [
 
 smartnfinalBeverages = [
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Tomato',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Apples',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Carrot',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Sweet Potatoes',
         price: 200,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Bananas',
         price: 150,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Onion',
         price: 200,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Tomato',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Apples',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Carrot',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Sweet Potatoes',
         price: 200,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Bananas',
         price: 150,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Onion',
         price: 200,
         image: '',
@@ -2299,84 +2299,84 @@ smartnfinalBeverages = [
 
 smartnfinalFrozen = [
     {
-        category: 'dairyneggs',
+        category: 'frozen',
         name: 'Milk',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'frozen',
         name: 'Sliced Cheese',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'frozen',
         name: 'Shredded Cheese',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'frozen',
         name: 'Yogurt',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'frozen',
         name: 'Sour Cream',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'frozen',
         name: 'Butter',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'frozen',
         name: 'Milk',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'frozen',
         name: 'Sliced Cheese',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'frozen',
         name: 'Shredded Cheese',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'frozen',
         name: 'Yogurt',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'frozen',
         name: 'Sour Cream',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'frozen',
         name: 'Butter',
         price: 300,
         image: '',
@@ -2386,84 +2386,84 @@ smartnfinalFrozen = [
 
 smartnfinalDairy = [
     {
-        category: 'bakery',
+        category: 'dairy',
         name: 'Bagel',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'dairy',
         name: 'Donut',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'dairy',
         name: 'Sliced Bread',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'dairy',
         name: 'Croissants',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'dairy',
         name: 'Baguette',
         price: 150,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'dairy',
         name: 'Muffins',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'dairy',
         name: 'Bagel',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'dairy',
         name: 'Donut',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'dairy',
         name: 'Sliced Bread',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'dairy',
         name: 'Croissants',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'dairy',
         name: 'Baguette',
         price: 150,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'dairy',
         name: 'Muffins',
         price: 100,
         image: '',
@@ -2473,84 +2473,84 @@ smartnfinalDairy = [
 
 smartnfinalMeatnseafood = [
     {
-        category: 'snacks',
+        category: 'meatnseafood',
         name: 'Potato Chips',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'meatnseafood',
         name: 'Cookies',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'meatnseafood',
         name: 'Gummy Bears',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'meatnseafood',
         name: 'Chocolate',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'meatnseafood',
         name: 'Granola',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'meatnseafood',
         name: 'Popcorn',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'meatnseafood',
         name: 'Potato Chips',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'meatnseafood',
         name: 'Cookies',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'meatnseafood',
         name: 'Gummy Bears',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'meatnseafood',
         name: 'Chocolate',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'meatnseafood',
         name: 'Granola',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'meatnseafood',
         name: 'Popcorn',
         price: 300,
         image: '',
@@ -2560,84 +2560,84 @@ smartnfinalMeatnseafood = [
 
 smartnfinalDeli = [
     {
-        category: 'pantryndry',
+        category: 'deli',
         name: 'Soda',
         price: 150,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'deli',
         name: 'Water',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'deli',
         name: 'Lemonade',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'deli',
         name: 'Apple Juice',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'deli',
         name: 'Iced Tea',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'deli',
         name: 'Orange Juice',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'deli',
         name: 'Soda',
         price: 150,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'deli',
         name: 'Water',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'deli',
         name: 'Lemonade',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'deli',
         name: 'Apple Juice',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'deli',
         name: 'Iced Tea',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'deli',
         name: 'Orange Juice',
         price: 300,
         image: '',
@@ -2647,84 +2647,84 @@ smartnfinalDeli = [
 
 smartnfinalSnacks = [
     {
-        category: 'seafood',
+        category: 'snacks',
         name: 'Waffles',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'snacks',
         name: 'Frozen Pizza',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'snacks',
         name: 'Frozen Peas',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'snacks',
         name: 'Chicken Nuggets',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'snacks',
         name: 'Ice Cream',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'snacks',
         name: 'Frozen Strawberries',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'snacks',
         name: 'Waffles',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'snacks',
         name: 'Frozen Pizza',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'snacks',
         name: 'Frozen Peas',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'snacks',
         name: 'Chicken Nuggets',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'snacks',
         name: 'Ice Cream',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'snacks',
         name: 'Frozen Strawberries',
         price: 400,
         image: '',
@@ -2751,84 +2751,84 @@ smartnfinalSnacks = [
 
 foodmaxxBaking = [
     {
-        category: 'meats',
+        category: 'baking',
         name: 'Fish',
         price: 350,
         image: '',
         quantity_unit: 'pound'
     }, 
     {
-        category: 'meats',
+        category: 'baking',
         name: 'Steak',
         price: 700,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'baking',
         name: 'Sausage',
         price: 400,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'baking',
         name: 'Chicken',
         price: 500,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'baking',
         name: 'Eggs',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'meats',
+        category: 'baking',
         name: 'Pork Chop',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'meats',
+        category: 'baking',
         name: 'Fish',
         price: 350,
         image: '',
         quantity_unit: 'pound'
     }, 
     {
-        category: 'meats',
+        category: 'baking',
         name: 'Steak',
         price: 700,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'baking',
         name: 'Sausage',
         price: 400,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'baking',
         name: 'Chicken',
         price: 500,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'baking',
         name: 'Eggs',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'meats',
+        category: 'baking',
         name: 'Pork Chop',
         price: 300,
         image: '',
@@ -2838,84 +2838,84 @@ foodmaxxBaking = [
 
 foodmaxxBeverages = [
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Tomato',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Apples',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Carrot',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Sweet Potatoes',
         price: 200,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Bananas',
         price: 150,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Onion',
         price: 200,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Tomato',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Apples',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Carrot',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Sweet Potatoes',
         price: 200,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Bananas',
         price: 150,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'beverages',
         name: 'Onion',
         price: 200,
         image: '',
@@ -2925,84 +2925,84 @@ foodmaxxBeverages = [
 
 foodmaxxCannedgoods = [
     {
-        category: 'dairyneggs',
+        category: 'cannedgoods',
         name: 'Milk',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'cannedgoods',
         name: 'Sliced Cheese',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'cannedgoods',
         name: 'Shredded Cheese',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'cannedgoods',
         name: 'Yogurt',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'cannedgoods',
         name: 'Sour Cream',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'cannedgoods',
         name: 'Butter',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'cannedgoods',
         name: 'Milk',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'cannedgoods',
         name: 'Sliced Cheese',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'cannedgoods',
         name: 'Shredded Cheese',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'cannedgoods',
         name: 'Yogurt',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'cannedgoods',
         name: 'Sour Cream',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'cannedgoods',
         name: 'Butter',
         price: 300,
         image: '',
@@ -3012,84 +3012,84 @@ foodmaxxCannedgoods = [
 
 foodmaxxFrozen = [
     {
-        category: 'bakery',
+        category: 'frozen',
         name: 'Bagel',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'frozen',
         name: 'Donut',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'frozen',
         name: 'Sliced Bread',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'frozen',
         name: 'Croissants',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'frozen',
         name: 'Baguette',
         price: 150,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'frozen',
         name: 'Muffins',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'frozen',
         name: 'Bagel',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'frozen',
         name: 'Donut',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'frozen',
         name: 'Sliced Bread',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'frozen',
         name: 'Croissants',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'frozen',
         name: 'Baguette',
         price: 150,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'frozen',
         name: 'Muffins',
         price: 100,
         image: '',
@@ -3099,84 +3099,84 @@ foodmaxxFrozen = [
 
 foodmaxxDairy = [
     {
-        category: 'snacks',
+        category: 'dairy',
         name: 'Potato Chips',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'dairy',
         name: 'Cookies',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'dairy',
         name: 'Gummy Bears',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'dairy',
         name: 'Chocolate',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'dairy',
         name: 'Granola',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'dairy',
         name: 'Popcorn',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'dairy',
         name: 'Potato Chips',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'dairy',
         name: 'Cookies',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'dairy',
         name: 'Gummy Bears',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'dairy',
         name: 'Chocolate',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'dairy',
         name: 'Granola',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'dairy',
         name: 'Popcorn',
         price: 300,
         image: '',
@@ -3186,84 +3186,84 @@ foodmaxxDairy = [
 
 foodmaxxMeatnseafood = [
     {
-        category: 'pantryndry',
+        category: 'meatnseafood',
         name: 'Soda',
         price: 150,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'meatnseafood',
         name: 'Water',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'meatnseafood',
         name: 'Lemonade',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'meatnseafood',
         name: 'Apple Juice',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'meatnseafood',
         name: 'Iced Tea',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'meatnseafood',
         name: 'Orange Juice',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'meatnseafood',
         name: 'Soda',
         price: 150,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'meatnseafood',
         name: 'Water',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'meatnseafood',
         name: 'Lemonade',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'meatnseafood',
         name: 'Apple Juice',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'meatnseafood',
         name: 'Iced Tea',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'meatnseafood',
         name: 'Orange Juice',
         price: 300,
         image: '',
@@ -3271,86 +3271,86 @@ foodmaxxMeatnseafood = [
     }
 ]
 
-foodmaxxDeli = [
+foodmaxxHousehold = [
     {
-        category: 'seafood',
+        category: 'household',
         name: 'Waffles',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'household',
         name: 'Frozen Pizza',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'household',
         name: 'Frozen Peas',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'household',
         name: 'Chicken Nuggets',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'household',
         name: 'Ice Cream',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'household',
         name: 'Frozen Strawberries',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'household',
         name: 'Waffles',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'household',
         name: 'Frozen Pizza',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'household',
         name: 'Frozen Peas',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'household',
         name: 'Chicken Nuggets',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'household',
         name: 'Ice Cream',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'household',
         name: 'Frozen Strawberries',
         price: 400,
         image: '',
