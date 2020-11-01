@@ -3651,18 +3651,23 @@ riteaidCategories = {
 }
 
 smartnfinalCategories = {
-    'bakery': smartnfinalBakery , 
-    'beverages': smartnfinalBeverages , 
-    'grocery': smartnfinal , 
-    'frozen': smartnfinalFrozen , 
-    'dairy': smartnfinalDairy , 
-    'meatnseafood': smartnfinalMeatnseafood , 
-    'deli': smartnfinalDeli , 
-    'snacks': smartnfinalSnacks , 
+    'bakery': smartnfinalBakery, 
+    'beverages': smartnfinalBeverages, 
+    'frozen': smartnfinalFrozen, 
+    'dairy': smartnfinalDairy, 
+    'meatnseafood': smartnfinalMeatnseafood, 
+    'deli': smartnfinalDeli, 
+    'snacks': smartnfinalSnacks, 
 }
 
 foodmaxxCategories = {
-
+    'bakery': foodmaxxBakery, 
+    'beverages': foodmaxxBeverages, 
+    'frozen': foodmaxxFrozen, 
+    'dairy': foodmaxxDairy, 
+    'meatnseafood': foodmaxxMeatnseafood, 
+    'deli': foodmaxxDeli, 
+    'snacks': foodmaxxSnacks,      
 }
 
 safewayCategories.each do |category, items|
