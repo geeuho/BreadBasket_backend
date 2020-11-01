@@ -2123,7 +2123,7 @@ riteaidPersonalCare = [
 
 
 
-costcoMeats = [
+smartnfinalBakery = [
     {
         category: 'meats',
         name: 'Fish',
@@ -2210,7 +2210,7 @@ costcoMeats = [
     }
 ]
 
-costcoProduce = [
+smartnfinalBeverages = [
     {
         category: 'produce',
         name: 'Tomato',
@@ -2297,7 +2297,7 @@ costcoProduce = [
     }
 ]
 
-costcoDairynEggs = [
+smartnfinalFrozen = [
     {
         category: 'dairyneggs',
         name: 'Milk',
@@ -2384,7 +2384,7 @@ costcoDairynEggs = [
     }
 ]
 
-costcoBakery = [
+smartnfinalDairy = [
     {
         category: 'bakery',
         name: 'Bagel',
@@ -2471,7 +2471,7 @@ costcoBakery = [
     }
 ]
 
-costcoSnacks = [
+smartnfinalMeatnseafood = [
     {
         category: 'snacks',
         name: 'Potato Chips',
@@ -2558,7 +2558,7 @@ costcoSnacks = [
     }
 ]
 
-costcoPantryndry = [
+smartnfinalDeli = [
     {
         category: 'pantryndry',
         name: 'Soda',
@@ -2645,7 +2645,7 @@ costcoPantryndry = [
     }
 ]
 
-costcoSeafood = [
+smartnfinalSnacks = [
     {
         category: 'seafood',
         name: 'Waffles',
@@ -2732,92 +2732,6 @@ costcoSeafood = [
     }
 ]
 
-costcoPapernplastic = [
-    {
-        category: 'papernplastic',
-        name: 'Paper Towels',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Garbage Bags',
-        price: 350,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Toilet Paper',
-        price: 10000,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Paper Plates',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Gloves',
-        price: 5000,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Hand Sanitizer',
-        price: 7500,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Paper Towels',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Garbage Bags',
-        price: 350,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Toilet Paper',
-        price: 10000,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Paper Plates',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Gloves',
-        price: 5000,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Hand Sanitizer',
-        price: 7500,
-        image: '',
-        quantity_unit: 'unit'
-    }
-]
 
 
 
@@ -2835,7 +2749,7 @@ costcoPapernplastic = [
 
 
 
-costcoMeats = [
+foodmaxxBaking = [
     {
         category: 'meats',
         name: 'Fish',
@@ -2922,7 +2836,7 @@ costcoMeats = [
     }
 ]
 
-costcoProduce = [
+foodmaxxBeverages = [
     {
         category: 'produce',
         name: 'Tomato',
@@ -3009,7 +2923,7 @@ costcoProduce = [
     }
 ]
 
-costcoDairynEggs = [
+foodmaxxCannedgoods = [
     {
         category: 'dairyneggs',
         name: 'Milk',
@@ -3096,7 +3010,7 @@ costcoDairynEggs = [
     }
 ]
 
-costcoBakery = [
+foodmaxxFrozen = [
     {
         category: 'bakery',
         name: 'Bagel',
@@ -3183,7 +3097,7 @@ costcoBakery = [
     }
 ]
 
-costcoSnacks = [
+foodmaxxDairy = [
     {
         category: 'snacks',
         name: 'Potato Chips',
