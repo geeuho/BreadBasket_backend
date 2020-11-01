@@ -1500,84 +1500,84 @@ costcoPapernplastic = [
 
 riteaidBeauty = [
     {
-        category: 'meats',
+        category: 'beauty',
         name: 'Fish',
         price: 350,
         image: '',
         quantity_unit: 'pound'
     }, 
     {
-        category: 'meats',
+        category: 'beauty',
         name: 'Steak',
         price: 700,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'beauty',
         name: 'Sausage',
         price: 400,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'beauty',
         name: 'Chicken',
         price: 500,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'beauty',
         name: 'Eggs',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'meats',
+        category: 'beauty',
         name: 'Pork Chop',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'meats',
+        category: 'beauty',
         name: 'Fish',
         price: 350,
         image: '',
         quantity_unit: 'pound'
     }, 
     {
-        category: 'meats',
+        category: 'beauty',
         name: 'Steak',
         price: 700,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'beauty',
         name: 'Sausage',
         price: 400,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'beauty',
         name: 'Chicken',
         price: 500,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'meats',
+        category: 'beauty',
         name: 'Eggs',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'meats',
+        category: 'beauty',
         name: 'Pork Chop',
         price: 300,
         image: '',
@@ -1587,84 +1587,84 @@ riteaidBeauty = [
 
 riteaidHousehold = [
     {
-        category: 'produce',
+        category: 'household',
         name: 'Tomato',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'household',
         name: 'Apples',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'household',
         name: 'Carrot',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'household',
         name: 'Sweet Potatoes',
         price: 200,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'household',
         name: 'Bananas',
         price: 150,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'household',
         name: 'Onion',
         price: 200,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'household',
         name: 'Tomato',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'household',
         name: 'Apples',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'household',
         name: 'Carrot',
         price: 100,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'household',
         name: 'Sweet Potatoes',
         price: 200,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'household',
         name: 'Bananas',
         price: 150,
         image: '',
         quantity_unit: 'pound'
     },
     {
-        category: 'produce',
+        category: 'household',
         name: 'Onion',
         price: 200,
         image: '',
@@ -1674,84 +1674,84 @@ riteaidHousehold = [
 
 riteaidGrocery = [
     {
-        category: 'dairyneggs',
+        category: 'grocery',
         name: 'Milk',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'grocery',
         name: 'Sliced Cheese',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'grocery',
         name: 'Shredded Cheese',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'grocery',
         name: 'Yogurt',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'grocery',
         name: 'Sour Cream',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'grocery',
         name: 'Butter',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'grocery',
         name: 'Milk',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'grocery',
         name: 'Sliced Cheese',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'grocery',
         name: 'Shredded Cheese',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'grocery',
         name: 'Yogurt',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'grocery',
         name: 'Sour Cream',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairyneggs',
+        category: 'grocery',
         name: 'Butter',
         price: 300,
         image: '',
@@ -1761,84 +1761,84 @@ riteaidGrocery = [
 
 riteaidMedicine = [
     {
-        category: 'bakery',
+        category: 'medicine',
         name: 'Bagel',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'medicine',
         name: 'Donut',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'medicine',
         name: 'Sliced Bread',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'medicine',
         name: 'Croissants',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'medicine',
         name: 'Baguette',
         price: 150,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'medicine',
         name: 'Muffins',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'medicine',
         name: 'Bagel',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'medicine',
         name: 'Donut',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'medicine',
         name: 'Sliced Bread',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'medicine',
         name: 'Croissants',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'medicine',
         name: 'Baguette',
         price: 150,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'bakery',
+        category: 'medicine',
         name: 'Muffins',
         price: 100,
         image: '',
@@ -1848,84 +1848,84 @@ riteaidMedicine = [
 
 riteaidSchoolnoffice = [
     {
-        category: 'snacks',
+        category: 'schoolnoffice',
         name: 'Potato Chips',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'schoolnoffice',
         name: 'Cookies',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'schoolnoffice',
         name: 'Gummy Bears',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'schoolnoffice',
         name: 'Chocolate',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'schoolnoffice',
         name: 'Granola',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'schoolnoffice',
         name: 'Popcorn',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'schoolnoffice',
         name: 'Potato Chips',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'schoolnoffice',
         name: 'Cookies',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'schoolnoffice',
         name: 'Gummy Bears',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'schoolnoffice',
         name: 'Chocolate',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'schoolnoffice',
         name: 'Granola',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'snacks',
+        category: 'schoolnoffice',
         name: 'Popcorn',
         price: 300,
         image: '',
@@ -1935,84 +1935,84 @@ riteaidSchoolnoffice = [
 
 costcoriteaidDiet = [
     {
-        category: 'pantryndry',
+        category: 'diet',
         name: 'Soda',
         price: 150,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'diet',
         name: 'Water',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'diet',
         name: 'Lemonade',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'diet',
         name: 'Apple Juice',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'diet',
         name: 'Iced Tea',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'diet',
         name: 'Orange Juice',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'diet',
         name: 'Soda',
         price: 150,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'diet',
         name: 'Water',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'diet',
         name: 'Lemonade',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'diet',
         name: 'Apple Juice',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'diet',
         name: 'Iced Tea',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'pantryndry',
+        category: 'diet',
         name: 'Orange Juice',
         price: 300,
         image: '',
@@ -2022,84 +2022,84 @@ costcoriteaidDiet = [
 
 riteaidPersonalCare = [
     {
-        category: 'seafood',
+        category: 'personalcare',
         name: 'Waffles',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'personalcare',
         name: 'Frozen Pizza',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'personalcare',
         name: 'Frozen Peas',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'personalcare',
         name: 'Chicken Nuggets',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'personalcare',
         name: 'Ice Cream',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'personalcare',
         name: 'Frozen Strawberries',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'personalcare',
         name: 'Waffles',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'personalcare',
         name: 'Frozen Pizza',
         price: 350,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'personalcare',
         name: 'Frozen Peas',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'personalcare',
         name: 'Chicken Nuggets',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'personalcare',
         name: 'Ice Cream',
         price: 500,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'seafood',
+        category: 'personalcare',
         name: 'Frozen Strawberries',
         price: 400,
         image: '',
