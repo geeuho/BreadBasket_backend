@@ -1498,7 +1498,7 @@ costcoPapernplastic = [
 
 
 
-costcoMeats = [
+riteaidBeauty = [
     {
         category: 'meats',
         name: 'Fish',
@@ -1585,7 +1585,7 @@ costcoMeats = [
     }
 ]
 
-costcoProduce = [
+riteaidHousehold = [
     {
         category: 'produce',
         name: 'Tomato',
@@ -1672,7 +1672,7 @@ costcoProduce = [
     }
 ]
 
-costcoDairynEggs = [
+riteaidGrocery = [
     {
         category: 'dairyneggs',
         name: 'Milk',
@@ -1759,7 +1759,7 @@ costcoDairynEggs = [
     }
 ]
 
-costcoBakery = [
+riteaidMedicine = [
     {
         category: 'bakery',
         name: 'Bagel',
@@ -1846,7 +1846,7 @@ costcoBakery = [
     }
 ]
 
-costcoSnacks = [
+riteaidSchoolnoffice = [
     {
         category: 'snacks',
         name: 'Potato Chips',
@@ -1933,7 +1933,7 @@ costcoSnacks = [
     }
 ]
 
-costcoPantryndry = [
+costcoriteaidDiet = [
     {
         category: 'pantryndry',
         name: 'Soda',
@@ -2020,7 +2020,7 @@ costcoPantryndry = [
     }
 ]
 
-costcoSeafood = [
+riteaidPersonalCare = [
     {
         category: 'seafood',
         name: 'Waffles',
@@ -2102,93 +2102,6 @@ costcoSeafood = [
         category: 'seafood',
         name: 'Frozen Strawberries',
         price: 400,
-        image: '',
-        quantity_unit: 'unit'
-    }
-]
-
-costcoPapernplastic = [
-    {
-        category: 'papernplastic',
-        name: 'Paper Towels',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Garbage Bags',
-        price: 350,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Toilet Paper',
-        price: 10000,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Paper Plates',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Gloves',
-        price: 5000,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Hand Sanitizer',
-        price: 7500,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Paper Towels',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Garbage Bags',
-        price: 350,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Toilet Paper',
-        price: 10000,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Paper Plates',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Gloves',
-        price: 5000,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'papernplastic',
-        name: 'Hand Sanitizer',
-        price: 7500,
         image: '',
         quantity_unit: 'unit'
     }
