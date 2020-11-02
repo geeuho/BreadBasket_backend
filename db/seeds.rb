@@ -1762,86 +1762,86 @@ riteaidGrocery = [
 riteaidMedicine = [
     {
         category: 'medicine',
-        name: 'Bagel',
+        name: 'Allegra',
         price: 500,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/t/0/t0wli0fbab8cmcz74cs1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'medicine',
-        name: 'Donut',
+        name: 'Band-aid',
         price: 100,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/b/l/bly8cyw13mazko118arq.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'medicine',
-        name: 'Sliced Bread',
+        name: 'Pepto Bismol',
         price: 200,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/3/0/301490100486_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'medicine',
-        name: 'Croissants',
+        name: 'Advil',
         price: 100,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/3/0/305730169400.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'medicine',
-        name: 'Baguette',
+        name: 'Alka Seltzer',
         price: 150,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/o/b/obapbtbkpxztd5p29xcf.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'medicine',
-        name: 'Muffins',
+        name: 'Aleve',
         price: 100,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/v/1/v1aygl4khxi3vls41rpy.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'medicine',
-        name: 'Bagel',
+        name: 'Vitamin Gummies',
         price: 500,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/3/031604031947.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'medicine',
-        name: 'Donut',
+        name: 'Cough Drops',
         price: 100,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/m/b/mbgom5ngxynao0cjodxl.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'medicine',
-        name: 'Sliced Bread',
+        name: 'Emergen-C Drink Mix',
         price: 200,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/7/076314302031_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'medicine',
-        name: 'Croissants',
+        name: 'Cold Medicine',
         price: 100,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/3/4/346017025286.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'medicine',
-        name: 'Baguette',
+        name: 'MetaMucil',
         price: 150,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/3/037000337102.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'medicine',
-        name: 'Muffins',
+        name: 'Icy Hot Patches',
         price: 100,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/j/o/jow5l4xgp1nomyvlaw1t.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     }
 ]
@@ -1849,91 +1849,91 @@ riteaidMedicine = [
 riteaidSchoolnoffice = [
     {
         category: 'schoolnoffice',
-        name: 'Potato Chips',
+        name: 'Pens (10 Pack)',
         price: 200,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/b/6/b6gotleriqh8dqozqcyh.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'schoolnoffice',
-        name: 'Cookies',
+        name: 'Colored Pencils',
         price: 250,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/7/071662040246.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'schoolnoffice',
-        name: 'Gummy Bears',
+        name: 'Glue',
         price: 250,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/2/026000003049.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'schoolnoffice',
-        name: 'Chocolate',
+        name: 'Highlighters',
         price: 100,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/7/071641251625.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'schoolnoffice',
-        name: 'Granola',
+        name: 'Post-It Notes',
         price: 400,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/0/00051131760707.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'schoolnoffice',
-        name: 'Popcorn',
+        name: 'Scotch Tape',
         price: 300,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/2/021200011139.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'schoolnoffice',
-        name: 'Potato Chips',
+        name: 'Scientific Calculator',
         price: 200,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/3/033317198726.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'schoolnoffice',
-        name: 'Cookies',
+        name: 'Sharpie Markers',
         price: 250,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/7/071641301627.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'schoolnoffice',
-        name: 'Gummy Bears',
+        name: 'Scissors',
         price: 250,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/0/00073577135291.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'schoolnoffice',
-        name: 'Chocolate',
+        name: 'Wite out',
         price: 100,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/y/u/yunfntb0x6d0yesfn4fs.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'schoolnoffice',
-        name: 'Granola',
+        name: 'Index Cards',
         price: 400,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/0/0055485_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'schoolnoffice',
-        name: 'Popcorn',
+        name: 'Envelopes',
         price: 300,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/0/0055144_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     }
 ]
 
-costcoriteaidDiet = [
+riteaidDiet = [
     {
         category: 'diet',
         name: 'Soda',
