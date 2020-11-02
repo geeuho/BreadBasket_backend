@@ -2126,86 +2126,86 @@ riteaidHousehold = [
 smartnfinalBakery = [
     {
         category: 'bakery',
-        name: 'Fish',
+        name: 'Hot Dog Buns',
         price: 350,
-        image: '',
+        image: 'https://i.mctimg.com/file/937e345203660013fb63fd0a1306d7c0729f2235/r400x400/4f149fa98063e8a16692a0351698f970985201ab497a7e2dd8c49e9594ff765f',
         quantity_unit: 'pound'
     }, 
     {
         category: 'bakery',
-        name: 'Steak',
+        name: 'Hamburger Buns',
         price: 700,
-        image: '',
+        image: 'https://i.mctimg.com/file/a40d10e711081435cf319868a3307fe76bd5310a/r400x400/03bc47b681d085faa0ca423bec30b2a87418b350c8af3d0cd5e29773e41a48f0',
         quantity_unit: 'pound'
     },
     {
         category: 'bakery',
-        name: 'Sausage',
+        name: 'White Bread',
         price: 400,
-        image: '',
+        image: 'https://i.mctimg.com/file/7e120774cd589ec85f8605e25edb5e3988d6f005/r400x400/57a378892fba338ef5c1185da68a09a9d121189fe001a853c765e8a9bb82f5a3',
         quantity_unit: 'pound'
     },
     {
         category: 'bakery',
-        name: 'Chicken',
+        name: 'Wheat Bread',
         price: 500,
-        image: '',
+        image: 'https://i.mctimg.com/file/3f1cf5ff17f174f8e30dd9bcd79cf36c59055d3e/r400x400/649c6e4c181bf164910b88f5896c2217a5820922f298ded9c8e6ed426ad8f161',
         quantity_unit: 'pound'
     },
     {
         category: 'bakery',
-        name: 'Eggs',
+        name: 'Croissants',
         price: 250,
-        image: '',
+        image: 'https://i.mctimg.com/file/d7353b09d1f1bced037c78ee19b740f1826e8c5e/r400x400/e6065586fdf7cdb20abe532fddad32055f49081898d6f9dd6a47368460671fa1',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
-        name: 'Pork Chop',
+        name: 'Flour Tortillas',
         price: 300,
-        image: '',
+        image: 'https://i.mctimg.com/file/19cc7e626b91d3c292e207e07f6570317317efd0/r400x400/e73aed7c935c32fdc0655dc21d939f911791777c060f84e15a42d3a58e3cf315',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
-        name: 'Fish',
+        name: 'Sourdough Bread',
         price: 350,
-        image: '',
+        image: 'https://i.mctimg.com/file/6c5b11e299e1c7b527947919bae516c3da975c95/r400x400/2548666646f9f4d243ce6ae78a566e093f77a308185b4d16654d585ffa225736',
         quantity_unit: 'pound'
     }, 
     {
         category: 'bakery',
-        name: 'Steak',
+        name: 'Bagels',
         price: 700,
-        image: '',
+        image: 'https://i.mctimg.com/file/d1796b1d5a1e6c41f705224b285e5a93681ffa28/r400x400/1b56a0feb116c9b0bcf8d194e63b7a91136ccaad2a2662dea354c7ec7834bec1',
         quantity_unit: 'pound'
     },
     {
         category: 'bakery',
-        name: 'Sausage',
+        name: 'English Muffins',
         price: 400,
-        image: '',
+        image: 'https://i.mctimg.com/file/9c29e0af9b4279faab848e70ab30d414dfea5feb/r400x400/cc8f6db2411c9ad60df42d4ea247863bd519fc06bf4bf6efc088845f606116f4',
         quantity_unit: 'pound'
     },
     {
         category: 'bakery',
-        name: 'Chicken',
+        name: 'Assorted Muffins',
         price: 500,
-        image: '',
+        image: 'https://i.mctimg.com/file/dd78d64502e9e591823463b5b5e99ec9692f817e/r400x400/6f8a9ad62cca17c148d88624098ffc6275160847af2ac3a16140b1a1533c2533',
         quantity_unit: 'pound'
     },
     {
         category: 'bakery',
-        name: 'Eggs',
+        name: 'Apple Pie',
         price: 250,
-        image: '',
+        image: 'https://i.mctimg.com/file/cb678ec5218d7571b825dd5cca007a105c4461df/r400x400/41a3b84895022687da0131430c7d67cac07d5227eb4d9d0c3e1541a257b4dec6',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
-        name: 'Pork Chop',
+        name: 'Assorted Cookies',
         price: 300,
-        image: '',
+        image: 'https://i.mctimg.com/file/e4bf51f18e97f8bc3bce00a37d08e14b4e4a8d54/r400x400/78480458e6378d41efd42bd8a40bb065b31192b987c9bfb2aaf1b0f6332d7d86',
         quantity_unit: 'unit'
     }
 ]
@@ -2213,86 +2213,86 @@ smartnfinalBakery = [
 smartnfinalBeverages = [
     {
         category: 'beverages',
-        name: 'Tomato',
+        name: 'Water (1 gallon)',
         price: 100,
-        image: '',
+        image: 'https://i.mctimg.com/file/22a82b849349faea4f4ec109b82c849dd6d1eaf5/r400x400/57ae71c6162dffeb9032720c6ed051ab8165bc88f3e4136264b76b2506edef1b',
         quantity_unit: 'pound'
     },
     {
         category: 'beverages',
-        name: 'Apples',
+        name: 'Water bottles',
         price: 100,
-        image: '',
+        image: 'https://i.mctimg.com/file/6f884a43c8ca72821e33f45d68630c17d0518a9c/r400x400/3e123d8af45c4ffb93192cc15d2a698dc5138bef5f45d9f873d54cb23e1470a7',
         quantity_unit: 'pound'
     },
     {
         category: 'beverages',
-        name: 'Carrot',
+        name: 'Apple Juice',
         price: 100,
-        image: '',
+        image: 'https://i.mctimg.com/file/b27a657a5b3f624f9942adf63479364e5b268f56/r400x400/32b0025522e5c8c43f6fd5fdcb8611e6487091d7ed8b020c3d48a6c2bd1335ce',
         quantity_unit: 'pound'
     },
     {
         category: 'beverages',
-        name: 'Sweet Potatoes',
+        name: 'Orange Juice',
         price: 200,
-        image: '',
+        image: 'https://i.mctimg.com/file/82b91ed7d3b59ae91b76e9dbfe869dc267352a5d/r400x400/9de69cb89089be91f9b98dca00486bf5162cb7c4c9a5f97225a2920eecf2432b',
         quantity_unit: 'pound'
     },
     {
         category: 'beverages',
-        name: 'Bananas',
+        name: 'Pineapple Juice',
         price: 150,
-        image: '',
+        image: 'https://i.mctimg.com/file/d867d0c5624d156e0769b38b65d3696e81dd3d2f/r400x400/9c5da308bfad31fcf8cc2c5864e6338e872745f3da3f0564cef41aeb63986fa9',
         quantity_unit: 'pound'
     },
     {
         category: 'beverages',
-        name: 'Onion',
+        name: 'Grapefruit Juice',
         price: 200,
-        image: '',
+        image: 'https://i.mctimg.com/file/f43a5ab726657ba20a8b8f52ab6a118c4773a911/r400x400/40733afeda6c53ad769a72ea0be2989a0e2495bb9ea3bac2a7436323ff0c4096',
         quantity_unit: 'pound'
     },
     {
         category: 'beverages',
-        name: 'Tomato',
+        name: 'Sparkling Water',
         price: 100,
-        image: '',
+        image: 'https://i.mctimg.com/file/a6aa66037869be0aa30035f405d91d4a4d32a004/r400x400/3ced40eb18f3514003ab0af5de1b94b65cd072b87fc86cc4400e891eda63b5cc',
         quantity_unit: 'pound'
     },
     {
         category: 'beverages',
-        name: 'Apples',
+        name: 'Coconut Water',
         price: 100,
-        image: '',
+        image: 'https://i.mctimg.com/file/2e7ab64dbb512e63e1a325f79f90eff93c6dd762/r400x400/7161d22010b3689bde3ed1ecf9dc040c18c8c719bc501355ef9f4fbced76787e',
         quantity_unit: 'pound'
     },
     {
         category: 'beverages',
-        name: 'Carrot',
+        name: 'La Croix Variety Pack',
         price: 100,
-        image: '',
+        image: 'https://i.mctimg.com/file/286693dbb4ceb6e703ca1612b4058e6e7b7c99f6/r400x400/7b59f1c213a0d8a0c50f36a2100d0ad8b056b0e14e633cff4619a8cac9577de1',
         quantity_unit: 'pound'
     },
     {
         category: 'beverages',
-        name: 'Sweet Potatoes',
+        name: 'Diet Coke (24 Pack)',
         price: 200,
-        image: '',
+        image: 'https://i.mctimg.com/file/483be84d4e85ff2d8205db79d8c5c0c15fee73d7/r400x400/bffcf99774b9768a618e75eeaa5d44c7970ee88060424f591452742b517a4096',
         quantity_unit: 'pound'
     },
     {
         category: 'beverages',
-        name: 'Bananas',
+        name: 'Vitamin Water',
         price: 150,
-        image: '',
+        image: 'https://i.mctimg.com/file/ed04d863f63c815afdc701bc92a71587c96ebcc9/r400x400/04543d21e6a6285c49bb8ae0e6f52ffd705c341a3a203691b5b1ac5c014100fa',
         quantity_unit: 'pound'
     },
     {
         category: 'beverages',
-        name: 'Onion',
+        name: 'Powerade',
         price: 200,
-        image: '',
+        image: 'https://i.mctimg.com/file/48ae008a12384109ccef599f1c1c8a189fb80480/r400x400/0c4663816c079c4c215ec16873ead4c476c05ff293687a8a902c2bbce6e872ae',
         quantity_unit: 'pound'
     }
 ]
