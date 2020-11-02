@@ -1501,86 +1501,86 @@ costcoPapernplastic = [
 riteaidBeauty = [
     {
         category: 'beauty',
-        name: 'Fish',
-        price: 350,
-        image: '',
+        name: 'Mascara',
+        price: 550,
+        image: 'https://www.riteaid.com/shop/media/catalog/product/3/0/309970173029.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     }, 
     {
         category: 'beauty',
-        name: 'Steak',
+        name: 'Nail Polish',
         price: 700,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/0/00095008000701.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
         category: 'beauty',
-        name: 'Sausage',
+        name: 'Lipstick',
         price: 400,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/3/0/309970038939.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
         category: 'beauty',
-        name: 'Chicken',
+        name: 'Nail File',
         price: 500,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/1/011822134545_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
         category: 'beauty',
-        name: 'Eggs',
+        name: 'Nail Polish Remover',
         price: 250,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/0/00011822632225.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'beauty',
-        name: 'Pork Chop',
+        name: 'Sun Screen',
         price: 300,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/7/079656049718_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'beauty',
-        name: 'Fish',
+        name: 'Lip Gloss',
         price: 350,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/7/077802646347.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     }, 
     {
         category: 'beauty',
-        name: 'Steak',
+        name: 'Face Scrub',
         price: 700,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/o/o/ooj3fk0luim9ucnhgcvy.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
         category: 'beauty',
-        name: 'Sausage',
+        name: 'Facial Towelettes',
         price: 400,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/7/9/792850014442.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
         category: 'beauty',
-        name: 'Chicken',
+        name: 'Body Lotion',
         price: 500,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/3/0371221_nivea_shea_daily_moisture_287205-2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
         category: 'beauty',
-        name: 'Eggs',
+        name: 'Cologne',
         price: 250,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/3/038949960109.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'beauty',
-        name: 'Pork Chop',
+        name: 'Perfume',
         price: 300,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/7/1/719346647854.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     }
 ]
@@ -1588,86 +1588,86 @@ riteaidBeauty = [
 riteaidHousehold = [
     {
         category: 'household',
-        name: 'Tomato',
+        name: 'Tampons',
         price: 100,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/7/073010631090_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
         category: 'household',
-        name: 'Apples',
+        name: 'Pads',
         price: 100,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/o/a/oapssfz4dsvcwzdh2pmx.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
         category: 'household',
-        name: 'Carrot',
+        name: 'Whitening Strips',
         price: 100,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/y/8/y8xfs1sfrb2e9jx1ur4y.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
         category: 'household',
-        name: 'Sweet Potatoes',
+        name: 'Toothpaste',
         price: 200,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/x/1/x1akhwu110lohzts6moh.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
         category: 'household',
-        name: 'Bananas',
+        name: 'Toothbrush (6 Pack)',
         price: 150,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/3/035000972163.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
         category: 'household',
-        name: 'Onion',
+        name: 'Mouthwash',
         price: 200,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/q/0/q0zor3jrrtt56kyh8pec.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
         category: 'household',
-        name: 'Tomato',
+        name: 'Dental Floss',
         price: 100,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/a/n/ancmsovd76jkc6oilbj3.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
         category: 'household',
-        name: 'Apples',
+        name: 'Breath Strips',
         price: 100,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/0/00012547433203.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
         category: 'household',
-        name: 'Carrot',
+        name: 'Eye Drops',
         price: 100,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/1/011822225519.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
         category: 'household',
-        name: 'Sweet Potatoes',
+        name: 'Contacts Case',
         price: 200,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/0/00076855710210.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
         category: 'household',
-        name: 'Bananas',
+        name: 'Deodorant Stick',
         price: 150,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/1/012044038840.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
         category: 'household',
-        name: 'Onion',
+        name: 'Deodorant Spray',
         price: 200,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/r/u/ru07nsuf38vurtxdd7sl.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     }
 ]
@@ -1675,86 +1675,86 @@ riteaidHousehold = [
 riteaidGrocery = [
     {
         category: 'grocery',
-        name: 'Milk',
+        name: 'Saltine Crackers',
         price: 250,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/8/7/876274001834_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'grocery',
-        name: 'Sliced Cheese',
+        name: 'Teriyaki Beef Strips',
         price: 350,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/1/017082887184.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'grocery',
-        name: 'Shredded Cheese',
+        name: 'Sugar Free Gum',
         price: 400,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/1/012546011099.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'grocery',
-        name: 'Yogurt',
+        name: 'Tea Bags',
         price: 300,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/4/041000002717.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'grocery',
-        name: 'Sour Cream',
+        name: 'Vegetable Oil',
         price: 500,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/1/011822998673.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'grocery',
-        name: 'Butter',
+        name: 'Macaroni and Cheese',
         price: 300,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/2/021000653713.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'grocery',
-        name: 'Milk',
+        name: 'Mixed Nuts',
         price: 250,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/2/029000016705.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'grocery',
-        name: 'Sliced Cheese',
+        name: 'Coffee',
         price: 350,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/7/1/711535506652.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'grocery',
-        name: 'Shredded Cheese',
+        name: 'Raisin Bran',
         price: 400,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/e/k/ek71z6hhtpobdcmrpfdi.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'grocery',
-        name: 'Yogurt',
+        name: 'Organic Gummy Bears',
         price: 300,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/4/041420033735.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'grocery',
-        name: 'Sour Cream',
+        name: 'Chocolate Bar',
         price: 500,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/k/x/kxamyuxhmpdxmwezacst.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'grocery',
-        name: 'Butter',
+        name: 'Canned Soup',
         price: 300,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/4/041196412017.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     }
 ]
