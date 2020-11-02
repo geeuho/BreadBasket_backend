@@ -1585,86 +1585,86 @@ riteaidBeauty = [
     }
 ]
 
-riteaidHousehold = [
+riteaidPersonalCare = [
     {
-        category: 'household',
+        category: 'personalcare',
         name: 'Tampons',
         price: 100,
         image: 'https://www.riteaid.com/shop/media/catalog/product/0/7/073010631090_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
-        category: 'household',
+        category: 'personalcare',
         name: 'Pads',
         price: 100,
         image: 'https://www.riteaid.com/shop/media/catalog/product/o/a/oapssfz4dsvcwzdh2pmx.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
-        category: 'household',
+        category: 'personalcare',
         name: 'Whitening Strips',
         price: 100,
         image: 'https://www.riteaid.com/shop/media/catalog/product/y/8/y8xfs1sfrb2e9jx1ur4y.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
-        category: 'household',
+        category: 'personalcare',
         name: 'Toothpaste',
         price: 200,
         image: 'https://www.riteaid.com/shop/media/catalog/product/x/1/x1akhwu110lohzts6moh.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
-        category: 'household',
+        category: 'personalcare',
         name: 'Toothbrush (6 Pack)',
         price: 150,
         image: 'https://www.riteaid.com/shop/media/catalog/product/0/3/035000972163.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
-        category: 'household',
+        category: 'personalcare',
         name: 'Mouthwash',
         price: 200,
         image: 'https://www.riteaid.com/shop/media/catalog/product/q/0/q0zor3jrrtt56kyh8pec.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
-        category: 'household',
+        category: 'personalcare',
         name: 'Dental Floss',
         price: 100,
         image: 'https://www.riteaid.com/shop/media/catalog/product/a/n/ancmsovd76jkc6oilbj3.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
-        category: 'household',
+        category: 'personalcare',
         name: 'Breath Strips',
         price: 100,
         image: 'https://www.riteaid.com/shop/media/catalog/product/0/0/00012547433203.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
-        category: 'household',
+        category: 'personalcare',
         name: 'Eye Drops',
         price: 100,
         image: 'https://www.riteaid.com/shop/media/catalog/product/0/1/011822225519.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
-        category: 'household',
+        category: 'personalcare',
         name: 'Contacts Case',
         price: 200,
         image: 'https://www.riteaid.com/shop/media/catalog/product/0/0/00076855710210.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
-        category: 'household',
+        category: 'personalcare',
         name: 'Deodorant Stick',
         price: 150,
         image: 'https://www.riteaid.com/shop/media/catalog/product/0/1/012044038840.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'pound'
     },
     {
-        category: 'household',
+        category: 'personalcare',
         name: 'Deodorant Spray',
         price: 200,
         image: 'https://www.riteaid.com/shop/media/catalog/product/r/u/ru07nsuf38vurtxdd7sl.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
@@ -1936,173 +1936,173 @@ riteaidSchoolnoffice = [
 riteaidDiet = [
     {
         category: 'diet',
-        name: 'Soda',
+        name: 'Protein Bar',
         price: 150,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/7/4/749826763309_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'diet',
-        name: 'Water',
+        name: '5-Hour Energy Shot',
         price: 100,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/7/1/719410750015.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'diet',
-        name: 'Lemonade',
+        name: 'Shaker Cup',
         price: 350,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/0/00048107150297.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'diet',
-        name: 'Apple Juice',
+        name: 'Protein Shake',
         price: 200,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/4/048107184490.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'diet',
-        name: 'Iced Tea',
+        name: 'Whey Powder',
         price: 200,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/4/048107175658.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'diet',
-        name: 'Orange Juice',
+        name: 'SlimFast',
         price: 300,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/8/083467400170.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'diet',
-        name: 'Soda',
+        name: 'Muscle Milk',
         price: 150,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/8/7/876063005784.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'diet',
-        name: 'Water',
+        name: 'Ketone Powder',
         price: 100,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/3/035046107840.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'diet',
-        name: 'Lemonade',
+        name: 'Herbal Tea',
         price: 350,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/3/032917001658.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'diet',
-        name: 'Apple Juice',
+        name: 'Weight Loss Supplements',
         price: 200,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/6/3/631656607277.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'diet',
-        name: 'Iced Tea',
+        name: 'Water Pills',
         price: 200,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/4/048107186500.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
         category: 'diet',
-        name: 'Orange Juice',
+        name: 'Electrolyte Solution',
         price: 300,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/f/o/fox1unwgzszajndgpvdj.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     }
 ]
 
-riteaidPersonalCare = [
+riteaidHousehold = [
     {
-        category: 'personalcare',
-        name: 'Waffles',
+        category: 'household',
+        name: 'Scented Oil Fragrance',
         price: 300,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/6/062338797175_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
-        category: 'personalcare',
-        name: 'Frozen Pizza',
-        price: 350,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'personalcare',
-        name: 'Frozen Peas',
-        price: 250,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'personalcare',
-        name: 'Chicken Nuggets',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'personalcare',
-        name: 'Ice Cream',
+        category: 'household',
+        name: 'Dryer Sheets',
         price: 500,
-        image: '',
-        quantity_unit: 'unit'
+        image: 'https://www.riteaid.com/shop/media/catalog/product/s/o/sozbawyde2o7qzgkifts.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
+        quantity_unit: 'pound'
     },
     {
-        category: 'personalcare',
-        name: 'Frozen Strawberries',
-        price: 400,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'personalcare',
-        name: 'Waffles',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'personalcare',
-        name: 'Frozen Pizza',
-        price: 350,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'personalcare',
-        name: 'Frozen Peas',
+        category: 'household',
+        name: 'Drano',
         price: 250,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/1/019800001179.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
-        category: 'personalcare',
-        name: 'Chicken Nuggets',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'personalcare',
-        name: 'Ice Cream',
+        category: 'household',
+        name: 'Liquid Fabric Conditioner',
         price: 500,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/3/037000357513_3.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     },
     {
-        category: 'personalcare',
-        name: 'Frozen Strawberries',
+        category: 'household',
+        name: 'AAA Batteries',
+        price: 300,
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/4/041333740645_x.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Trash Bags',
+        price: 250,
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/1/012587783627.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Bowl Brush',
         price: 400,
-        image: '',
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/0/00071736000220.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Water Filter Replacements',
+        price: 350,
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/6/060258355031_1.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Insect Repellant',
+        price: 300,
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/1/016500536550.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Toilet Paper',
+        price: 300,
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/3/037000609896.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Ziploc Bags',
+        price: 500,
+        image: 'https://www.riteaid.com/shop/media/catalog/product/g/6/g6aeqf6312jq0iuaejjg.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Kleenex Tissues',
+        price: 400,
+        image: 'https://www.riteaid.com/shop/media/catalog/product/0/3/036000500912.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
         quantity_unit: 'unit'
     }
 ]
