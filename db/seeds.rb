@@ -100,49 +100,49 @@ safewayMeats = [
         category: 'meats',
         name: 'Tilapia',
         price: 300,
-        image: '',
+        image: 'https://images-na.ssl-images-amazon.com/images/I/61IW7kwF4LL._SL1000_.jpg',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
         name: 'Scallops',
         price: 600,
-        image: '',
+        image: 'https://cdn.shopify.com/s/files/1/0088/3284/3891/products/scallops-istock-1000px_1000x.jpg?v=1599241512',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
         name: 'Shrimp',
         price: 700,
-        image: '',
+        image: 'https://snworksceo.imgix.net/dpn-utb/18999dd5-db5d-43c7-a9e9-d22040e7eb03.sized-1000x1000.jpg?w=1000',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
         name: 'Steak',
         price: 700,
-        image: 'https://www.jlgreenfarm.com/images/product/large/49.jpg',
+        image: 'https://www.kroger.com/product/images/xlarge/front/0020202400000',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
         name: 'Sausage',
         price: 400,
-        image: 'https://www.jlgreenfarm.com/watermark?ImageSize=large&ImageUrl=%2Fimages%2Fproduct%2Flarge%2F36.jpg',
+        image: 'https://images.squarespace-cdn.com/content/v1/5b81fa0036099bd7b32fcb0e/1554922008368-8N0P3NQM99IYHFR0BL32/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0s0XaMNjCqAzRibjnE_wBlkZ2axuMlPfqFLWy-3Tjp4nKScCHg1XF4aLsQJlo6oYbA/image-asset.jpeg',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
         name: 'Drumsticks',
         price: 300,
-        image: 'https://images-na.ssl-images-amazon.com/images/I/412TgjX2bIL.jpg',
+        image: 'https://cdn.shopify.com/s/files/1/0384/2454/3276/products/3.RawDrumstick_1200x1200.jpg?v=1589291103',
         quantity_unit: 'unit'
     },
     {
         category: 'meats',
         name: 'Chicken Breast',
         price: 500,
-        image: 'https://cdn.shopify.com/s/files/1/0364/9277/1372/products/700104869_1-me-fresh-chicken-boneless-breast_600x600.jpg?v=1586545190',
+        image: 'https://images.squarespace-cdn.com/content/v1/52a752a8e4b01bb79a7699da/1587169043181-578EIRIZZBX09W5S013C/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmN9YSRtfoTLg6dUq-6F17A0FFZK5fArcnK1IqGweyunyWChwIwkIJ_P7MaZif-uMs/CHKBRST.png?format=1000w',
         quantity_unit: 'pound'
     },
     {
@@ -163,21 +163,21 @@ safewayMeats = [
         category: 'meats',
         name: 'Bacon',
         price: 350,
-        image: '',
+        image: 'https://www.nbsmokehouse.com/content/products-sq/399-large.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'meats',
         name: 'Ground Beef',
         price: 300,
-        image: '',
+        image: 'https://contenthandler.azureedge.net/prod/2566/1/0/0/ground_beef.jpg',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
         name: 'Ground Turkey',
         price: 350,
-        image: '',
+        image: 'https://contenthandler.azureedge.net/prod/2534/1/0/0/Ground-turkey.jpg',
         quantity_unit: 'pound'
     }
 ]
@@ -200,22 +200,22 @@ safewayProduce = [
     {
         category: 'produce',
         name: 'Avocado',
-        price: 200,
-        image: '',
+        price: 100,
+        image: 'https://images.squarespace-cdn.com/content/v1/5849a99559cc68cbf70938bc/1596513968302-GX7ZOGCCYO26IYC1M0V6/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmN9YSRtfoTLg6dUq-6F17A0FFZK5fArcnK1IqGweyunyWChwIwkIJ_P7MaZif-uMs/avocado.png',
         quantity_unit: 'unit'
     },
     {
         category: 'produce',
         name: 'Potatoes',
         price: 200,
-        image: '',
+        image: 'https://potatoesusa.com/wp-content/uploads/2020/03/POT200070_StorageHandling_Post1.jpg',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
         name: 'Broccoli',
         price: 100,
-        image: '',
+        image: 'https://nutritionfacts.org/app/uploads/2018/08/1Priority-Presentation.009.jpeg',
         quantity_unit: 'unit'
     },
     {
@@ -243,28 +243,28 @@ safewayProduce = [
         category: 'produce',
         name: 'Oranges',
         price: 175,
-        image: '',
+        image: 'https://1sko7hidmsn3sgyaq3x2h9r9-wpengine.netdna-ssl.com/wp-content/uploads/2014/02/oranges-01.jpg',
         quantity_unit: 'pound'
     },
     {
         category: 'produce',
         name: 'Grapes',
         price: 300,
-        image: '',
+        image: 'https://images.homedepot-static.com/productImages/a530c427-8297-464c-90f8-6607c9d1479b/svn/van-zyverden-fruit-plants-83723-64_1000.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'produce',
         name: 'Blueberries',
         price: 350,
-        image: '',
+        image: 'https://images.homedepot-static.com/productImages/9acf1cba-53a6-4465-88d9-d2ff813b3e33/svn/van-zyverden-fruit-plants-83730-64_1000.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'produce',
         name: 'Plums',
         price: 150,
-        image: '',
+        image: 'https://images.squarespace-cdn.com/content/v1/56411b8de4b09d10c39df2d8/1551413509186-658I35TU6WYXNAIPCR8G/ke17ZwdGBToddI8pDm48kLXCf88_9uNTKXkq27cF4sB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmzUsryC7riGV7bTeYhg5Sep4Y8p3OCJVqs3FfNTLch3O2M0DsfUdwheg190rC2-Re/3.jpg',
         quantity_unit: 'pound'
     },
 ]
@@ -281,35 +281,35 @@ safewayDairy = [
         category: 'dairy',
         name: 'Chocolate Milk',
         price: 275,
-        image: '',
+        image: 'https://i5.walmartimages.com/asr/8a12a15d-897d-481a-bad6-7549fe91af18_1.a86cdf9efbe2a3d5cfd75c4253180276.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'dairy',
         name: 'Oat Milk',
         price: 375,
-        image: '',
+        image: 'https://www.kroger.com/product/images/xlarge/front/0001111003850',
         quantity_unit: 'unit'
     },
     {
         category: 'dairy',
         name: 'Soy Milk',
         price: 350,
-        image: '',
+        image: 'https://target.scene7.com/is/image/Target/GUEST_694082ed-2d4e-4d73-b0f9-b2abfc6cd5bc?wid=1000&hei=1000',
         quantity_unit: 'unit'
     },
     {
         category: 'dairy',
         name: 'American Cheese',
         price: 300,
-        image: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsJHgEUUJfI6aMg2FpxfAB1eodijNb-gV62Q&usqp=CAU',
         quantity_unit: 'unit'
     },
     {
         category: 'dairy',
         name: 'Swiss Cheese',
         price: 400,
-        image: '',
+        image: 'https://www.markys.com/images/shop/detail/3801/120802-emmentaler-swiss-cheese--m42903-o0-original.jpg',
         quantity_unit: 'unit'
     },
     {
@@ -323,7 +323,7 @@ safewayDairy = [
         category: 'dairy',
         name: 'Cottage Cheese',
         price: 350,
-        image: '',
+        image: 'https://parentinghub.co.za/wp-content/uploads/2020/05/RD_Cottage-cheese_Apr20-1000x1000.jpeg',
         quantity_unit: 'unit'
     },
     {
@@ -344,7 +344,7 @@ safewayDairy = [
         category: 'dairy',
         name: 'Coffee Creamer',
         price: 350,
-        image: '',
+        image: 'https://www.kroger.com/product/images/xlarge/front/0005000032275',
         quantity_unit: 'unit'
     },
     {
@@ -382,7 +382,7 @@ safewayBakery = [
         category: 'bakery',
         name: 'Rye Bread',
         price: 250,
-        image: '',
+        image: 'https://cdn.shopify.com/s/files/1/1186/3480/products/RyeLarge_1000x1000.jpg?v=1549736448',
         quantity_unit: 'unit'
     },
     {
@@ -403,42 +403,42 @@ safewayBakery = [
         category: 'bakery',
         name: 'Blueberry Muffins',
         price: 300,
-        image: '',
+        image: 'https://sugargeekshow.com/wp-content/uploads/2019/10/lemon-blueberry-muffin-recipe-featured.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Chocolate Muffins',
         price: 300,
-        image: '',
+        image: 'https://i.pinimg.com/originals/e5/a4/86/e5a48656e441e11bf82a8f62917e1566.png',
         quantity_unit: 'unit'
     }
     {
         category: 'bakery',
         name: 'Pumpkin Pie',
         price: 550,
-        image: '',
+        image: 'https://static.wixstatic.com/media/9877f1_2e7879c5902541beb5d07a648482ba13~mv2_d_1512_1512_s_2.jpg/v1/fill/w_1000,h_1000,al_c,q_90,usm_0.66_1.00_0.01/9877f1_2e7879c5902541beb5d07a648482ba13~mv2_d_1512_1512_s_2.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Apple Pie',
         price: 550,
-        image: '',
+        image: 'https://www.momlovesbaking.com/wp-content/uploads/2020/08/Best-Ever-Apple-Pie-SQ.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Strawberry Cake',
         price: 700,
-        image: '',
+        image: 'https://i.pinimg.com/originals/7e/e1/f5/7ee1f549959dcc3ece87ad0d637ed7d7.png',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Tiramisu',
         price: 800,
-        image: '',
+        image: 'https://cdn.shopify.com/s/files/1/0360/3578/8938/products/D210_Photo_1_1024x.jpg?v=1586379128',
         quantity_unit: 'unit'
     }
 ]
@@ -455,49 +455,49 @@ safewaySnacks = [
         category: 'snacks',
         name: 'Cheese Puffs',
         price: 250,
-        image: '',
+        image: 'https://marvel-b1-cdn.bc0a.com/f00000000211592/cdn.shopify.com/s/files/1/2804/5352/products/Jax_ProductC_1500x1500_37bcf7ce-574f-403a-b0b7-6864e837b8c0_1000x.jpg?v=1592324437',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Tortilla Chips',
         price: 250,
-        image: '',
+        image: 'https://www.yellowblissroad.com/wp-content/uploads/2020/08/air-fryer-tortilla-chips-social.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Saltine Crackers',
         price: 275,
-        image: '',
+        image: 'https://www1.pictures.zimbio.com/mp/jGg6CB1L5Xhx.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Choclate Chip Cookies',
         price: 350,
-        image: 'https://www.simplejoy.com/wp-content/uploads/2019/06/oatmeal_chocolate_chip_cookies-500x500.jpg',
+        image: 'https://cdn.shopify.com/s/files/1/0002/1187/7945/products/Mayas-Cookies-2048x2048-choc-chip_1000x1000.jpg?v=1596588072',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Oreos',
         price: 450,
-        image: '',
+        image: 'https://assets.rbl.ms/21445425/origin.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Triscuit',
+        name: 'Peanuts',
         price: 375,
-        image: '',
+        image: 'https://kitchenkneads.com/wp-content/uploads/2015/09/Peanuts-Blanched-Roasted-and-Salted-1000x1000-420x420.png',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Gummy Bears',
         price: 250,
-        image: 'https://www.kehrs.com/Content/files/GenCart/ProductImages/Albanese%20bears.jpg',
+        image: 'https://ncifarms.com/wp-content/uploads/2019/04/Gummy-bears-new-1000x1000.jpg',
         quantity_unit: 'unit'
     },
     {
@@ -518,7 +518,7 @@ safewaySnacks = [
         category: 'snacks',
         name: 'Graham Crackers',
         price: 400,
-        image: '',
+        image: 'https://cdn.shopify.com/s/files/1/1717/4113/products/19e4baa1bb9b7a9cf9b1be1ff1f3ad8c78d2978b_2048x2048.jpg?v=1542845853',
         quantity_unit: 'unit'
     },
     {
@@ -535,42 +535,56 @@ safewayBeverages = [
         category: 'beverages',
         name: 'Coke (2 Liter)',
         price: 150,
-        image: '',
+        image: 'https://applejack.com/site/images/Coke-Classic-20-l-8-Case_1.png',
         quantity_unit: 'unit'
     },
     {
         category: 'beverages',
         name: 'Sprite (2 Liter)',
         price: 150,
-        image: '',
+        image: 'https://pikfly.com/images/products/50/13778.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Mountain Dew (2 Liter)',
+        price: 150,
+        image: 'https://images-na.ssl-images-amazon.com/images/I/61A3WTLwcJL._SL1000_.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'beverages',
         name: 'Fanta (12 Pack)',
         price: 550,
-        image: '',
+        image: 'https://www.kroger.com/product/images/xlarge/front/0004900003073',
         quantity_unit: 'unit'
     },
     {
         category: 'beverages',
         name: 'Root Beer (12 Pack)',
         price: 550,
-        image: '',
+        image: 'https://www.kroger.com/product/images/xlarge/front/0007800005216',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Gatorade',
+        price: 150,
+        image: 'https://d1hd66yyn98tad.cloudfront.net/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/D/T/DT367266.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'beverages',
         name: 'Water (2.5 gallon)',
         price: 200,
-        image: '',
+        image: 'https://www.kroger.com/product/images/xlarge/front/0001111088543',
         quantity_unit: 'unit'
     },
     {
         category: 'beverages',
-        name: 'Water Bottles (32 ct.)',
-        price: 350,
-        image: '',
+        name: 'Water (32 Pack)',
+        price: 300,
+        image: 'https://i5.walmartimages.com/asr/d84ca5b0-7b6e-49ae-8535-84309db263e9_1.d212675cbdd5c05c1ac3af98f8e2a727.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff',
         quantity_unit: 'unit'
     },
     {
@@ -582,6 +596,13 @@ safewayBeverages = [
     },
     {
         category: 'beverages',
+        name: 'Orange Juice',
+        price: 300,
+        image: 'https://www.mustlovehome.com/wp-content/uploads/2018/03/orange-syrup-5-500x500.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
         name: 'Iced Tea',
         price: 200,
         image: 'https://copykat.com/wp-content/uploads/2019/02/homemade-copycat-mcdonalds-sweet-tea-2-500x500.jpg',
@@ -589,9 +610,9 @@ safewayBeverages = [
     },
     {
         category: 'beverages',
-        name: 'Orange Juice',
-        price: 300,
-        image: 'https://www.mustlovehome.com/wp-content/uploads/2018/03/orange-syrup-5-500x500.jpg',
+        name: 'Iced Coffee',
+        price: 200,
+        image: 'https://contenthandler.azureedge.net/prod/1067/1/0/0/organic-new-orleans-iced-coffee.jpg',
         quantity_unit: 'unit'
     }
 ]
@@ -601,7 +622,7 @@ safewayFrozen = [
         category: 'frozen',
         name: 'Waffles',
         price: 300,
-        image: '',
+        image: 'https://images.food52.com/6T6_Cf6XwCixyyppQEbW-6vQ3CM=/1000x1000/cb400977-61dc-4fb4-bdc4-bf9b45368782--2016-0711_yeast-risen-waffles_baking-basics_bobbi-lin_2569.jpg',
         quantity_unit: 'unit'
     },
     {
@@ -643,14 +664,14 @@ safewayFrozen = [
         category: 'frozen',
         name: 'Ice Cream Sandwiches',
         price: 550,
-        image: 'https://www.theroastedroot.net/wp-content/uploads/2018/06/vanilla_keto_ice_cream_1-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
         name: 'Drumstick Ice Cream',
         price: 650,
-        image: 'https://www.theroastedroot.net/wp-content/uploads/2018/06/vanilla_keto_ice_cream_1-500x500.jpg',
+        image: '',
         quantity_unit: 'unit'
     },
     {
