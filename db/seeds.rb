@@ -643,7 +643,7 @@ safewayFrozen = [
         category: 'frozen',
         name: 'Frozen Corn',
         price: 250,
-        image: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfOyKjOLGzD9F08CwbQPW8PL3Vs-O1nw1m1A&usqp=CAU',
         quantity_unit: 'unit'
     },
     {
@@ -657,42 +657,42 @@ safewayFrozen = [
         category: 'frozen',
         name: 'Ice Cream (Pint)',
         price: 500,
-        image: '',
+        image: 'https://res.cloudinary.com/hksqkdlah/image/upload/ar_1:1,c_fill,dpr_1.0,e_replace_color:fcf9f3:100:ffffff,f_auto,fl_lossy.progressive.strip_profile,g_faces:auto,q_auto:low,w_700/STP_SofteningIceCream_InFridge_002_kqxpqf',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
         name: 'Ice Cream Sandwiches',
         price: 550,
-        image: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS38mIhu2o8kVXMzOyqv7yJEYJ57V4IJv28QA&usqp=CAU',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
         name: 'Drumstick Ice Cream',
         price: 650,
-        image: '',
+        image: 'https://cdn.richcontext.com/media/7204820651-ebdfe50885b08f8b0235eb6c5e70f507.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
         name: 'Puff Pastry',
         price: 450,
-        image: '',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR3FVTdZ3vvtXqvzM6UdKZaq8J5NO4UTYWmcw&usqp=CAU',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
         name: 'TV Dinner',
         price: 350,
-        image: '',
+        image: 'https://www.kroger.com/product/images/xlarge/front/0005100006276',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
         name: 'Chicken Pot Pie',
         price: 250,
-        image: '',
+        image: 'https://www.kroger.com/product/images/xlarge/front/0002113150691',
         quantity_unit: 'unit'
     },
     {
@@ -728,16 +728,16 @@ safewayHousehold = [
     },
     {
         category: 'household',
-        name: 'Lysol Sanitizer',
+        name: 'Lysol Cleaner',
         price: 80000,
-        image: '',
+        image: 'https://images.homedepot-static.com/productImages/f881ee41-a0ff-45ac-a11e-9591a118ea9d/svn/lysol-all-purpose-cleaners-19200-00351-64_1000.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'household',
         name: 'Napkins',
         price: 200,
-        image: '',
+        image: 'https://images-na.ssl-images-amazon.com/images/I/51vuZ6P35SL._SL1000_.jpg',
         quantity_unit: 'unit'
     },
     {
@@ -751,21 +751,21 @@ safewayHousehold = [
         category: 'household',
         name: 'Plastic Utensils',
         price: 350,
-        image: '',
+        image: 'https://i.pinimg.com/originals/c3/b0/42/c3b042042fb393179f762db90a708d09.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'household',
         name: 'Dishwashing Soap',
         price: 200,
-        image: '',
+        image: 'https://images.homedepot-static.com/productImages/3fdacf42-e266-4beb-b9ca-c9533553212a/svn/dawn-dish-soap-003700091544-64_1000.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'household',
         name: 'Laundry Detergent',
         price: 800,
-        image: '',
+        image: 'https://www.kroger.com/product/images/xlarge/front/0003700008886',
         quantity_unit: 'unit'
     },
     }
