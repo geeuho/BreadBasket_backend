@@ -2127,35 +2127,35 @@ smartnfinalBakery = [
     {
         category: 'bakery',
         name: 'Hot Dog Buns',
-        price: 350,
+        price: 250,
         image: 'https://i.mctimg.com/file/937e345203660013fb63fd0a1306d7c0729f2235/r400x400/4f149fa98063e8a16692a0351698f970985201ab497a7e2dd8c49e9594ff765f',
         quantity_unit: 'pound'
     }, 
     {
         category: 'bakery',
         name: 'Hamburger Buns',
-        price: 700,
+        price: 250,
         image: 'https://i.mctimg.com/file/a40d10e711081435cf319868a3307fe76bd5310a/r400x400/03bc47b681d085faa0ca423bec30b2a87418b350c8af3d0cd5e29773e41a48f0',
         quantity_unit: 'pound'
     },
     {
         category: 'bakery',
         name: 'White Bread',
-        price: 400,
+        price: 200,
         image: 'https://i.mctimg.com/file/7e120774cd589ec85f8605e25edb5e3988d6f005/r400x400/57a378892fba338ef5c1185da68a09a9d121189fe001a853c765e8a9bb82f5a3',
         quantity_unit: 'pound'
     },
     {
         category: 'bakery',
         name: 'Wheat Bread',
-        price: 500,
+        price: 200,
         image: 'https://i.mctimg.com/file/3f1cf5ff17f174f8e30dd9bcd79cf36c59055d3e/r400x400/649c6e4c181bf164910b88f5896c2217a5820922f298ded9c8e6ed426ad8f161',
         quantity_unit: 'pound'
     },
     {
         category: 'bakery',
         name: 'Croissants',
-        price: 250,
+        price: 400,
         image: 'https://i.mctimg.com/file/d7353b09d1f1bced037c78ee19b740f1826e8c5e/r400x400/e6065586fdf7cdb20abe532fddad32055f49081898d6f9dd6a47368460671fa1',
         quantity_unit: 'unit'
     },
@@ -2169,42 +2169,42 @@ smartnfinalBakery = [
     {
         category: 'bakery',
         name: 'Sourdough Bread',
-        price: 350,
+        price: 250,
         image: 'https://i.mctimg.com/file/6c5b11e299e1c7b527947919bae516c3da975c95/r400x400/2548666646f9f4d243ce6ae78a566e093f77a308185b4d16654d585ffa225736',
         quantity_unit: 'pound'
     }, 
     {
         category: 'bakery',
         name: 'Bagels',
-        price: 700,
+        price: 350,
         image: 'https://i.mctimg.com/file/d1796b1d5a1e6c41f705224b285e5a93681ffa28/r400x400/1b56a0feb116c9b0bcf8d194e63b7a91136ccaad2a2662dea354c7ec7834bec1',
         quantity_unit: 'pound'
     },
     {
         category: 'bakery',
         name: 'English Muffins',
-        price: 400,
+        price: 300,
         image: 'https://i.mctimg.com/file/9c29e0af9b4279faab848e70ab30d414dfea5feb/r400x400/cc8f6db2411c9ad60df42d4ea247863bd519fc06bf4bf6efc088845f606116f4',
         quantity_unit: 'pound'
     },
     {
         category: 'bakery',
         name: 'Assorted Muffins',
-        price: 500,
+        price: 550,
         image: 'https://i.mctimg.com/file/dd78d64502e9e591823463b5b5e99ec9692f817e/r400x400/6f8a9ad62cca17c148d88624098ffc6275160847af2ac3a16140b1a1533c2533',
         quantity_unit: 'pound'
     },
     {
         category: 'bakery',
         name: 'Apple Pie',
-        price: 250,
+        price: 350,
         image: 'https://i.mctimg.com/file/cb678ec5218d7571b825dd5cca007a105c4461df/r400x400/41a3b84895022687da0131430c7d67cac07d5227eb4d9d0c3e1541a257b4dec6',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Assorted Cookies',
-        price: 300,
+        price: 500,
         image: 'https://i.mctimg.com/file/e4bf51f18e97f8bc3bce00a37d08e14b4e4a8d54/r400x400/78480458e6378d41efd42bd8a40bb065b31192b987c9bfb2aaf1b0f6332d7d86',
         quantity_unit: 'unit'
     }
@@ -2214,172 +2214,172 @@ smartnfinalBeverages = [
     {
         category: 'beverages',
         name: 'Water (1 gallon)',
-        price: 100,
+        price: 150,
         image: 'https://i.mctimg.com/file/22a82b849349faea4f4ec109b82c849dd6d1eaf5/r400x400/57ae71c6162dffeb9032720c6ed051ab8165bc88f3e4136264b76b2506edef1b',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     },
     {
         category: 'beverages',
         name: 'Water bottles',
-        price: 100,
+        price: 700,
         image: 'https://i.mctimg.com/file/6f884a43c8ca72821e33f45d68630c17d0518a9c/r400x400/3e123d8af45c4ffb93192cc15d2a698dc5138bef5f45d9f873d54cb23e1470a7',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     },
     {
         category: 'beverages',
         name: 'Apple Juice',
-        price: 100,
+        price: 300,
         image: 'https://i.mctimg.com/file/b27a657a5b3f624f9942adf63479364e5b268f56/r400x400/32b0025522e5c8c43f6fd5fdcb8611e6487091d7ed8b020c3d48a6c2bd1335ce',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     },
     {
         category: 'beverages',
         name: 'Orange Juice',
-        price: 200,
+        price: 300,
         image: 'https://i.mctimg.com/file/82b91ed7d3b59ae91b76e9dbfe869dc267352a5d/r400x400/9de69cb89089be91f9b98dca00486bf5162cb7c4c9a5f97225a2920eecf2432b',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     },
     {
         category: 'beverages',
         name: 'Pineapple Juice',
-        price: 150,
+        price: 300,
         image: 'https://i.mctimg.com/file/d867d0c5624d156e0769b38b65d3696e81dd3d2f/r400x400/9c5da308bfad31fcf8cc2c5864e6338e872745f3da3f0564cef41aeb63986fa9',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     },
     {
         category: 'beverages',
         name: 'Grapefruit Juice',
-        price: 200,
+        price: 300,
         image: 'https://i.mctimg.com/file/f43a5ab726657ba20a8b8f52ab6a118c4773a911/r400x400/40733afeda6c53ad769a72ea0be2989a0e2495bb9ea3bac2a7436323ff0c4096',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     },
     {
         category: 'beverages',
         name: 'Sparkling Water',
         price: 100,
         image: 'https://i.mctimg.com/file/a6aa66037869be0aa30035f405d91d4a4d32a004/r400x400/3ced40eb18f3514003ab0af5de1b94b65cd072b87fc86cc4400e891eda63b5cc',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     },
     {
         category: 'beverages',
         name: 'Coconut Water',
-        price: 100,
+        price: 400,
         image: 'https://i.mctimg.com/file/2e7ab64dbb512e63e1a325f79f90eff93c6dd762/r400x400/7161d22010b3689bde3ed1ecf9dc040c18c8c719bc501355ef9f4fbced76787e',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     },
     {
         category: 'beverages',
         name: 'La Croix Variety Pack',
-        price: 100,
+        price: 850,
         image: 'https://i.mctimg.com/file/286693dbb4ceb6e703ca1612b4058e6e7b7c99f6/r400x400/7b59f1c213a0d8a0c50f36a2100d0ad8b056b0e14e633cff4619a8cac9577de1',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     },
     {
         category: 'beverages',
         name: 'Diet Coke (24 Pack)',
-        price: 200,
+        price: 1000,
         image: 'https://i.mctimg.com/file/483be84d4e85ff2d8205db79d8c5c0c15fee73d7/r400x400/bffcf99774b9768a618e75eeaa5d44c7970ee88060424f591452742b517a4096',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     },
     {
         category: 'beverages',
         name: 'Vitamin Water',
         price: 150,
         image: 'https://i.mctimg.com/file/ed04d863f63c815afdc701bc92a71587c96ebcc9/r400x400/04543d21e6a6285c49bb8ae0e6f52ffd705c341a3a203691b5b1ac5c014100fa',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     },
     {
         category: 'beverages',
         name: 'Powerade',
         price: 200,
         image: 'https://i.mctimg.com/file/48ae008a12384109ccef599f1c1c8a189fb80480/r400x400/0c4663816c079c4c215ec16873ead4c476c05ff293687a8a902c2bbce6e872ae',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     }
 ]
 
 smartnfinalFrozen = [
     {
         category: 'frozen',
-        name: 'Milk',
-        price: 250,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'frozen',
-        name: 'Sliced Cheese',
+        name: 'French Fries',
         price: 350,
-        image: '',
+        image: 'https://i.mctimg.com/file/e7b9b9859dfcca2e00b3c97464c158dc4ad0ba31/r400x400/54857415707b69e078a243cc395af3cd9a59ad4f5b3cfadd01b981db70c286c6',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
-        name: 'Shredded Cheese',
-        price: 400,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'frozen',
-        name: 'Yogurt',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'frozen',
-        name: 'Sour Cream',
-        price: 500,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'frozen',
-        name: 'Butter',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'frozen',
-        name: 'Milk',
+        name: 'Tater Tots',
         price: 250,
-        image: '',
+        image: 'https://i.mctimg.com/file/aa844c23d6f2918499e4afe180f267e6ee372d82/r400x400/72e961b5b01b61d7fec4478186b96467b6f7f59e77355e42fc3be803e6ef99d1',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
-        name: 'Sliced Cheese',
-        price: 350,
-        image: '',
+        name: 'Mixed Vegetables',
+        price: 150,
+        image: 'https://i.mctimg.com/file/42598e909c64d49c7679b88e8dd21fe7c96b7584/r400x400/ffb028ff5e27bec641335a5105613f274d456d109c1ec02fe50f5d370861fb27',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
-        name: 'Shredded Cheese',
-        price: 400,
-        image: '',
+        name: 'Corn',
+        price: 200,
+        image: 'https://i.mctimg.com/file/e2627b24f30ac0bf1f922ec583f5344dee5c072c/r400x400/61535b065ff9d201731ff9243d65ce3613a34e6cce44d1e8e5dfaa8f6454ecb8',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
-        name: 'Yogurt',
-        price: 300,
-        image: '',
+        name: 'Waffles',
+        price: 200,
+        image: 'https://i.mctimg.com/file/e7bb29d57eacd24076dd258f50de790a76b78887/r400x400/aca4e44c1501cdc165fe46f10b15855fe1998562b899d3c0a4abd47d59deffe0',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
-        name: 'Sour Cream',
+        name: 'Garlic Bread',
+        price: 250,
+        image: 'https://i.mctimg.com/file/f6cba80b7987a7a626283f8b2e0394c1de1784f9/r400x400/272a03ad7668e22a62face6d1cf13155eb43f6ddb172004b1bf2db8f19612596',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Vanilla Ice Cream',
         price: 500,
-        image: '',
+        image: 'https://i.mctimg.com/file/d0b0bc280d71e5df8b2a72da49e29b095654899d/r400x400/b2267fe94cd9173694e9070bde76aa6e78c0fb57955503170c4b7bc64d6a7f9c',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
-        name: 'Butter',
-        price: 300,
-        image: '',
+        name: 'Ice Cream Sandwiches',
+        price: 550,
+        image: 'https://i.mctimg.com/file/7a84b534bbeaedd7d76c1cd97d47bc7393975069/r400x400/b9f169d4d079f48ab90dfd7271fd6d07e4dbf4ebe00c2753a3cc7dcdb87db1d7',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Blueberries',
+        price: 350,
+        image: 'https://i.mctimg.com/file/7e3d17d0ea75eb7da822422e3939f6ca768779b8/r400x400/1f1c30f6ecec4245ef08ac8f392958dd1989f02c789a1a1e86626265cd4daa2f',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Strawberries',
+        price: 400,
+        image: 'https://i.mctimg.com/file/55aba8af0542a23e20812b5289a30bd8c64e8796/r200x200/d06a8c45ec0d187fc76247bd12a5137045ff93c963809e9fbb49a272ad253740',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Meatballs',
+        price: 800,
+        image: 'https://i.mctimg.com/file/de7bd851bae8908e145411a945babef1166342a3/r400x400/0731eb7e90498c543ad90ffe11092e18ad0dac3c98d44ac2bb9c65b01e03ad89',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Orange',
+        price: 575,
+        image: 'https://i.mctimg.com/file/5b8313b64a2a9cde828b4d3df96c598dc04477cb/r400x400/a39169e8366d729f5bec8a64edc454fa7e0a04181802753ce4def82fd266184b',
         quantity_unit: 'unit'
     }
 ]
@@ -2387,86 +2387,86 @@ smartnfinalFrozen = [
 smartnfinalDairy = [
     {
         category: 'dairy',
-        name: 'Bagel',
-        price: 500,
+        name: 'Vitamin D Milk',
+        price: 300,
+        image: 'https://i.mctimg.com/file/3e83b431621a2636639f0f5375850eca6abd5806/r400x400/2284504649a3fc2c5bd2c62a27f8acd22bb95fc47a4ba9bce86b933acd381560',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairy',
+        name: 'Reduced Fat Milk',
+        price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
         category: 'dairy',
-        name: 'Donut',
-        price: 100,
-        image: '',
+        name: 'Butter',
+        price: 250,
+        image: 'https://i.mctimg.com/file/ccf922107a721a8b67444d460c3f346ca99c1300/r400x400/308932a1d655d6186b4c24ae588e3f383359f3f202c524531331432e792f57f9',
         quantity_unit: 'unit'
     },
     {
         category: 'dairy',
-        name: 'Sliced Bread',
+        name: 'Cream Cheese',
         price: 200,
-        image: '',
+        image: 'https://i.mctimg.com/file/a3876724c5e30a2691f03efb7ac0b98e59d3f409/r400x400/8a479244747ae7c57637ee2616426d477d1d139ae00c244a631976c1a0239d45',
         quantity_unit: 'unit'
     },
     {
         category: 'dairy',
-        name: 'Croissants',
-        price: 100,
-        image: '',
+        name: 'Mozerella Cheese',
+        price: 400,
+        image: 'https://i.mctimg.com/file/c0b06d102a3aca8b13008f8a21bb9d300ea14cdb/r400x400/fea11e3318890cbcf5ff076bb34e8d85263820377d1ea63d16ad1ba063a3126d',
         quantity_unit: 'unit'
     },
     {
         category: 'dairy',
-        name: 'Baguette',
-        price: 150,
-        image: '',
+        name: 'Mexican Blend Cheese',
+        price: 350,
+        image: 'https://i.mctimg.com/file/3489e40e9561d1e36081fac769d1e6e91935d9e3/r400x400/14c34849867e1ef0139ba2de5a2724f6452bca3405e31e0f097da7c1f529ddff',
         quantity_unit: 'unit'
     },
     {
         category: 'dairy',
-        name: 'Muffins',
-        price: 100,
-        image: '',
+        name: 'Heavy Whipping Cream',
+        price: 300,
+        image: 'https://i.mctimg.com/file/c58a3612b6c0db077279cb11bf5ee2711f1846cf/r400x400/040df588fb60259c57f3322b3d6a5f5e254a8fe420e78a40dc9f25d3a599f457',
         quantity_unit: 'unit'
     },
     {
         category: 'dairy',
-        name: 'Bagel',
-        price: 500,
-        image: '',
+        name: 'Half & half',
+        price: 250,
+        image: 'https://i.mctimg.com/file/25d5a9e39ea4f842a22936ef0bc5ac2bbfd66053/r400x400/0c0be91900a569ccdde6ea121f30bd96bfa2c41f3caa59f0ca7fc13218cab564',
         quantity_unit: 'unit'
     },
     {
         category: 'dairy',
-        name: 'Donut',
-        price: 100,
-        image: '',
+        name: 'Sour Cream',
+        price: 275,
+        image: 'https://i.mctimg.com/file/0fe10e4cad83cbaf874617d1db2101898a911292/r400x400/d62112b10728fb93a4031723b758079b3ab55f71050ae3a996001171a3db0442',
         quantity_unit: 'unit'
     },
     {
         category: 'dairy',
-        name: 'Sliced Bread',
-        price: 200,
-        image: '',
+        name: 'Whipped Cream',
+        price: 250,
+        image: 'https://i.mctimg.com/file/95536e8620431f5d2eac1ec87c10c9ad6a9272a0/r400x400/e34393abf208dcc25ec96bd66234a30bd6be2aa21982b1fd4ad39074319af194',
         quantity_unit: 'unit'
     },
     {
         category: 'dairy',
-        name: 'Croissants',
-        price: 100,
-        image: '',
+        name: 'Cheddar Jack Cheese',
+        price: 300,
+        image: 'https://i.mctimg.com/file/014b9c240f9b4b20f19f5f36dcc08c970f19263e/r400x400/fa4728a91647df3e1a2df31bbdbb7af2b6c148c7c45c606a661222a89825809e',
         quantity_unit: 'unit'
     },
     {
         category: 'dairy',
-        name: 'Baguette',
-        price: 150,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'dairy',
-        name: 'Muffins',
-        price: 100,
-        image: '',
+        name: 'Almond Milk',
+        price: 250,
+        image: 'https://i.mctimg.com/file/7b0c8c425702b583447f39d0403f4c5e5fb7fe19/r400x400/97754a644d25318f00635e17209405d44f82b777cc48f3f141b128b1a114577d',
         quantity_unit: 'unit'
     }
 ]
