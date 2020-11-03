@@ -1107,50 +1107,50 @@ costcoBakery = [
     {
         category: 'bakery',
         name: 'Ciabatta Bread',
-        price: 100,
-        image: '',
+        price: 400,
+        image: 'https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&itemId=1221092-inc&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Garlic Bread',
-        price: 500,
-        image: '',
+        price: 250,
+        image: 'https://d1fywv0iz2cv2w.cloudfront.net/product-image/v201610/7205fc9140c1f3b7adf1b2f18882692d.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Blueberry Muffin',
-        price: 100,
-        image: '',
+        price: 400,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=38805&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Chocolate Muffin',
-        price: 200,
-        image: '',
+        price: 400,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=38807&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Artesano White Bread',
-        price: 100,
-        image: '',
+        price: 300,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=1055581&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Oatnut Bread',
-        price: 150,
-        image: '',
+        price: 350,
+        image: 'https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7ffb558a-745b-40a5-96a7-27f80deb1772.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Corn Tortillas',
-        price: 100,
-        image: '',
+        price: 250,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=17351&recipeName=680',
         quantity_unit: 'unit'
     }
 ]
@@ -1159,85 +1159,85 @@ costcoSnacks = [
     {
         category: 'snacks',
         name: 'Madeleines',
-        price: 200,
-        image: '',
+        price: 350,
+        image: 'https://d2d8wwwkmhfcva.cloudfront.net/800x/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_49488050-6675-4248-8147-a4f0576ebe02.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Mixed Nuts',
-        price: 250,
-        image: '',
+        price: 600,
+        image: 'https://www.costco.com.au/medias/sys_master/images/h1f/hdc/30955961352222.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Cashews',
-        price: 250,
-        image: '',
+        price: 600,
+        image: 'https://www.costco.com.au/medias/sys_master/images/ha3/h68/30955961057310.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Pistachios',
-        price: 100,
-        image: '',
+        price: 550,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=545345&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Shitake Mushrooms',
         price: 400,
-        image: '',
+        image: 'https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12026540&id=1420322&recipeId=728',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Peanut Butter Pretzels',
-        price: 300,
-        image: '',
+        price: 400,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=1050557&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Gardetto\'s',
-        price: 200,
-        image: '',
+        name: 'Sun Chips Pack',
+        price: 1000,
+        image: 'https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12026540&id=1005743&recipeId=728',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'ClifBar',
-        price: 250,
-        image: '',
+        name: 'Clif Bar Pack',
+        price: 1500,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=1213381&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Nature Valley Protein',
-        price: 250,
-        image: '',
+        name: 'Nature Valley Protein Pack',
+        price: 900,
+        image: 'https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12026540&id=1386603&recipeId=728',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Beef Jerky',
-        price: 100,
-        image: '',
+        price: 500,
+        image: 'https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12026540&id=1398655&recipeId=728',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Fruit Snacks',
-        price: 400,
-        image: '',
+        price: 700,
+        image: 'https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12026540&id=1462863&recipeId=728',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
         name: 'Biscotti',
-        price: 300,
-        image: '',
+        price: 650,
+        image: 'https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12026540&id=1095509&recipeId=728',
         quantity_unit: 'unit'
     }
 ]
