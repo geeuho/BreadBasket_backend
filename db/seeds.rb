@@ -2735,86 +2735,86 @@ smartnfinalSnacks = [
 smartnfinalHousehold = [
     {
         category: 'household',
-        name: 'Waffles',
+        name: 'Napkins',
         price: 300,
-        image: '',
+        image: 'https://i.mctimg.com/file/58358606083b2eecc2371da7d9227894238f3f42/r400x400/df043c7253b38b5af5893ea59906d03d958e3f1f08e57fd14e59577ade1bb881',
         quantity_unit: 'unit'
     },
     {
         category: 'household',
-        name: 'Frozen Pizza',
+        name: 'Aluminum Pan',
+        price: 100,
+        image: 'https://i.mctimg.com/file/78e59563ea434d023030f3631a700d4200ae242b/r400x400/13f6d75178d22ee4920a9a4766615278e8398e6196cdd09e439fc82f27387fc0',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Plastic Forks',
         price: 350,
-        image: '',
+        image: 'https://i.mctimg.com/file/32e86e4ec5eccd487eac9ec7858174ca06f15c2b/r400x400/69c77da12419f92d09a46eb9ead2421af92b538c529c6187bdb915a95a3e5972',
         quantity_unit: 'unit'
     },
     {
         category: 'household',
-        name: 'Frozen Peas',
-        price: 250,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'household',
-        name: 'Chicken Nuggets',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'household',
-        name: 'Ice Cream',
-        price: 500,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'household',
-        name: 'Frozen Strawberries',
-        price: 400,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'household',
-        name: 'Waffles',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'household',
-        name: 'Frozen Pizza',
+        name: 'Plastic Spoons',
         price: 350,
-        image: '',
+        image: 'https://i.mctimg.com/file/e42b7c1669183da3ca8d9f3d81b2a51dc464aaf4/r400x400/99e731cffe36141ab95888cd2e137b1c50aef9d46cb59e147e2137453b823912',
         quantity_unit: 'unit'
     },
     {
         category: 'household',
-        name: 'Frozen Peas',
-        price: 250,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'household',
-        name: 'Chicken Nuggets',
+        name: 'Plastic Cups',
         price: 300,
-        image: '',
+        image: 'https://i.mctimg.com/file/e1e94065689cb6226ab806fc94e41c72f83874b3/r400x400/f1dbd98a5fee6456fb56aca5c0a9c0bdbb7e6fd161c3e522e46bf71b0b74d745',
         quantity_unit: 'unit'
     },
     {
         category: 'household',
-        name: 'Ice Cream',
+        name: 'Dinner Plates',
         price: 500,
-        image: '',
+        image: 'https://i.mctimg.com/file/8b7ce8f4d3227b2eb76c07b485a6b43fe7169e0e/r400x400/40b6db4e7cf2af00cc959dbc59d035cf4f19216eb66356826d6af1f7aef04421',
         quantity_unit: 'unit'
     },
     {
         category: 'household',
-        name: 'Frozen Strawberries',
-        price: 400,
-        image: '',
+        name: 'Aluminum Foil',
+        price: 200,
+        image: 'https://i.mctimg.com/file/575990d057e36fb7bb68317a7af5160d3a19f0a3/r400x400/dee54e8bbbf9c1205bb3f67ddd78712d3ea306feea09d54ffa67433257e07a68',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Storage Bags',
+        price: 300,
+        image: 'https://i.mctimg.com/file/9069b9fc3c51cc65e32a5ca19770a7f5ef63c73b/r400x400/2b241c20f1046008aca6fcd163fcade829de2e0efde49172191ac3e036e96598',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Garbage Bags',
+        price: 700,
+        image: 'https://i.mctimg.com/file/2ba446589658a3ab0664aa1266cebb9366beeeee/r400x400/73bde77d3515a6712abb72f959182241bf0973a45b7603213c6091860521007d',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'All Purpose Cleaner',
+        price: 300,
+        image: 'https://i.mctimg.com/file/8d989ee15cc0b38a5935577f709339369ba60433/r400x400/9024a763c3c6ad8ef5598aabbcb8d22999991738b1006e1c86fec7b43a7cbd92',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Disposable Gloves',
+        price: 500,
+        image: 'https://i.mctimg.com/file/73eb4771e2b006201bcdc3830d23eb94ca90905c/r400x400/5232adc7ad7a77bebce47107ae3e5c8bc94ce02469d19fd8747d91cb7ea7e73b',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Wax Paper',
+        price: 300,
+        image: 'https://i.mctimg.com/file/f36ef426ed372a71b2344e973dc500b975636cb0/r400x400/4991a3ec4a9b578ebfaefaae78b56fa0b6cd0a8ef18cad4236bb23c5172db489',
         quantity_unit: 'unit'
     }
 ]
