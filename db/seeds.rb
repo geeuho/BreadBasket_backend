@@ -894,92 +894,90 @@ costcoMeats = [
     }
 ]
 
-##START HERE 11/3##
-
 costcoProduce = [
     {
         category: 'produce',
         name: 'Apples',
-        price: 100,
-        image: '',
-        quantity_unit: 'pound'
+        price: 450,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=894434&recipeName=680',
+        quantity_unit: 'unit'
     },
     {
         category: 'produce',
         name: 'Bananas',
-        price: 100,
-        image: '',
-        quantity_unit: 'pound'
+        price: 400,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=2619&recipeName=680',
+        quantity_unit: 'unit'
     },
     {
         category: 'produce',
         name: 'Clementines',
-        price: 100,
-        image: '',
-        quantity_unit: 'pound'
+        price: 400,
+        image: 'https://d1fywv0iz2cv2w.cloudfront.net/product-image/v201610/de023390cd5ba142b8c0c3b855e807e9.jpeg',
+        quantity_unit: 'unit'
     },
     {
         category: 'produce',
         name: 'Avocados (5)',
-        price: 200,
-        image: '',
-        quantity_unit: 'pound'
+        price: 450,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=47019&recipeName=680',
+        quantity_unit: 'unit'
     },
     {
         category: 'produce',
         name: 'Strawberries',
-        price: 150,
-        image: '',
-        quantity_unit: 'pound'
+        price: 350,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=27003&recipeName=680',
+        quantity_unit: 'unit'
     },
     {
         category: 'produce',
         name: 'Pineapple',
         price: 200,
-        image: '',
-        quantity_unit: 'pound'
+        image: 'https://d1fywv0iz2cv2w.cloudfront.net/product-image/v201610/c95efd254196245737910bca1fd9d791.jpeg',
+        quantity_unit: 'unit'
     },
     {
         category: 'produce',
         name: 'Potatoes',
-        price: 100,
-        image: '',
-        quantity_unit: 'pound'
+        price: 500,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=83501&recipeName=680',
+        quantity_unit: 'unit'
     },
     {
         category: 'produce',
         name: 'Green Beans',
-        price: 100,
-        image: '',
-        quantity_unit: 'pound'
+        price: 300,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=910270&recipeName=680',
+        quantity_unit: 'unit'
     },
     {
         category: 'produce',
         name: 'Baby Spinach',
-        price: 100,
-        image: '',
-        quantity_unit: 'pound'
+        price: 300,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=96716&recipeName=680',
+        quantity_unit: 'unit'
     },
     {
         category: 'produce',
-        name: 'Bell Peppers',
-        price: 200,
-        image: '',
-        quantity_unit: 'pound'
+        name: 'Sweet Mini Peppers',
+        price: 350,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=202193&recipeName=680',
+        quantity_unit: 'unit'
     },
     {
         category: 'produce',
         name: 'Tomatoes',
-        price: 150,
-        image: '',
-        quantity_unit: 'pound'
+        price: 350,
+        image: 'https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12028466&id=945201&recipeId=739',
+        quantity_unit: 'unit'
     },
     {
         category: 'produce',
         name: 'Broccoli Florets',
-        price: 200,
-        image: '',
-        quantity_unit: 'pound'
+        price: 300,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=258966&recipeName=680',
+        quantity_unit: 'unit'
     }
 ]
 
@@ -987,85 +985,85 @@ costcoDairynEggs = [
     {
         category: 'dairyneggs',
         name: 'Whole Milk',
-        price: 250,
-        image: '',
+        price: 300,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=2&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
         name: 'Reduced Fat Milk',
-        price: 350,
-        image: '',
+        price: 300,
+        image: 'https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12028466&id=944327&recipeId=739',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
         name: 'Cottage Cheese',
         price: 400,
-        image: '',
+        image: 'https://d2d8wwwkmhfcva.cloudfront.net/800x/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e81e015a-5e72-40d6-864b-7d8072bd97e6.JPG',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
-        name: 'Shredded Cheese',
-        price: 300,
-        image: '',
+        name: 'Shredded Cheddar Cheese',
+        price: 400,
+        image: 'https://d2d8wwwkmhfcva.cloudfront.net/800x/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9f33c8ea-3aa8-4aa9-ad20-f345ba1d2d32.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
         name: 'Sour Cream',
         price: 500,
-        image: '',
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=331222&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
         name: 'Butter',
-        price: 300,
-        image: '',
+        price: 600,
+        image: 'https://d1fywv0iz2cv2w.cloudfront.net/product-image/v201610/9fac5443e817eeacd99917708527b9c9.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
         name: 'Cream Cheese',
-        price: 250,
-        image: '',
+        price: 350,
+        image: 'https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12028466&id=947357&recipeId=739',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
         name: 'Yogurt',
-        price: 300,
-        image: '',
+        price: 350,
+        image: 'https://d2d8wwwkmhfcva.cloudfront.net/800x/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e8b42394-14f8-4ed1-9512-f3d44ee3cdce.JPG',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
         name: 'Eggs',
-        price: 500,
-        image: '',
+        price: 300,
+        image: 'https://d1fywv0iz2cv2w.cloudfront.net/product-image/v201909/35276d73b678f6c7d544e09eefc0782f.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
-        name: 'Brown Eggs',
+        name: 'Organic Eggs',
         price: 300,
-        image: '',
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=427381&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
         name: 'Almond Milk',
-        price: 300,
-        image: '',
+        price: 350,
+        image: 'https://sureketo.com/images/1x1/kirkland-signature-unsweetened-almond-milk.png',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
         name: 'Soy Milk',
         price: 300,
-        image: '',
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=49100&recipeName=680',
         quantity_unit: 'unit'
     }
 ]
@@ -1074,36 +1072,36 @@ costcoBakery = [
     {
         category: 'bakery',
         name: 'Croissant',
-        price: 500,
-        image: '',
+        price: 350,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=33336&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Bagel (Plain)',
-        price: 100,
-        image: '',
+        price: 250,
+        image: 'https://d2d8wwwkmhfcva.cloudfront.net/800x/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4b03d5bf-a30f-4a48-a811-9225e62172f5.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
-        name: 'Bagel (Cheese)',
-        price: 200,
-        image: '',
+        name: 'Bagel (Onion)',
+        price: 250,
+        image: 'https://d2d8wwwkmhfcva.cloudfront.net/800x/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1d2df1cc-7c32-4714-854d-e956ecd2a629.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Chocolate Chip Cookies',
-        price: 100,
-        image: '',
+        price: 450,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=37220&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Oatmeal Raisin Cookies',
-        price: 150,
-        image: '',
+        price: 450,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=37020&recipeName=680',
         quantity_unit: 'unit'
     },
     {
