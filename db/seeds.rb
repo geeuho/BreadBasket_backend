@@ -812,21 +812,21 @@ costcoMeats = [
         category: 'meats',
         name: 'Rotisserie Chicken',
         price: 350,
-        image: '',
-        quantity_unit: 'pound'
+        image: 'https://linehopper.ca/wp-content/uploads/2020/05/chicken.jpg',
+        quantity_unit: 'unit'
     }, 
     {
         category: 'meats',
         name: 'Steak',
         price: 700,
-        image: '',
+        image: 'https://s.cornershopapp.com/product-images/552073.jpg?versionId=xn1ArHXFiT11U25s3sBpbd7Z2inJvW93',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
         name: 'Ground Beef',
         price: 400,
-        image: '',
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=88739&recipeName=680',
         quantity_unit: 'pound'
     },
     {
@@ -846,50 +846,50 @@ costcoMeats = [
     {
         category: 'meats',
         name: 'Chicken Breast',
-        price: 350,
-        image: '',
-        quantity_unit: 'pound'
+        price: 700,
+        image: 'https://www.momsguidetosandiego.com/wp-content/uploads/2014/08/IMG_0637.jpg',
+        quantity_unit: 'unit'
     }, 
     {
         category: 'meats',
         name: 'Carnitas',
-        price: 300,
-        image: '',
+        price: 500,
+        image: 'https://i5.walmartimages.com/asr/7952f9bf-f2b5-4718-843f-6c1c8231de5f_1.ed9079dca73c8ebc3f5f318c2577d192.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff',
         quantity_unit: 'unit'
     },
     {
         category: 'meats',
         name: 'Drumsticks',
         price: 700,
-        image: '',
+        image: 'https://s.cornershopapp.com/product-images/551993.jpg?versionId=6EbpiBEY9RccySoCYvkxIOI2GIJQU6qK',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
         name: 'Burger Patties',
         price: 400,
-        image: '',
+        image: 'https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c0ffb823-9169-49ea-9c08-a14ab76b0a57.jpeg',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
         name: 'Chicken Thigh',
-        price: 500,
-        image: '',
+        price: 700,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=33845&recipeName=680',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
         name: 'Sliced Turkey',
         price: 250,
-        image: '',
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=48600&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'meats',
         name: 'Sliced Ham',
         price: 300,
-        image: '',
+        image: 'https://phorcys-static.ewg.org/kwikee/096/619/316/281.jpg',
         quantity_unit: 'unit'
     }
 ]
