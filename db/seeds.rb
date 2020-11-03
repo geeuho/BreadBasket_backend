@@ -2129,28 +2129,28 @@ smartnfinalBakery = [
         name: 'Hot Dog Buns',
         price: 250,
         image: 'https://i.mctimg.com/file/937e345203660013fb63fd0a1306d7c0729f2235/r400x400/4f149fa98063e8a16692a0351698f970985201ab497a7e2dd8c49e9594ff765f',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     }, 
     {
         category: 'bakery',
         name: 'Hamburger Buns',
         price: 250,
         image: 'https://i.mctimg.com/file/a40d10e711081435cf319868a3307fe76bd5310a/r400x400/03bc47b681d085faa0ca423bec30b2a87418b350c8af3d0cd5e29773e41a48f0',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'White Bread',
         price: 200,
         image: 'https://i.mctimg.com/file/7e120774cd589ec85f8605e25edb5e3988d6f005/r400x400/57a378892fba338ef5c1185da68a09a9d121189fe001a853c765e8a9bb82f5a3',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Wheat Bread',
         price: 200,
         image: 'https://i.mctimg.com/file/3f1cf5ff17f174f8e30dd9bcd79cf36c59055d3e/r400x400/649c6e4c181bf164910b88f5896c2217a5820922f298ded9c8e6ed426ad8f161',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     },
     {
         category: 'bakery',
@@ -2171,28 +2171,28 @@ smartnfinalBakery = [
         name: 'Sourdough Bread',
         price: 250,
         image: 'https://i.mctimg.com/file/6c5b11e299e1c7b527947919bae516c3da975c95/r400x400/2548666646f9f4d243ce6ae78a566e093f77a308185b4d16654d585ffa225736',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     }, 
     {
         category: 'bakery',
         name: 'Bagels',
         price: 350,
         image: 'https://i.mctimg.com/file/d1796b1d5a1e6c41f705224b285e5a93681ffa28/r400x400/1b56a0feb116c9b0bcf8d194e63b7a91136ccaad2a2662dea354c7ec7834bec1',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'English Muffins',
         price: 300,
         image: 'https://i.mctimg.com/file/9c29e0af9b4279faab848e70ab30d414dfea5feb/r400x400/cc8f6db2411c9ad60df42d4ea247863bd519fc06bf4bf6efc088845f606116f4',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     },
     {
         category: 'bakery',
         name: 'Assorted Muffins',
         price: 550,
         image: 'https://i.mctimg.com/file/dd78d64502e9e591823463b5b5e99ec9692f817e/r400x400/6f8a9ad62cca17c148d88624098ffc6275160847af2ac3a16140b1a1533c2533',
-        quantity_unit: 'pound'
+        quantity_unit: 'unit'
     },
     {
         category: 'bakery',
@@ -2474,173 +2474,173 @@ smartnfinalDairy = [
 smartnfinalMeatnseafood = [
     {
         category: 'meatnseafood',
-        name: 'Potato Chips',
+        name: 'Chicken Thighs',
         price: 200,
-        image: '',
-        quantity_unit: 'unit'
+        image: 'https://i.mctimg.com/file/63f99252c437938910ed5a6efc059179674540e6/r400x400/415bb2ee650118dbbc1efd4ea7061363a190aae4d7bfa7e91765b6111305a5ad',
+        quantity_unit: 'pound'
     },
     {
         category: 'meatnseafood',
-        name: 'Cookies',
+        name: 'Drumsticks',
+        price: 225,
+        image: 'https://i.mctimg.com/file/75cb74ce0d91bc21df115e82850e745beb0237af/r400x400/744b4d452a0c90f405f238adbbfdaaed40283efe8686afb7636203b53efbf80c',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meatnseafood',
+        name: 'Pork Spareribs',
         price: 250,
-        image: '',
-        quantity_unit: 'unit'
+        image: 'https://i.mctimg.com/file/08ba16386e40889df36433ccc2a4365884eb3fa5/r400x400/da2c0e598fd17840853d7cd164d90d24213b9dd8787c52cc4f6efaad0fccbd02',
+        quantity_unit: 'pound'
     },
     {
         category: 'meatnseafood',
-        name: 'Gummy Bears',
-        price: 250,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'meatnseafood',
-        name: 'Chocolate',
-        price: 100,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'meatnseafood',
-        name: 'Granola',
-        price: 400,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'meatnseafood',
-        name: 'Popcorn',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'meatnseafood',
-        name: 'Potato Chips',
+        name: 'Pork Shoulder',
         price: 200,
-        image: '',
-        quantity_unit: 'unit'
+        image: 'https://i.mctimg.com/file/502b7fa91ffc76e26e01b3e605df12913199ae90/r400x400/cc3814f1f9fb5f22d6fedf070e3d666c6fa99c7ac839c512990f07d106de2de6',
+        quantity_unit: 'pound'
     },
     {
         category: 'meatnseafood',
-        name: 'Cookies',
-        price: 250,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'meatnseafood',
-        name: 'Gummy Bears',
-        price: 250,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'meatnseafood',
-        name: 'Chocolate',
-        price: 100,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'meatnseafood',
-        name: 'Granola',
+        name: 'Beef Brisket',
         price: 400,
-        image: '',
-        quantity_unit: 'unit'
+        image: 'https://i.mctimg.com/file/b6dea9a7f88a45f19a0f8b938b9429a9bd94ce22/r400x400/fd933a5d6849b62cd5d1d1d777f76645e2e3ef43893cd82d3b77e9a11e91d8c3',
+        quantity_unit: 'pound'
     },
     {
         category: 'meatnseafood',
-        name: 'Popcorn',
+        name: 'Beef Tritip',
         price: 300,
-        image: '',
-        quantity_unit: 'unit'
+        image: 'https://i.mctimg.com/file/819994ccad5848b1968988f3e3b891fbbe2dbe20/r400x400/b340e86d34e5239f45b394cf56866b11ef5e7ab37e501c3b23e674cb69a753d9',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meatnseafood',
+        name: 'Ground Beef',
+        price: 300,
+        image: 'https://i.mctimg.com/file/998afc971f9483251fb70ed9b949abce314fc32d/r400x400/770b6fd95eccbe4ed1f181ba9e8c8fc16698842919170dfa1f69c6e8b44a948e',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meatnseafood',
+        name: 'New York Strip Steak',
+        price: 400,
+        image: 'https://i.mctimg.com/file/95d2b6dcfc5dfd3ff0efe65441b03b25045178d8/r400x400/d4507fbfba5895bc4ce5036203c1ae9a57ad42dbac2b018701a184d99d2ca66e',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meatnseafood',
+        name: 'Corned Beef',
+        price: 500,
+        image: 'https://i.mctimg.com/file/acb51f7a8a5ee25b1a06ebb0cef66dc4c1fd5ce6/r400x400/b0e4b9408826f84ec960478e9497251453d6227876fd975aa9d34c8960661774',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meatnseafood',
+        name: 'Ribeye Steak',
+        price: 900,
+        image: 'https://i.mctimg.com/file/a42dc912c84fa787c1d0a924ed33bbce3e49c671/r400x400/3425f193b340b5c4a40612022bc02c21d6c1508020ac99fe952effd302c1c9c7',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meatnseafood',
+        name: 'Chuck Steak',
+        price: 600,
+        image: 'https://i.mctimg.com/file/7469b9101569fb312a455dabdb24a02a2a22591d/r400x400/b6a3618e4311e21ab18c31b25252c827bb89ad959d588990453abbe0d1f4b0ae',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meatnseafood',
+        name: 'Beef Short Rib',
+        price: 700,
+        image: 'https://i.mctimg.com/file/80b8cb88ca4fc94a7a6e051486c2233493984558/r400x400/11ab50fb5a96963d161ebc9dea3d724d5a20804de95d58e3ac5e0894dce3018d',
+        quantity_unit: 'pound'
     }
 ]
 
 smartnfinalDeli = [
     {
         category: 'deli',
-        name: 'Soda',
-        price: 150,
-        image: '',
+        name: 'Turkey Breast',
+        price: 450,
+        image: 'https://i.mctimg.com/file/d3e668c99f28eed28b13c88f2a7c4183bc4a3d85/r400x400/4709aec23854ae8378a3f24c930900d56e09827630994756e3449c9c9a67bd6b',
         quantity_unit: 'unit'
     },
     {
         category: 'deli',
         name: 'Water',
-        price: 100,
-        image: '',
+        price: 500,
+        image: 'https://i.mctimg.com/file/9ef72e7d9f9441be2f8044bf68c08f2a15fa278a/r400x400/031a47c11048fb1f3cda0c5f89083d53ed9efeeb4cf1e8dbb4d2dac638a22b27',
         quantity_unit: 'unit'
     },
     {
         category: 'deli',
-        name: 'Lemonade',
+        name: 'Pepperoni',
+        price: 450,
+        image: 'https://i.mctimg.com/file/a8fa70111c8d662312e91209d4ce22b81b3c8980/r400x400/b53ee8af0578b9a40d9c4572e6910319a1a87d2f6f0472049d22b1e4794227c7',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'deli',
+        name: 'Salami',
+        price: 550,
+        image: 'https://i.mctimg.com/file/50a29d37a606f456ada413c6c5e9e3263cb1998d/r400x400/a8e07e34a725743852c00b29512e74a566c41213ab7226a6587eb2f32e7569f3',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'deli',
+        name: 'Pickles',
+        price: 400,
+        image: 'https://i.mctimg.com/file/4e7d1e93f3a7a87784f21b1a503c19cea9206147/r400x400/1a992ca11db2a06ea47bb9d33b8c485c98b8c0692df223f8213ee95458d1dfa6',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'deli',
+        name: 'Hummus',
+        price: 500,
+        image: 'https://i.mctimg.com/file/e46e638fc28422629b64d16513780e592be6c68d/r400x400/69bb8a6121f6c8b4296e30e6f7bb850bcac478ebd464721a0d13d864bd2c41e8',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'deli',
+        name: 'Coleslaw',
         price: 350,
-        image: '',
+        image: 'https://i.mctimg.com/file/893f5471936b1e2b8528626394ed7e93dd47fe80/r400x400/b44bcec5e24607e1b904baecad626d42e13fee49cb5bcb887fc86d8c698a183d',
         quantity_unit: 'unit'
     },
     {
         category: 'deli',
-        name: 'Apple Juice',
-        price: 200,
-        image: '',
+        name: 'Potato Salad',
+        price: 375,
+        image: 'https://i.mctimg.com/file/6c7504fc65a78056d354e99b60094e4d3c6b4563/r400x400/b761cb10100a35f929921825373e69009e616091e3d41f5703992c7a4573aff5',
         quantity_unit: 'unit'
     },
     {
         category: 'deli',
-        name: 'Iced Tea',
-        price: 200,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'deli',
-        name: 'Orange Juice',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'deli',
-        name: 'Soda',
-        price: 150,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'deli',
-        name: 'Water',
-        price: 100,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'deli',
-        name: 'Lemonade',
+        name: 'Macaroni Salad',
         price: 350,
-        image: '',
+        image: 'https://i.mctimg.com/file/3d140d68be2a7d5a5273c41cf5da1732832979ce/r400x400/0d7d437b0b1cab3d2b0b7dd5a76338617e25df0c8da54ef2a35ca94d5d2e1da8',
         quantity_unit: 'unit'
     },
     {
         category: 'deli',
-        name: 'Apple Juice',
-        price: 200,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'deli',
-        name: 'Iced Tea',
-        price: 200,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'deli',
-        name: 'Orange Juice',
+        name: 'Salsa',
         price: 300,
-        image: '',
+        image: 'https://i.mctimg.com/file/204b030d9cda29adc766530dd54edb87a541a294/r400x400/1c770375c66d99b5f171e04c52fca7dca58946332acf8d29e09f4e4561248843',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'deli',
+        name: 'Roast Beef',
+        price: 550,
+        image: 'https://i.mctimg.com/file/86b451abace10550b1bddb8e9c66473bc1611823/r400x400/89dec0c272f53ebc104d3c2710ffaa71a51385ff9b22b6a95f154e85fe3f9806',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'deli',
+        name: 'Hot Dogs',
+        price: 200,
+        image: 'https://i.mctimg.com/file/b014245f97434ad15db6d0a6a57a941462763c88/r400x400/4f9e3d08c618635175693e86c1a2927888fbbe8e29aaaccb9519dd031b59fbc7',
         quantity_unit: 'unit'
     }
 ]
@@ -2648,86 +2648,86 @@ smartnfinalDeli = [
 smartnfinalSnacks = [
     {
         category: 'snacks',
-        name: 'Waffles',
+        name: 'Potato Chips',
         price: 300,
-        image: '',
+        image: 'https://i.mctimg.com/file/4db450995f247e03398987008e0f06b27f367a29/r200x200/c3b207136eac5b9205d72bd9ed995ed3b7da952d0f8d6ad637ac64b079f45ff9',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Frozen Pizza',
-        price: 350,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'snacks',
-        name: 'Frozen Peas',
-        price: 250,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'snacks',
-        name: 'Chicken Nuggets',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'snacks',
-        name: 'Ice Cream',
-        price: 500,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'snacks',
-        name: 'Frozen Strawberries',
+        name: 'Tortilla Chips',
         price: 400,
-        image: '',
+        image: 'https://i.mctimg.com/file/564bef9ceafcb26595354ed9c85f5e67b9b31de0/r400x400/e38a2863d76e577d61bdde5e04d354daf5d2704f5cf8557c6963eb0096fb7d13',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Waffles',
-        price: 300,
-        image: '',
+        name: 'Saltine Crackers',
+        price: 200,
+        image: 'https://i.mctimg.com/file/168ca0208596d302c60870bc8b9a7d111acc0c01/r400x400/982197e4d1d46d4e3cf7db23452eb8ad35c7c722f419a8e24a9fd4bbbe6b7394',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Frozen Pizza',
-        price: 350,
-        image: '',
+        name: 'Pretzels',
+        price: 200,
+        image: 'https://i.mctimg.com/file/545f250d44e6c028ba87b60e0ff458c9815e85aa/r400x400/3b94b8791fd4e9d14c44c4256e16008f11ab0e1d272ef26e914067df44f7057e',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Frozen Peas',
+        name: 'Graham Crackers',
         price: 250,
-        image: '',
+        image: 'https://i.mctimg.com/file/2c45429e95a5aea69679f7304e4f2edae08a9610/r400x400/de99e5eddb1159a4369466be4cf020ff1de614c13c42016a0af5bf86567d1a68',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Chicken Nuggets',
+        name: 'Vanilla Wafers',
+        price: 275,
+        image: 'https://i.mctimg.com/file/c73e31271414d3bd711592e77fbceb139404798d/r400x400/0e31d1b2ba12ae7cc75eeb3f18c32f95da1a787b775ea751d1e0999f579c7a5c',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Mixed Nuts',
         price: 300,
-        image: '',
+        image: 'https://i.mctimg.com/file/745e671d750f61722b7fc094ee44b51cb6a1c435/r400x400/0fe7954ac323dab12fccc14354f1c1806596585392af3550e4cb78d4f810ce28',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Ice Cream',
-        price: 500,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'snacks',
-        name: 'Frozen Strawberries',
+        name: 'Cashews',
         price: 400,
-        image: '',
+        image: 'https://i.mctimg.com/file/5eea6813d4d527f96fae14232d16da713a566b93/r400x400/db6c224572ad3e637304f26ec1d0a01be08f61bdd70fbf99ca863840b9eae33d',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Sunflower Seeds',
+        price: 250,
+        image: 'https://i.mctimg.com/file/0a26840f169a1acd51eccf4c4a5e4698d0f82041/r400x400/4be3663abd2623c7bcce3d6cde24cbecfc2a10c69649fc3cc51f7c3f8834e382',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Peanut Butter Pretzels',
+        price: 450,
+        image: 'https://i.mctimg.com/file/a95cbaace57733c9e20e27418b49e3fded52e154/r400x400/f70bf93d60da73b7c60bf8faf9f8e7b446cd8fff1ac7449a422998ac2ddb4ccc',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Chocolate Chip Cookies',
+        price: 300,
+        image: 'https://i.mctimg.com/file/3e9c7da2f9f8ef2500db9859238ba4608b892c4d/r400x400/72beceebe1acf5eeba09c425ff18c18cbf5c7c360ecf5976aa3109a9d2d3f00c',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Popcorn',
+        price: 200,
+        image: 'https://i.mctimg.com/file/3f26800853369d574500564d5097fdc713835723/r400x400/3158eefaa7ca5fe38eb3f2b48eebacba1b1b36ffaa4ea6aeff360bff4148b1f7',
         quantity_unit: 'unit'
     }
 ]
