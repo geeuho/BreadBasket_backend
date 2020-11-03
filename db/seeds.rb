@@ -833,14 +833,14 @@ costcoMeats = [
         category: 'meats',
         name: 'Hot Links',
         price: 500,
-        image: '',
+        image: 'https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12028466&id=953256&recipeId=739',
         quantity_unit: 'pound'
     },
     {
         category: 'meats',
         name: 'Chicken Sausage',
-        price: 250,
-        image: '',
+        price: 500,
+        image: 'https://d2d8wwwkmhfcva.cloudfront.net/800x/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b21abae6-404a-47e8-8832-b49034bc3f56.jpg',
         quantity_unit: 'unit'
     },
     {
@@ -867,7 +867,7 @@ costcoMeats = [
     {
         category: 'meats',
         name: 'Burger Patties',
-        price: 400,
+        price: 800,
         image: 'https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c0ffb823-9169-49ea-9c08-a14ab76b0a57.jpeg',
         quantity_unit: 'pound'
     },
@@ -881,18 +881,20 @@ costcoMeats = [
     {
         category: 'meats',
         name: 'Sliced Turkey',
-        price: 250,
+        price: 550,
         image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=48600&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'meats',
         name: 'Sliced Ham',
-        price: 300,
+        price: 650,
         image: 'https://phorcys-static.ewg.org/kwikee/096/619/316/281.jpg',
         quantity_unit: 'unit'
     }
 ]
+
+##START HERE 11/3##
 
 costcoProduce = [
     {
