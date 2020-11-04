@@ -3384,86 +3384,86 @@ foodmaxxMeatnseafood = [
 foodmaxxHousehold = [
     {
         category: 'household',
-        name: 'Waffles',
-        price: 300,
-        image: '',
+        name: 'Air Freshener',
+        price: 100,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9fdbd796-17cc-4927-a9e1-d90a53777395.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'household',
-        name: 'Frozen Pizza',
-        price: 350,
-        image: '',
+        name: 'Ziploc Containers',
+        price: 200,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4505fea9-fc64-471b-b097-6f3f1eb89de5.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'household',
-        name: 'Frozen Peas',
+        name: 'Comet Cleanser',
         price: 250,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cda1b7b2-2904-4169-a080-d8aaed712178.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'household',
-        name: 'Chicken Nuggets',
-        price: 300,
-        image: '',
+        name: 'Trash Bags',
+        price: 1200,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_abfb0f4a-1b5f-402d-bb1c-3a82da043b38.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'household',
-        name: 'Ice Cream',
+        name: 'Mopping Cloths',
         price: 500,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f9cea761-3138-4fe5-abf3-61c6477cdd5d.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Toilet Paper',
+        price: 700,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e4e1ffff-dd28-4674-9fa4-29ecb943cdf8.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Paper Towels',
+        price: 1300,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0cdc1e2e-f94b-4ba9-8402-75e89b1f00ed.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Tissues',
+        price: 250,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f7220f17-91d8-4150-bb91-f1d95ab73f00.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Dishwashing Soap',
+        price: 250,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_dcb55502-29d4-4902-8ba3-fe0a701f8849.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Paper Plates',
+        price: 500,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c1dad625-c491-47d6-b9cf-e409934fa609.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'household',
+        name: 'Paper Bowls',
+        price: 250,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9aaa235b-ba61-46cf-88ef-a364b6664829.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'household',
         name: 'Frozen Strawberries',
-        price: 400,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'household',
-        name: 'Waffles',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'household',
-        name: 'Frozen Pizza',
         price: 350,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'household',
-        name: 'Frozen Peas',
-        price: 250,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'household',
-        name: 'Chicken Nuggets',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'household',
-        name: 'Ice Cream',
-        price: 500,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'household',
-        name: 'Frozen Strawberries',
-        price: 400,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_af7d3011-4288-47a2-bf65-91fa9b804763.jpg',
         quantity_unit: 'unit'
     }
 ]
