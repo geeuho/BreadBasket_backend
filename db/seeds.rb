@@ -3671,12 +3671,12 @@ costcoCategories = {
 }
 
 riteaidCategories = {
-    'beauty' : riteaidBeauty,
+    'beauty': riteaidBeauty,
     'household': riteaidHousehold,
     'grocery': riteaidGrocery,
     'medicine': riteaidMedicine, 
     'schoolnoffice': riteaidSchoolnoffice,
-    'diet' : riteaidDiet,
+    'diet': riteaidDiet,
     'personalcare': riteaidPersonalCare,
 }
 
@@ -3693,7 +3693,7 @@ smartnfinalCategories = {
 
 foodmaxxCategories = {
     'beverages': foodmaxxBeverages, 
-    'breakfast': foodmaxxBreakfas, 
+    'breakfast': foodmaxxBreakfast, 
     'cannedgoods' : foodmaxxCannedgoods,
     'dairyneggs': foodmaxxDairyneggs, 
     'frozen': foodmaxxFrozen, 
