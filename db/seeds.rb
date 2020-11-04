@@ -3645,9 +3645,6 @@ foodmaxxSnacks = [
 
 
 
-
-
-
 safewayCategories = {
     "meats": safewayMeats, 
     "produce": safewayProduce, 
