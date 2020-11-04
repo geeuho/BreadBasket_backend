@@ -3318,66 +3318,66 @@ foodmaxxMeatnseafood = [
     },
     {
         category: 'meatnseafood',
-        name: 'Apple Juice',
+        name: 'Chicken Breast',
         price: 200,
-        image: '',
-        quantity_unit: 'unit'
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a2baadd6-d585-4b88-b617-87288b1d144b.jpg',
+        quantity_unit: 'pound'
     },
     {
         category: 'meatnseafood',
-        name: 'Iced Tea',
-        price: 200,
-        image: '',
-        quantity_unit: 'unit'
+        name: 'Salmon',
+        price: 800,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_33d41ea2-859b-44b2-b292-4484eaf7a0bd.jpg',
+        quantity_unit: 'pound'
     },
     {
         category: 'meatnseafood',
-        name: 'Orange Juice',
+        name: 'Pacific Cod',
+        price: 600,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_98a47a56-1e60-40ed-9760-fb442c59ee0e.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'meatnseafood',
+        name: 'Beef Franks',
         price: 300,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4a2851ec-f1f5-4d47-86d0-63bd04f18752.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'meatnseafood',
-        name: 'Soda',
+        name: 'Italian Sausage',
+        price: 200,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_eef626e4-0446-4528-8864-f5108ce284ae.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'meatnseafood',
+        name: 'Chorizo',
         price: 150,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_94b510b1-ae49-4210-bb38-bc4a586d9168.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'meatnseafood',
-        name: 'Water',
-        price: 100,
-        image: '',
+        name: 'Imitation Crab',
+        price: 400,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7dfe3ab6-3372-4276-922b-438d6466fa51.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'meatnseafood',
-        name: 'Lemonade',
-        price: 350,
-        image: '',
+        name: 'Bacon',
+        price: 450,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2881fbbb-5f0f-4f00-918c-91d4ed32fc7b.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'meatnseafood',
-        name: 'Apple Juice',
-        price: 200,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'meatnseafood',
-        name: 'Iced Tea',
-        price: 200,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'meatnseafood',
-        name: 'Orange Juice',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
+        name: 'Turkey Bacon',
+        price: 250,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e31a09ea-4801-45fd-bbd6-c85783779450.JPG',
+        quantity_unit: 'pound'
     }
 ]
 
