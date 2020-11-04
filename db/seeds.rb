@@ -3499,59 +3499,59 @@ foodmaxxProduce = [
     },
     {
         category: 'produce',
-        name: 'Gloves',
-        price: 5000,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'produce',
-        name: 'Hand Sanitizer',
-        price: 7500,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'produce',
-        name: 'Paper Towels',
+        name: 'Mushrooms',
         price: 300,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_58ffd2e7-da1f-4a7e-bcf3-0e6ba9d172a9.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'produce',
-        name: 'Garbage Bags',
+        name: 'Romaine Lettuce',
         price: 350,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5d6a1fa6-2d6b-4167-bd1a-a00280422b5e.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'produce',
-        name: 'Toilet Paper',
-        price: 10000,
-        image: '',
+        name: 'Mango',
+        price: 100,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_368d1c21-bd15-471e-89b9-9a85589d6538.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'produce',
-        name: 'Paper Plates',
-        price: 300,
-        image: '',
+        name: 'Cilantro',
+        price: 100,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a35d3a1e-d52f-46fc-b870-b4833b730089.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'produce',
-        name: 'Gloves',
-        price: 5000,
-        image: '',
+        name: 'Ginger',
+        price: 350,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2547bf00-28be-46a1-8848-4ee00963c40b.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'produce',
+        name: 'Garlic',
+        price: 100,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_216f6b78-93d2-45be-9d48-20a0f214b545.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'produce',
-        name: 'Hand Sanitizer',
-        price: 7500,
-        image: '',
+        name: 'Corn',
+        price: 100,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6b51d300-7de4-495f-9ec3-27675c13ed20.jpg',
         quantity_unit: 'unit'
+    },
+    {
+        category: 'produce',
+        name: 'Papaya',
+        price: 120,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ca9c538e-7100-4034-9d31-ba399e7e1fe9.jpg',
+        quantity_unit: 'pound'
     }
 ]
 
@@ -3559,86 +3559,86 @@ foodmaxxProduce = [
 foodmaxxSnacks = [
     {
         category: 'snacks',
-        name: 'Paper Towels',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'snacks',
-        name: 'Garbage Bags',
+        name: 'Pop Chips',
         price: 350,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_016e85b7-77eb-4c98-b44b-483ddb21eac9.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Toilet Paper',
-        price: 10000,
-        image: '',
+        name: 'Air Heads',
+        price: 250,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1186f438-907d-47e2-8178-b30c11cd4d82.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Paper Plates',
+        name: 'Hot Cheetos',
         price: 300,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f6b597c1-583f-4995-ac7f-0f429cbb32a8.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Gloves',
-        price: 5000,
-        image: '',
+        name: 'Red Vines',
+        price: 900,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5afb3109-2bc2-477e-aef8-fa71daa43619.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Hand Sanitizer',
-        price: 7500,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'snacks',
-        name: 'Paper Towels',
+        name: 'Skittles',
         price: 300,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_99b4460a-e357-47ba-b02c-be745c826296.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Garbage Bags',
+        name: 'Chips Ahoy',
+        price: 300,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0b1396cb-1ae4-461c-bfa9-6092e00df457.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Little Bites',
         price: 350,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_26b7ada0-f310-48ac-83f0-ca455f3dc6d5.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Toilet Paper',
+        name: 'Cheez-Its',
+        price: 450,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0e098424-4200-41f0-81f9-bbc163e1d812.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Funyuns',
+        price: 400,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_70cb24d8-9a6b-45fe-9a9b-67eb5f03300c.jpeg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'snacks',
+        name: 'Popcorn',
         price: 10000,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_80f45ee7-9f0f-483a-888e-fcc8131a3f7e.png',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Paper Plates',
-        price: 300,
-        image: '',
+        name: 'Mentos Gum',
+        price: 250,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d6ea957b-eced-4ee9-96c2-c4c9cc3c500d.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'snacks',
-        name: 'Gloves',
-        price: 5000,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'snacks',
-        name: 'Hand Sanitizer',
-        price: 7500,
-        image: '',
+        name: 'Powdered Sugar Donuts',
+        price: 200,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_aa454f6b-cddd-4f7a-9bcb-21fbab5e9e11.jpg',
         quantity_unit: 'unit'
     }
 ]
