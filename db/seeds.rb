@@ -2862,173 +2862,173 @@ smartnfinalHousehold = [
 foodmaxxBeverages = [
     {
         category: 'beverages',
-        name: 'Asparagus',
-        price: 150,
-        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_12f80701-c76e-488e-aec6-db952ff75487.jpg',
+        name: 'Coke (12 Pack)',
+        price: 500,
+        image: 'https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7fae06d9-dc42-485c-9d66-20f8c88de52f.jpg',
         quantity_unit: 'pound'
     },
     {
         category: 'beverages',
-        name: 'Cauliflower',
-        price: 150,
-        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_88f1145f-fdc7-42e5-9138-178fb3baf044.jpg',
+        name: 'Canada Dry (12 Pack)',
+        price: 500,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_efd8657d-2b8f-42f0-b635-b48da66ba9ce.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'beverages',
-        name: 'Radish',
-        price: 100,
-        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b9801a01-409b-4e2e-a326-25efcac77bff.jpg',
+        name: 'La Croix Pack',
+        price: 450,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_82d12874-ff19-4cd9-a43d-c7f04b2b1c2e.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'beverages',
-        name: 'Lemons',
-        price: 200,
-        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fd1a0be6-1817-4c3d-82a8-84b37e7ce2fc.jpg',
-        quantity_unit: 'pound'
+        name: 'San Pellegrino Pack',
+        price: 350,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_77a13e8b-4654-496c-b682-75c7657b7eb2.jpg',
+        quantity_unit: 'unit'
     },
     {
         category: 'beverages',
-        name: 'Bananas',
+        name: 'Arizona Green Tea',
+        price: 250,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_22889dea-3844-44af-8354-a0315a8ab6d6.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Water (2.5 gallon)',
+        price: 350,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_19581177-57fe-4286-928a-715a762a5941.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Iced Coffee',
+        price: 250,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a70ed5c9-1f20-40f0-9140-6868d28d6779.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Red Bull',
+        price: 600,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_72982e5b-40af-449b-8726-1526fc68f263.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Orange Juice',
+        price: 600,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4ee8c1be-7761-4f50-83e6-dd47aebc8859.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Hawaiian Punch',
+        price: 200,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_57ec962e-0085-4b62-a8f8-ce99253deab6.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Horchata',
+        price: 200,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cb953d31-75ca-4206-aeb5-770e43d91084.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'beverages',
+        name: 'Tejava Tea',
         price: 150,
-        image: '',
-        quantity_unit: 'pound'
-    },
-    {
-        category: 'beverages',
-        name: 'Onion',
-        price: 200,
-        image: '',
-        quantity_unit: 'pound'
-    },
-    {
-        category: 'beverages',
-        name: 'Tomato',
-        price: 100,
-        image: '',
-        quantity_unit: 'pound'
-    },
-    {
-        category: 'beverages',
-        name: 'Apples',
-        price: 100,
-        image: '',
-        quantity_unit: 'pound'
-    },
-    {
-        category: 'beverages',
-        name: 'Carrot',
-        price: 100,
-        image: '',
-        quantity_unit: 'pound'
-    },
-    {
-        category: 'beverages',
-        name: 'Sweet Potatoes',
-        price: 200,
-        image: '',
-        quantity_unit: 'pound'
-    },
-    {
-        category: 'beverages',
-        name: 'Bananas',
-        price: 150,
-        image: '',
-        quantity_unit: 'pound'
-    },
-    {
-        category: 'beverages',
-        name: 'Onion',
-        price: 200,
-        image: '',
-        quantity_unit: 'pound'
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_59ce7532-b515-436d-b707-7d49a6cdd1c3.jpg',
+        quantity_unit: 'unit'
     }
 ]
 
 foodmaxxCannedgoods = [
     {
         category: 'cannedgoods',
-        name: 'Milk',
+        name: 'Sliced Peaches',
+        price: 100,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5160b439-67fe-40af-991c-4a154704604d.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'cannedgoods',
+        name: 'Mandarin Oranges',
+        price: 150,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5e228283-4425-4a81-983c-c7db85f2627a.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'cannedgoods',
+        name: 'Sweet Peas',
+        price: 100,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_80fb9532-1899-45a2-a55b-8cc2d3548da4.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'cannedgoods',
+        name: 'Chili',
+        price: 150,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4ea53a99-8bfa-4576-b614-3035d9bd94bb.jpeg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'cannedgoods',
+        name: 'Refried Beans',
+        price: 100,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_68abb2cb-e417-49df-b89f-5c059a934ec9.jpeg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'cannedgoods',
+        name: 'Spam',
         price: 250,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_59565821-77e2-437c-9113-cdf304316dd4.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'cannedgoods',
-        name: 'Sliced Cheese',
-        price: 350,
-        image: '',
+        name: 'Vienna Sausages',
+        price: 100,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2a72386b-b4ed-47db-b6ab-e292fb6271f7.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'cannedgoods',
-        name: 'Shredded Cheese',
-        price: 400,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'cannedgoods',
-        name: 'Yogurt',
+        name: 'Chicken Breast',
         price: 300,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a720fe36-eba4-476b-b4b8-e55c8f2b92e6.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'cannedgoods',
-        name: 'Sour Cream',
-        price: 500,
-        image: '',
+        name: 'Tuna',
+        price: 100,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f8f1a8b9-4648-4309-91a3-2fc394c02f23.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'cannedgoods',
-        name: 'Butter',
-        price: 300,
-        image: '',
+        name: 'Cream of Chicken',
+        price: 100,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3d9f5f61-a92d-4672-83e5-1458c08e01ad.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'cannedgoods',
-        name: 'Milk',
-        price: 250,
-        image: '',
+        name: 'Jalapenos',
+        price: 100,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fb93330d-9870-49f6-bbcf-d5b05e65631f.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'cannedgoods',
-        name: 'Sliced Cheese',
-        price: 350,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'cannedgoods',
-        name: 'Shredded Cheese',
-        price: 400,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'cannedgoods',
-        name: 'Yogurt',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'cannedgoods',
-        name: 'Sour Cream',
-        price: 500,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'cannedgoods',
-        name: 'Butter',
-        price: 300,
-        image: '',
+        name: 'Tomato Soup',
+        price: 100,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_68396112-7528-4ddf-b2ae-8cabc8a30504.jpg',
         quantity_unit: 'unit'
     }
 ]
@@ -3036,170 +3036,257 @@ foodmaxxCannedgoods = [
 foodmaxxFrozen = [
     {
         category: 'frozen',
-        name: 'Bagel',
+        name: 'Taquitos',
+        price: 550,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9ffb3d9e-7d99-49c8-a0d7-9d1f9fb14f3b.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Fish Sticks',
         price: 500,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_aad5e8b9-9c50-46c9-b171-a181f7e5292a.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
-        name: 'Donut',
-        price: 100,
-        image: '',
+        name: 'Mozerella Sticks',
+        price: 800,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1d505adb-8dfc-4adc-a951-4d8a951ac55e.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
-        name: 'Sliced Bread',
-        price: 200,
-        image: '',
+        name: 'Hot Pockets',
+        price: 700,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0a1e6750-ace4-4944-9a32-3c869439d74c.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
-        name: 'Croissants',
-        price: 100,
-        image: '',
+        name: 'Eggo Waffles',
+        price: 250,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7ef40571-3bd3-499e-8703-0ab6fc480b74.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
-        name: 'Baguette',
+        name: 'Strawberry Shortcake Bars',
+        price: 300,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2d85907f-c231-43d9-b75d-9d100f558ef2.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Toaster Strudel',
         price: 150,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_67508c26-1635-4f37-93db-c5e0d678417f.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
-        name: 'Muffins',
-        price: 100,
-        image: '',
+        name: 'Chimichangas',
+        price: 250,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3563610e-e502-4425-b2da-3522c5e761a8.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
-        name: 'Bagel',
-        price: 500,
-        image: '',
+        name: 'Pizza',
+        price: 350,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_389ea787-a492-4ff5-9a25-6e3e6fdbd664.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
-        name: 'Donut',
-        price: 100,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'frozen',
-        name: 'Sliced Bread',
-        price: 200,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'frozen',
-        name: 'Croissants',
-        price: 100,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'frozen',
-        name: 'Baguette',
+        name: 'Frozen Orange Juice',
         price: 150,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/197x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_baa41d80-b5d0-4d7e-9008-ccc774ba5887.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'frozen',
-        name: 'Muffins',
+        name: 'Chicken Nuggets',
+        price: 450,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_27fdfcce-2dbc-40e4-b4f9-4ece52c7af72.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'frozen',
+        name: 'Corn Dogs',
         price: 100,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ca366ffe-d81b-449c-9621-111f66396bee.jpg',
         quantity_unit: 'unit'
     }
 ]
 
-foodmaxxDairy = [
+foodmaxxBreakfast = [
     {
-        category: 'dairy',
+        category: 'breakfast',
         name: 'Potato Chips',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairy',
+        category: 'breakfast',
         name: 'Cookies',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairy',
+        category: 'breakfast',
         name: 'Gummy Bears',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairy',
+        category: 'breakfast',
         name: 'Chocolate',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairy',
+        category: 'breakfast',
         name: 'Granola',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairy',
+        category: 'breakfast',
         name: 'Popcorn',
         price: 300,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairy',
+        category: 'breakfast',
         name: 'Potato Chips',
         price: 200,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairy',
+        category: 'breakfast',
         name: 'Cookies',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairy',
+        category: 'breakfast',
         name: 'Gummy Bears',
         price: 250,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairy',
+        category: 'breakfast',
         name: 'Chocolate',
         price: 100,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairy',
+        category: 'breakfast',
         name: 'Granola',
         price: 400,
         image: '',
         quantity_unit: 'unit'
     },
     {
-        category: 'dairy',
+        category: 'breakfast',
+        name: 'Popcorn',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    }
+]
+
+foodmaxxDairyneggs = [
+    {
+        category: 'dairyneggs',
+        name: 'Potato Chips',
+        price: 200,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Cookies',
+        price: 250,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Gummy Bears',
+        price: 250,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Chocolate',
+        price: 100,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Granola',
+        price: 400,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Popcorn',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Potato Chips',
+        price: 200,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Cookies',
+        price: 250,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Gummy Bears',
+        price: 250,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Chocolate',
+        price: 100,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Granola',
+        price: 400,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
         name: 'Popcorn',
         price: 300,
         image: '',
@@ -3383,32 +3470,32 @@ foodmaxxHousehold = [
 
 foodmaxxProduce = [
     {
-        category: 'produce',
-        name: 'Paper Towels',
-        price: 300,
-        image: '',
+        category: 'beverages',
+        name: 'Asparagus',
+        price: 150,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_12f80701-c76e-488e-aec6-db952ff75487.jpg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'beverages',
+        name: 'Cauliflower',
+        price: 150,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_88f1145f-fdc7-42e5-9138-178fb3baf044.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'produce',
-        name: 'Garbage Bags',
-        price: 350,
-        image: '',
+        category: 'beverages',
+        name: 'Radish',
+        price: 100,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b9801a01-409b-4e2e-a326-25efcac77bff.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'produce',
-        name: 'Toilet Paper',
-        price: 10000,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'produce',
-        name: 'Paper Plates',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
+        category: 'beverages',
+        name: 'Lemons',
+        price: 200,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fd1a0be6-1817-4c3d-82a8-84b37e7ce2fc.jpg',
+        quantity_unit: 'pound'
     },
     {
         category: 'produce',
@@ -3596,24 +3683,24 @@ riteaidCategories = {
 smartnfinalCategories = {
     'bakery': smartnfinalBakery, 
     'beverages': smartnfinalBeverages, 
-    'frozen': smartnfinalFrozen, 
     'dairy': smartnfinalDairy, 
-    'meatnseafood': smartnfinalMeatnseafood, 
     'deli': smartnfinalDeli, 
-    'snacks': smartnfinalSnacks, 
-    'household': smartnfinalHousehold
+    'frozen': smartnfinalFrozen, 
+    'household': smartnfinalHousehold,
+    'meatnseafood': smartnfinalMeatnseafood, 
+    'snacks': smartnfinalSnacks 
 }
 
 foodmaxxCategories = {
     'beverages': foodmaxxBeverages, 
+    'breakfast': foodmaxxBreakfast, 
     'cannedgoods' : foodmaxxCannedgoods,
-    'frozen': foodmaxxFrozen, 
-    'deli': foodmaxxDeli, 
     'dairyneggs': foodmaxxDairyneggs, 
-    'meatnseafood': foodmaxxMeatnseafood, 
+    'frozen': foodmaxxFrozen, 
     'household': foodmaxxHousehold,
+    'meatnseafood': foodmaxxMeatnseafood, 
     'produce': foodmaxxProduce,
-    'snacks': foodmaxxSnacks,      
+    'snacks': foodmaxxSnacks      
 }
 
 safewayCategories.each do |category, items|
