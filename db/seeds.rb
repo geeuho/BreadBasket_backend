@@ -1333,85 +1333,85 @@ costcoSeafood = [
     {
         category: 'seafood',
         name: 'Lobster Tail',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
+        price: 500,
+        image: 'https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&itemId=1459392-847&recipeName=680',
+        quantity_unit: 'pound'
     },
     {
         category: 'seafood',
         name: 'Scallops',
-        price: 350,
-        image: '',
+        price: 1350,
+        image: 'https://d2d8wwwkmhfcva.cloudfront.net/800x/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8be8b5e1-97f7-4f84-9d84-2cb62ee0ddb7.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
         name: 'Jumbo Shrimp',
-        price: 250,
-        image: '',
+        price: 1450,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=25549&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
-        name: 'Oysters',
-        price: 300,
-        image: '',
+        name: 'Jarred Oysters',
+        price: 1050,
+        image: 'https://goosepoint.com/wp-content/uploads/2016/07/shucked-32-tub.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
         name: 'Salmon',
         price: 500,
-        image: '',
-        quantity_unit: 'unit'
+        image: 'https://d1fywv0iz2cv2w.cloudfront.net/product-image/v201909/9fe9aa72dc6863dade10ffabcfd340cc.jpeg',
+        quantity_unit: 'pound'
+    },
+    {
+        category: 'seafood',
+        name: 'Tuna',
+        price: 450,
+        image: 'https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ab2411b2-3bdc-43bc-9b5d-ee9ca3b58808.jpeg',
+        quantity_unit: 'pound'
     },
     {
         category: 'seafood',
         name: 'King Crab Legs',
-        price: 400,
-        image: '',
-        quantity_unit: 'unit'
+        price: 700,
+        image: 'https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12026540&id=1154067&recipeId=728',
+        quantity_unit: 'pound'
     },
     {
         category: 'seafood',
         name: 'Sockeye Salmon',
-        price: 300,
-        image: '',
+        price: 1200,
+        image: 'https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12028466&id=944749&recipeId=739',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
         name: 'Mahi Mahi',
-        price: 350,
-        image: '',
+        price: 1150,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=251704&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
         name: 'Halibut',
-        price: 250,
-        image: '',
+        price: 1150,
+        image: 'https://d2d8wwwkmhfcva.cloudfront.net/800x/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1f706d14-65f8-4bfe-82ba-ab8bb0df65a2.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
         name: 'Atlantic Cod',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'seafood',
-        name: 'Tuna',
-        price: 500,
-        image: '',
+        price: 1200,
+        image: 'https://d1fywv0iz2cv2w.cloudfront.net/product-image/v201909/e89cae60763ef2f805a2ece03bfb27e7.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'seafood',
         name: 'Tilapia',
-        price: 400,
-        image: '',
+        price: 1150,
+        image: 'https://d1fywv0iz2cv2w.cloudfront.net/product-image/v201909/d2e81534d322243bd2a0f5df3f04b589.jpeg',
         quantity_unit: 'unit'
     }
 ]
@@ -1420,85 +1420,85 @@ costcoPapernplastic = [
     {
         category: 'papernplastic',
         name: 'Paper Towels',
-        price: 300,
-        image: '',
+        price: 1450,
+        image: 'https://static.slickdealscdn.com/attachment/6/8/9/5/3/9/7/9015905.attach',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
         name: 'Plastic Knives',
         price: 350,
-        image: '',
+        image: 'https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&itemId=127279-847&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
         name: 'Plastic Forks',
-        price: 10000,
-        image: '',
+        price: 350,
+        image: 'https://richmedia.ca-richimage.com/ImageDelivery/imageService?profileId=12026540&id=654041&recipeId=728',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
         name: 'Paper Plates',
-        price: 300,
-        image: '',
+        price: 550,
+        image: 'https://images.costcobusinessdelivery.com/ImageDelivery/imageService?profileId=12028466&itemId=128163&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
         name: 'Toilet Paper',
-        price: 5000,
-        image: '',
+        price: 1500,
+        image: 'https://d2d8wwwkmhfcva.cloudfront.net/800x/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a5407fb9-028f-40e7-b29f-dc250ff9400c.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
         name: 'Napkins',
-        price: 7500,
-        image: '',
+        price: 500,
+        image: 'https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&itemId=738392-847&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
         name: 'Aluminum Foil',
-        price: 300,
-        image: '',
+        price: 350,
+        image: 'https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e86ea062-28c4-4e0e-a806-3aafcf1d6cc7.JPG',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
         name: 'Paper Bowls',
-        price: 350,
-        image: '',
+        price: 300,
+        image: 'https://d1fywv0iz2cv2w.cloudfront.net/product-image/v201909/685add90b0124c580929c17e72bf6c06.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
         name: 'Trash Bags',
-        price: 10000,
-        image: '',
+        price: 750,
+        image: 'https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&itemId=1145111-847&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
         name: 'Plastic Cups',
-        price: 300,
-        image: '',
+        price: 600,
+        image: 'https://images.costco-static.com/ImageDelivery/imageService?profileId=12026540&itemId=1193444-847&recipeName=680',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
         name: 'Tissues',
-        price: 5000,
-        image: '',
+        price: 400,
+        image: 'https://imgcache.dealmoon.com/fsvrugc.dealmoon.com/ugc/bc8/d51/529/776a07850e164db1a767aec.jpg_600_600_2_dd8a.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'papernplastic',
         name: 'Parchment Paper',
-        price: 7500,
-        image: '',
+        price: 500,
+        image: 'https://d1fywv0iz2cv2w.cloudfront.net/product-image/v201909/bb4281f982d7e877bd77c7353792f599.jpeg',
         quantity_unit: 'unit'
     }
 ]
