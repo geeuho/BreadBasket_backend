@@ -768,7 +768,7 @@ safewayHousehold = [
         image: 'https://www.kroger.com/product/images/xlarge/front/0003700008886',
         quantity_unit: 'unit'
     },
-    }
+    {
         category: 'household',
         name: 'Paper Towels',
         price: 300,
