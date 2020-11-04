@@ -2857,120 +2857,35 @@ smartnfinalHousehold = [
 
 
 
-foodmaxxBaking = [
-    {
-        category: 'baking',
-        name: 'Fish',
-        price: 350,
-        image: '',
-        quantity_unit: 'pound'
-    }, 
-    {
-        category: 'baking',
-        name: 'Steak',
-        price: 700,
-        image: '',
-        quantity_unit: 'pound'
-    },
-    {
-        category: 'baking',
-        name: 'Sausage',
-        price: 400,
-        image: '',
-        quantity_unit: 'pound'
-    },
-    {
-        category: 'baking',
-        name: 'Chicken',
-        price: 500,
-        image: '',
-        quantity_unit: 'pound'
-    },
-    {
-        category: 'baking',
-        name: 'Eggs',
-        price: 250,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'baking',
-        name: 'Pork Chop',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'baking',
-        name: 'Fish',
-        price: 350,
-        image: '',
-        quantity_unit: 'pound'
-    }, 
-    {
-        category: 'baking',
-        name: 'Steak',
-        price: 700,
-        image: '',
-        quantity_unit: 'pound'
-    },
-    {
-        category: 'baking',
-        name: 'Sausage',
-        price: 400,
-        image: '',
-        quantity_unit: 'pound'
-    },
-    {
-        category: 'baking',
-        name: 'Chicken',
-        price: 500,
-        image: '',
-        quantity_unit: 'pound'
-    },
-    {
-        category: 'baking',
-        name: 'Eggs',
-        price: 250,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'baking',
-        name: 'Pork Chop',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    }
-]
+
 
 foodmaxxBeverages = [
     {
         category: 'beverages',
-        name: 'Tomato',
-        price: 100,
-        image: '',
+        name: 'Asparagus',
+        price: 150,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_12f80701-c76e-488e-aec6-db952ff75487.jpg',
         quantity_unit: 'pound'
     },
     {
         category: 'beverages',
-        name: 'Apples',
-        price: 100,
-        image: '',
-        quantity_unit: 'pound'
+        name: 'Cauliflower',
+        price: 150,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_88f1145f-fdc7-42e5-9138-178fb3baf044.jpg',
+        quantity_unit: 'unit'
     },
     {
         category: 'beverages',
-        name: 'Carrot',
+        name: 'Radish',
         price: 100,
-        image: '',
-        quantity_unit: 'pound'
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b9801a01-409b-4e2e-a326-25efcac77bff.jpg',
+        quantity_unit: 'unit'
     },
     {
         category: 'beverages',
-        name: 'Sweet Potatoes',
+        name: 'Lemons',
         price: 200,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fd1a0be6-1817-4c3d-82a8-84b37e7ce2fc.jpg',
         quantity_unit: 'pound'
     },
     {
@@ -3466,6 +3381,94 @@ foodmaxxHousehold = [
     }
 ]
 
+foodmaxxProduce = [
+    {
+        category: 'produce',
+        name: 'Paper Towels',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'produce',
+        name: 'Garbage Bags',
+        price: 350,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'produce',
+        name: 'Toilet Paper',
+        price: 10000,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'produce',
+        name: 'Paper Plates',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'produce',
+        name: 'Gloves',
+        price: 5000,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'produce',
+        name: 'Hand Sanitizer',
+        price: 7500,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'produce',
+        name: 'Paper Towels',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'produce',
+        name: 'Garbage Bags',
+        price: 350,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'produce',
+        name: 'Toilet Paper',
+        price: 10000,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'produce',
+        name: 'Paper Plates',
+        price: 300,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'produce',
+        name: 'Gloves',
+        price: 5000,
+        image: '',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'produce',
+        name: 'Hand Sanitizer',
+        price: 7500,
+        image: '',
+        quantity_unit: 'unit'
+    }
+]
+
+
 foodmaxxSnacks = [
     {
         category: 'snacks',
@@ -3602,12 +3605,14 @@ smartnfinalCategories = {
 }
 
 foodmaxxCategories = {
-    'bakery': foodmaxxBakery, 
     'beverages': foodmaxxBeverages, 
+    'cannedgoods' : foodmaxxCannedgoods,
     'frozen': foodmaxxFrozen, 
-    'dairy': foodmaxxDairy, 
-    'meatnseafood': foodmaxxMeatnseafood, 
     'deli': foodmaxxDeli, 
+    'dairyneggs': foodmaxxDairyneggs, 
+    'meatnseafood': foodmaxxMeatnseafood, 
+    'household': foodmaxxHousehold,
+    'produce': foodmaxxProduce,
     'snacks': foodmaxxSnacks,      
 }
 
