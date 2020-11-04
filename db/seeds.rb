@@ -3694,7 +3694,7 @@ smartnfinalCategories = {
 foodmaxxCategories = {
     'beverages': foodmaxxBeverages, 
     'breakfast': foodmaxxBreakfast, 
-    'cannedgoods' : foodmaxxCannedgoods,
+    'cannedgoods': foodmaxxCannedgoods,
     'dairyneggs': foodmaxxDairyneggs, 
     'frozen': foodmaxxFrozen, 
     'household': foodmaxxHousehold,
