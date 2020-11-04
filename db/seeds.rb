@@ -3123,86 +3123,86 @@ foodmaxxFrozen = [
 foodmaxxBreakfast = [
     {
         category: 'breakfast',
-        name: 'Potato Chips',
-        price: 200,
-        image: '',
+        name: 'Honey Nut Cheerios',
+        price: 550,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f6b3c09f-2628-450f-987a-72561b8081ca.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'breakfast',
-        name: 'Cookies',
+        name: 'Cinnamon Toast Crunch',
+        price: 550,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c75f0bf5-3b90-4006-9a75-33b3435c3b80.jpeg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'breakfast',
+        name: 'Frosted Flakes',
         price: 250,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_328eaf79-82c3-46d8-9d71-ef150fc864c7.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'breakfast',
-        name: 'Gummy Bears',
-        price: 250,
-        image: '',
+        name: 'Pancake Mix',
+        price: 400,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a2fcfc0f-6317-4752-af4e-c9d4b4d4edb2.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'breakfast',
-        name: 'Chocolate',
-        price: 100,
-        image: '',
+        name: 'Oatmeal',
+        price: 500,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f18c2bab-bc51-4e61-bad6-0e07054a4dbc.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'breakfast',
         name: 'Granola',
         price: 400,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_93a06831-0610-4110-aaf1-a25749c57b5d.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'breakfast',
-        name: 'Popcorn',
-        price: 300,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'breakfast',
-        name: 'Potato Chips',
-        price: 200,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'breakfast',
-        name: 'Cookies',
-        price: 250,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'breakfast',
-        name: 'Gummy Bears',
-        price: 250,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'breakfast',
-        name: 'Chocolate',
-        price: 100,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'breakfast',
-        name: 'Granola',
+        name: 'Flax Granola',
         price: 400,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5f5d4faf-89d0-45f5-9b71-3a2c6e358c5a.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'breakfast',
-        name: 'Popcorn',
-        price: 300,
-        image: '',
+        name: 'Strawberry Pop Tarts',
+        price: 200,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0b8f0dd4-c958-4478-a2d2-0501939762f4.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'breakfast',
+        name: 'Chocolate Pop Tarts',
+        price: 200,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e9f59130-2b5a-4bb3-a294-7ee66ce98fd3.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'breakfast',
+        name: 'Nutri-Grain Bars',
+        price: 400,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5198bf03-ad22-4ea6-b655-deff2b322283.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'breakfast',
+        name: 'Bel-Vita',
+        price: 600,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b6892d03-825f-488b-b218-bf1fadada7e6.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'breakfast',
+        name: 'Chewy Granola Bars',
+        price: 500,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b6df33ef-a5cf-4db1-9cb7-758e3191636e.jpeg',
         quantity_unit: 'unit'
     }
 ]
@@ -3210,86 +3210,86 @@ foodmaxxBreakfast = [
 foodmaxxDairyneggs = [
     {
         category: 'dairyneggs',
-        name: 'Potato Chips',
+        name: 'String Cheese',
+        price: 350,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_96ffd66b-1ab7-4a32-a74d-229e2123ed03.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Shredded Mexican Cheese',
         price: 200,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d1761daf-75b7-4dd9-8e44-5ce7190653da.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
-        name: 'Cookies',
-        price: 250,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'dairyneggs',
-        name: 'Gummy Bears',
-        price: 250,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'dairyneggs',
-        name: 'Chocolate',
-        price: 100,
-        image: '',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'dairyneggs',
-        name: 'Granola',
+        name: 'Vitamin D Milk',
         price: 400,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fa3ca43e-82cb-4a5b-aec8-85a84f937c2c.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
-        name: 'Popcorn',
+        name: 'Reduced Fat Milk',
+        price: 400,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3277ebec-804b-4831-9227-1c318f220fb1.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Margarine',
+        price: 250,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f6ebc68d-6bbe-47ea-83a2-7169e74136dc.jpg',
+        quantity_unit: 'unit'
+    },
+    {
+        category: 'dairyneggs',
+        name: 'Eggs',
         price: 300,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3c77ea12-808f-45c0-932d-700a9f2eed5b.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
-        name: 'Potato Chips',
+        name: 'Butter',
         price: 200,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a31fdc53-9010-400e-ab65-f47b9c27eea4.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
-        name: 'Cookies',
+        name: 'Gogurt',
         price: 250,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2d37f8a7-caa9-49f7-a51c-04ab8492ade7.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
-        name: 'Gummy Bears',
+        name: 'Danimals',
         price: 250,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_021deeb4-85a9-4126-83cd-27845f811410.jpeg',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
-        name: 'Chocolate',
-        price: 100,
-        image: '',
+        name: 'Sour Cream',
+        price: 200,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2a4fa657-5f02-469a-9210-747179720e39.jpg',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
-        name: 'Granola',
+        name: 'Ricotta Cheese',
         price: 400,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a0145235-8143-499b-8c3e-56592cfaae22.png',
         quantity_unit: 'unit'
     },
     {
         category: 'dairyneggs',
-        name: 'Popcorn',
+        name: 'Cream Cheese',
         price: 300,
-        image: '',
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6c93c198-b0a2-483e-b64d-a9dbd1534046.jpg',
         quantity_unit: 'unit'
     }
 ]
@@ -3297,24 +3297,24 @@ foodmaxxDairyneggs = [
 foodmaxxMeatnseafood = [
     {
         category: 'meatnseafood',
-        name: 'Soda',
-        price: 150,
-        image: '',
-        quantity_unit: 'unit'
+        name: 'Ground Beef',
+        price: 450,
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fad56127-63e7-4617-92a1-6340e7b68e10.jpg',
+        quantity_unit: 'pound'
     },
     {
         category: 'meatnseafood',
-        name: 'Water',
+        name: 'Whole Chicken',
         price: 100,
-        image: '',
-        quantity_unit: 'unit'
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_79433f55-0594-40fa-9667-da1aaf1b984e.jpg',
+        quantity_unit: 'pound'
     },
     {
         category: 'meatnseafood',
-        name: 'Lemonade',
+        name: 'Pork Spareribs',
         price: 350,
-        image: '',
-        quantity_unit: 'unit'
+        image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_072f39ea-5279-4ce5-a2e6-306b03732926.jpg',
+        quantity_unit: 'pound'
     },
     {
         category: 'meatnseafood',
