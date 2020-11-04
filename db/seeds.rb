@@ -412,7 +412,7 @@ safewayBakery = [
         price: 300,
         image: 'https://i.pinimg.com/originals/e5/a4/86/e5a48656e441e11bf82a8f62917e1566.png',
         quantity_unit: 'unit'
-    }
+    },
     {
         category: 'bakery',
         name: 'Pumpkin Pie',
@@ -3661,12 +3661,12 @@ safewayCategories = {
 
 costcoCategories = {
     "papernplastic": costcoPapernplastic, 
-    "produce": costcoMeats, 
+    "produce": costcoProduce, 
     "bakery": costcoBakery, 
     "meats": costcoMeats, 
     "seafood": costcoSeafood, 
     "dairyneggs": costcoDairynEggs, 
-    "pantryndry": costcoPantrynDry,
+    "pantryndry": costcoPantryndry,
     "snacks": costcoSnacks, 
 }
 
@@ -3688,12 +3688,12 @@ smartnfinalCategories = {
     'frozen': smartnfinalFrozen, 
     'household': smartnfinalHousehold,
     'meatnseafood': smartnfinalMeatnseafood, 
-    'snacks': smartnfinalSnacks 
+    'snacks': smartnfinalSnacks
 }
 
 foodmaxxCategories = {
     'beverages': foodmaxxBeverages, 
-    'breakfast': foodmaxxBreakfast, 
+    'breakfast': foodmaxxBreakfas, 
     'cannedgoods' : foodmaxxCannedgoods,
     'dairyneggs': foodmaxxDairyneggs, 
     'frozen': foodmaxxFrozen, 
