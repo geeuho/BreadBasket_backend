@@ -133,13 +133,6 @@ safewayMeats = [
     },
     {
         category: 'meats',
-        name: 'Drumsticks',
-        price: 300,
-        image: 'https://cdn.shopify.com/s/files/1/0384/2454/3276/products/3.RawDrumstick_1200x1200.jpg?v=1589291103',
-        quantity_unit: 'unit'
-    },
-    {
-        category: 'meats',
         name: 'Chicken Breast',
         price: 500,
         image: 'https://images.squarespace-cdn.com/content/v1/52a752a8e4b01bb79a7699da/1587169043181-578EIRIZZBX09W5S013C/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmN9YSRtfoTLg6dUq-6F17A0FFZK5fArcnK1IqGweyunyWChwIwkIJ_P7MaZif-uMs/CHKBRST.png?format=1000w',
@@ -154,10 +147,10 @@ safewayMeats = [
     },
     {
         category: 'meats',
-        name: 'Pork Chop',
+        name: 'Pork Chops',
         price: 300,
         image: 'https://images-na.ssl-images-amazon.com/images/I/412TgjX2bIL.jpg',
-        quantity_unit: 'unit'
+        quantity_unit: 'pound'
     },
     {
         category: 'meats',
@@ -2417,7 +2410,7 @@ smartnfinalDairy = [
         category: 'dairy',
         name: 'Reduced Fat Milk',
         price: 300,
-        image: '',
+        image: 'https://i.mctimg.com/file/7a6be351a4db6725255a774b18b5eaa85c32de67/r400x400/54316e7b33cb40f8ff6f26e1bb5f414e4d6adf14b889ea9d3d5399814beb8bdc',
         quantity_unit: 'unit'
     },
     {
