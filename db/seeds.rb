@@ -474,7 +474,7 @@ safewaySnacks = [
     },
     {
         category: 'snacks',
-        name: 'Choclate Chip Cookies',
+        name: 'Chocolate Chip Cookies',
         price: 350,
         image: 'https://cdn.shopify.com/s/files/1/0002/1187/7945/products/Mayas-Cookies-2048x2048-choc-chip_1000x1000.jpg?v=1596588072',
         quantity_unit: 'unit'
@@ -3747,7 +3747,7 @@ smartnfinalCategories.each do |category, items|
             quantity_unit: item[:quantity_unit],
             price: item[:price],
             image: item[:image],
-            store_id: 1
+            store_id: 4
         )
     end
 end
@@ -3760,7 +3760,7 @@ foodmaxxCategories.each do |category, items|
             quantity_unit: item[:quantity_unit],
             price: item[:price],
             image: item[:image],
-            store_id: 1
+            store_id: 5
         )
     end
 end
