@@ -323,7 +323,7 @@ safewayDairy = [
         category: 'dairy',
         name: 'Yogurt',
         price: 300,
-        image: 'https://www.pngarts.com/files/3/Yogurt-PNG-Photo.png',
+        image: 'https://www.kroger.com/product/images/xlarge/front/0001111002817',
         quantity_unit: 'unit'
     },
     {
