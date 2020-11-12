@@ -323,7 +323,7 @@ safewayDairy = [
         category: 'dairy',
         name: 'Yogurt',
         price: 300,
-        image: 'https://amindfullmom.com/wp-content/uploads/2018/02/nonfat-instant-pot-yogurt-500x500.jpg',
+        image: 'https://www.pngarts.com/files/3/Yogurt-PNG-Photo.png',
         quantity_unit: 'unit'
     },
     {
@@ -3463,28 +3463,28 @@ foodmaxxHousehold = [
 
 foodmaxxProduce = [
     {
-        category: 'beverages',
+        category: 'produce',
         name: 'Asparagus',
         price: 150,
         image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_12f80701-c76e-488e-aec6-db952ff75487.jpg',
         quantity_unit: 'pound'
     },
     {
-        category: 'beverages',
+        category: 'produce',
         name: 'Cauliflower',
         price: 150,
         image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_88f1145f-fdc7-42e5-9138-178fb3baf044.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'beverages',
+        category: 'produce',
         name: 'Radish',
         price: 100,
         image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b9801a01-409b-4e2e-a326-25efcac77bff.jpg',
         quantity_unit: 'unit'
     },
     {
-        category: 'beverages',
+        category: 'produce',
         name: 'Lemons',
         price: 200,
         image: 'https://d2ha0ia8lms00s.cloudfront.net/600x/filters:fill(FFF,true)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fd1a0be6-1817-4c3d-82a8-84b37e7ce2fc.jpg',
