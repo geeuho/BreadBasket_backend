@@ -2,9 +2,17 @@
 
 This Ruby on Rails app functions as the server for the BreadBasket application, which is a food delivery service application. The server information regarding user profiles, grocery stores and their items, as well as created orders. The server allows for seamless communication between shopper and driver applications, so that live orders can be updated and completed. 
 
-## Data Tables 
+## Data Models
 
-
+- Shoppers
+- Shopper_info 
+- Drivers
+- Driver_info
+- Orders
+- Order_items
+- Carts
+- Cart_items
+- Stores
 
 ## Getting Started
 
@@ -45,6 +53,8 @@ rake db:create
 rake db:migrate
 ```
 
+### Start
+
 And then to seed your database with the default seed file
 
 ```
@@ -61,12 +71,17 @@ Now you can start your Rails server.
 rails s
 ```
 
+You should be able to view your data at localhost:3000. Check the routes file in the config folder to see how to access specific data models. 
+
 ## Technologies/Libraries  
 
 - Ruby
 - Rails
 - Postgres
--
+- Google Omniauth
+- JWT
+- Faker
+- Rack-cors
 
 ## Contact
 
@@ -74,4 +89,6 @@ If you have any ideas you would like to contribute or would love to collaborate 
 
 Email: geeuho@gmail.com 
 
-Github: https://github.com/geeuho/
+Github: [https://github.com/geeuho/](https://github.com/geeuho/)
+
+LinkedIn: [https://www.linkedin.com/in/allen-shin/](https://www.linkedin.com/in/allen-shin/)
