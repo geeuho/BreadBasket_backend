@@ -8,6 +8,8 @@ This Ruby on Rails app functions as the server for the BreadBasket application, 
 
 ## Getting Started
 
+### Installation
+
 If you want to run the server live, you can clone the source code onto your local machine
 
 ```
@@ -16,11 +18,44 @@ cd BreadBasket_Backend
 bundle install 
 ```
 
-Once you have the code and install the required packages you'll want to create a database. The current configurations require 
+You'll now have the source code with the required packages installed. 
 
-[Windows](https://www.postgresql.org/download/windows/)
+### Postgres
 
-[Mac](https://postgresapp.com/downloads.html)
+The current configurations require Postgres so you'll want to download the Postgres app.
+
+[Windows DL](https://www.postgresql.org/download/windows/)
+
+[Mac DL](https://postgresapp.com/downloads.html)
+
+Once downloaded you'll be able to observe and manually manipulate your data tables through the application
+
+### Creating the databse
+
+This a Rails application, so make sure you have Ruby and Rails installed onto your local machine
+
+[Ruby DL](https://www.ruby-lang.org/en/downloads/)
+
+[Rails 5 DL](https://rubyonrails.org/)
+
+After you have those installed run the following to create the database
+
+```
+rake db:create
+rake db:migrate
+```
+
+And then to seed your database with the default seed file
+
+```
+rake db:seed
+```
+
+I've manually created the seed file, but if you want to use your own data, just edit the seeds.rb file. 
+
+### Start
+
+Now you can start your Rails server.
 
 ``` 
 rails s
@@ -28,29 +63,15 @@ rails s
 
 ## Technologies/Libraries  
 
+- Ruby
+- Rails
+- Postgres
+-
 
+## Contact
 
-### 
+If you have any ideas you would like to contribute or would love to collaborate on the project I would love to connect!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Email: geeuho@gmail.com 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Github: https://github.com/geeuho/
