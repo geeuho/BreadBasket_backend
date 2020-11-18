@@ -1,6 +1,6 @@
 ## BreadBasket Backend Server
 
-This Ruby on Rails app functions as the server for the BreadBasket application, which is a food delivery service application. The server information regarding user profiles, grocery stores and their items, as well as created orders. The server allows for seamless communication between shopper and driver applications, so that live orders can be updated and completed. 
+This Ruby on Rails app functions as the server for the BreadBasket application, which is a food delivery service application. The server maintains data regarding user profiles, grocery stores and their items, as well as created orders. The server allows for seamless communication between shopper and driver applications, so that live orders can be updated and completed. 
 
 ## Data Models
 
