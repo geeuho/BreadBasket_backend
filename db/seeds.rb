@@ -779,7 +779,7 @@ safewayHousehold = [
         category: 'household',
         name: 'Alumninum Foil',
         price: 550,
-        image: 'https://cdn.shopify.com/s/files/1/0279/4373/1334/products/Garbage-Bags_ee5e9dbc-f0e4-48d4-b890-76b675bc799a_530x@2x.jpg?v=1590698286',
+        image: 'https://images-na.ssl-images-amazon.com/images/I/61KOvumH58L._SL1000_.jpg',
         quantity_unit: 'unit'
     }
 ]
