@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   resources :cart_items
   resources :drivers
   resources :shoppers
+  post '/create-checkout-session', to: ''
   post '/login', to: 'sessions#create'
   get 'auth/google_oauth2/callback', to: 'sessions#GoogleAuth'
   get 'auth/failure', to: redirect('/')

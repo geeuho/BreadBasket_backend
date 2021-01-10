@@ -56,8 +56,6 @@ class ApplicationController < ActionController::API
     end
 
     def current_cart
-        p cart_token
-        p 'GOD EXISTSSS'
         if cart_token
             cart_id = cart_token[0]["cart_id"]
             cart = Cart.find_by(id: cart_id)

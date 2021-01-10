@@ -1754,7 +1754,7 @@ riteaidGrocery = [
         category: 'grocery',
         name: 'Organic Gummy Bears',
         price: 300,
-        image: 'https://www.riteaid.com/shop/media/catalog/product/0/4/041420033735.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=406&width=406&canvas=406:406',
+        image: 'https://nutsfactorynyc.com/wp-content/uploads/2020/06/001-GUMMY-BEARS.jpg',
         quantity_unit: 'unit'
     },
     {
