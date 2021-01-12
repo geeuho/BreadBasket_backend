@@ -490,7 +490,7 @@ safewaySnacks = [
         category: 'snacks',
         name: 'Gummy Bears',
         price: 250,
-        image: 'https://ncifarms.com/wp-content/uploads/2019/04/Gummy-bears-new-1000x1000.jpg',
+        image: 'https://nutsfactorynyc.com/wp-content/uploads/2020/06/001-GUMMY-BEARS.jpg',
         quantity_unit: 'unit'
     },
     {
