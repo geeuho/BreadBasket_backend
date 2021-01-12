@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   resources :cart_items
   resources :drivers
   resources :shoppers
-  post '/stripe-checkout', to: 'stripe_payments#create'
+  resources :stripe_payments, only: [:create]
   post '/login', to: 'sessions#create'
   get 'auth/google_oauth2/callback', to: 'sessions#GoogleAuth'
   get 'auth/failure', to: redirect('/')
