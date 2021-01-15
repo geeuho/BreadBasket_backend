@@ -18,7 +18,7 @@ development:
 
 production:
   <<: *default
-  database: 'breadbasket_development'
+  database: 'breadbasket_production'
   user: 'postgres'
   password: 'jeeho123'
 # Warning: The database defined as "test" will be erased and
