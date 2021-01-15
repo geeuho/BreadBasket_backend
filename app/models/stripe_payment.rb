@@ -8,9 +8,11 @@ class StripePayment < ApplicationRecord
         @stripe_token = params[:stripeToken]
         @order = params[:order_id]
         @user = user
+    end
 
     def call 
         create_charge(find_customer)
+    end
     
     private 
 
