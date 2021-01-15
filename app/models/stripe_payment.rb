@@ -46,7 +46,8 @@ class StripePayment < ApplicationRecord
             description: customer.email, 
             currency: DEFAULT_CURRENCY
         )
-
+    end 
+    
     def order_amount
         Order.find_by(id: order).total
     end
