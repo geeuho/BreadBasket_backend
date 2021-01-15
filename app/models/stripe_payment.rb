@@ -39,7 +39,7 @@ class StripePayment < ApplicationRecord
         customer
     end
 
-    def create_charge
+    def create_charge(customer)
         Stripe::Charge.create(
             customer: customer.id,
             amount: order_amount,
@@ -47,7 +47,7 @@ class StripePayment < ApplicationRecord
             currency: DEFAULT_CURRENCY
         )
     end 
-    
+
     def order_amount
         Order.find_by(id: order).total
     end
