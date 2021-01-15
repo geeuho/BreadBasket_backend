@@ -4,7 +4,7 @@ class StripePayment < ApplicationRecord
 
 
     def initialize(params, user)
-        @stripe_email = params[;stripeEmail]
+        @stripe_email = params[:stripeEmail]
         @stripe_token = params[:stripeToken]
         @order = params[:order_id]
         @user = user
