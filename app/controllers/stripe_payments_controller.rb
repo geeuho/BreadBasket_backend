@@ -7,7 +7,7 @@ class StripePaymentsController < ApplicationController
     private
 
     def payment_params
-        params.permit(:stripeEmail, :stripeToken, :order_id)
+        params.permit(:order_items, :stripeToken, :order_id)
     end
 
     def catch_error(error)
