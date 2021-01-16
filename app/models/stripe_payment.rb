@@ -3,10 +3,15 @@ class StripePayment < ApplicationRecord
 
     def initialize(params, user)
         @order_items = params[:order_items]
+        @user = params[:user]
     end
 
     def call 
         create_session
+    end
+
+    def self.test_method
+        p 'hello'
     end
     
     private 
@@ -32,34 +37,20 @@ class StripePayment < ApplicationRecord
     def create_session
         session = Stripe::Checkout::Session.create({
             payment_method_types: ['card'],
-            line_items: [
-                {
-                    price_data: {
-                        unit_amount: 1000,
-                        currency: 'usd',
-                        product_data: {
-                            name: 'Stubborn Attachments',
-                            images: ['https://i.imgur.com/EHyR2nP.png']
-                        },
-                    },
-                    quantity: 1,
+            line_items: [{
+            price_data: {
+                unit_amount: 2000,
+                currency: 'usd',
+                product_data: {
+                name: 'Stubborn Attachments',
+                images: ['https://i.imgur.com/EHyR2nP.png'],
                 },
-                {
-                    price_data: {
-                        unit_amount: 3000,
-                        currency: 'usd',
-                        product_data: {
-                            name: 'Stubborn Attachments',
-                            images: ['https://i.imgur.com/EHyR2nP.png']
-                        },
-                    },
-                    quantity: 3,
-                }
-            ],
+            },
+            quantity: 1,
+            }],
             mode: 'payment',
             success_url: YOUR_DOMAIN + '?success=true',
             cancel_url: YOUR_DOMAIN + '?success=false',
-            }]
         })
 
         {id: session.id}.to_json

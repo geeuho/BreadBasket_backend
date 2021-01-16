@@ -1,6 +1,6 @@
 class StripePaymentsController < ApplicationController 
 
-    def create
+    def stripe_payment
         stripe_payment = StripePayment.new(payment_params).call
     end
 
