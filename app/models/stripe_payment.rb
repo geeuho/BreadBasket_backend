@@ -1,11 +1,8 @@
 class StripePayment < ApplicationRecord
-    YOUR_DOMAIN = 'http://localhost:3000/stripe_payment'
-    DEFAULT_CURRENCY = 'usd'.freeze
 
 
     def initialize(params, user)
         @order_items = params[:order_items]
-        @
     end
 
     def call 
