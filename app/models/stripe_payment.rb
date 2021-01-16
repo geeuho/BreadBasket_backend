@@ -27,38 +27,40 @@ class StripePayment < ApplicationRecord
     #     Stripe::Customer.retrieve(stripe_token)
     # end
 
-    YOUR_DOMAIN = 'http://localhost:3000/stripe_payments'
+    YOUR_DOMAIN = 'https://bread-basket-backend.herokuapp.com/stripe_payments'
 
     def create_session
-        payment_method_types: ['card'],
-        line_items: [
-            {
-                price_data: {
-                    unit_amount: 1000,
-                    currency: 'usd',
-                    product_data: {
-                        name: 'Stubborn Attachments',
-                        images: ['https://i.imgur.com/EHyR2nP.png']
+        session = Stripe::Checkout::Session.create({
+            payment_method_types: ['card'],
+            line_items: [
+                {
+                    price_data: {
+                        unit_amount: 1000,
+                        currency: 'usd',
+                        product_data: {
+                            name: 'Stubborn Attachments',
+                            images: ['https://i.imgur.com/EHyR2nP.png']
+                        },
                     },
+                    quantity: 1,
                 },
-                quantity: 1,
-            },
-            {
-                price_data: {
-                    unit_amount: 3000,
-                    currency: 'usd',
-                    product_data: {
-                        name: 'Stubborn Attachments',
-                        images: ['https://i.imgur.com/EHyR2nP.png']
+                {
+                    price_data: {
+                        unit_amount: 3000,
+                        currency: 'usd',
+                        product_data: {
+                            name: 'Stubborn Attachments',
+                            images: ['https://i.imgur.com/EHyR2nP.png']
+                        },
                     },
-                },
-                quantity: 3,
-            }
-        ],
-        mode: 'payment',
-        success_url: YOUR_DOMAIN + '?success=true',
-        cancel_url: YOUR_DOMAIN + '?success=false',
-        }]
+                    quantity: 3,
+                }
+            ],
+            mode: 'payment',
+            success_url: YOUR_DOMAIN + '?success=true',
+            cancel_url: YOUR_DOMAIN + '?success=false',
+            }]
+        })
 
         {id: session.id}.to_json
     end
