@@ -1,7 +1,7 @@
 class StripePaymentsController < ApplicationController 
-
-    def stripe_payment
-        stripe_payment = StripePayment.new(payment_params).call
+    skip_before_action :authorized
+    def checkout
+        stripe_payment = StripePayment.new()
     end
 
     private
