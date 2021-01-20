@@ -16,16 +16,10 @@ class StripePaymentsController < ApplicationController
             quantity: 1,
             }],
             mode: 'payment',
-            # For now leave these URLs as placeholder values.
-            #
-            # Later on in the guide, you'll create a real success page, but no need to
-            # do it yet.
-            # success_url: 'https://example.com/success',
-            # cancel_url: 'https://example.com/cancel',
-
             success_url: 'http://localhost:3001/orderpage',
-            cancel_url: 'http://localhost:3001/',
+            cancel_url: 'http://localhost:3001',
         })
+        p session
         render json: {id: session.id}
     end
 
