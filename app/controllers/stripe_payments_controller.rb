@@ -3,6 +3,8 @@ class StripePaymentsController < ApplicationController
     def checkout
         # p Rails.configuration.stripe[:secret_key]
         p Rails.application.secrets.stripe_secret_key
+        p ENV["STRIPE_TEST_PUBHLISHABLE_KEY"]
+        p ENV
         session = Stripe::Checkout::Session.create({
             payment_method_types: ['card'],
             line_items: [{
@@ -19,7 +21,6 @@ class StripePaymentsController < ApplicationController
             success_url: 'http://localhost:3001/orderpage',
             cancel_url: 'http://localhost:3001',
         })
-        p session
         render json: {id: session.id}
     end
 
