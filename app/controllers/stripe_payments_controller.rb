@@ -1,7 +1,6 @@
 class StripePaymentsController < ApplicationController 
     skip_before_action :authorized
     def checkout
-
         session = Stripe::Checkout::Session.create({
             payment_method_types: ['card'],
             line_items: [{

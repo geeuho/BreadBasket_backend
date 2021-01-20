@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   resources :shoppers
   resources :stripe_payments, only: [] do 
     collection do
-      post 'checkout'
+      get 'checkout'
     end
   end
   post '/login', to: 'sessions#create'
