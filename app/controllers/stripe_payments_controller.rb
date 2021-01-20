@@ -4,7 +4,6 @@ class StripePaymentsController < ApplicationController
         # p Rails.configuration.stripe[:secret_key]
         p Rails.application.secrets.stripe_secret_key
         p ENV["STRIPE_TEST_PUBLISHABLE_KEY"]
-        p ENV
         session = Stripe::Checkout::Session.create({
             payment_method_types: ['card'],
             line_items: [{
