@@ -1,6 +1,8 @@
 class StripePaymentsController < ApplicationController 
     skip_before_action :authorized
     def checkout
+        # p Rails.configuration.stripe[:secret_key]
+        p Rails.application.secrets.stripe_secret_key
         session = Stripe::Checkout::Session.create({
             payment_method_types: ['card'],
             line_items: [{
