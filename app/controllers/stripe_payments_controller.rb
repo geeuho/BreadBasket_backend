@@ -2,43 +2,27 @@ class StripePaymentsController < ApplicationController
     skip_before_action :authorized
     def checkout
         # p Rails.configuration.stripe[:secret_key]
-        p Rails.application.secrets.stripe_secret_key
-        p ENV["STRIPE_TEST_PUBLISHABLE_KEY"]
+        # p Rails.application.secrets.stripe_secret_key
+        p stripe_payment_params.to_hash["checkout_items"], "PARAMS"
         session = Stripe::Checkout::Session.create({
             payment_method_types: ['card'],
-            line_items: [
-                {
-                    price_data: {
-                        currency: 'usd',
-                        product_data: {
-                            name: 'T-shirt',
-                        },
-                        unit_amount: 2000,
-                    },
-                    quantity: 1,
-                },
-                {
-                    price_data: {
-                        currency: 'usd',
-                        product_data: {
-                            name: 'Bible',
-                        },
-                        unit_amount: 3000,
-                    },
-                    quantity: 1,
-                }
-            ],
+            line_items: stripe_payment_params.to_hash["checkout_items"],
             mode: 'payment',
             success_url: 'http://localhost:3001/orderpage',
             cancel_url: 'http://localhost:3001',
         })
+        
         render json: {id: session.id}
     end
 
     private
 
-    def payment_params
-        params.permit(:order_items)
+    def stripe_payment_params
+        params.require(:checkout_items)
+        params.permit(:stripe_payment, :checkout_items => [:quantity, {:price_data => [:currency, {:product_data => [:name]}, :unit_amount]}])
+        # params.require(:checkout_items).map do |p|
+        #     ActionController::Parameters.new(p.to_hash).permit(:price_data, :quantity) 
+        # end
     end
 
     def catch_error(error)
