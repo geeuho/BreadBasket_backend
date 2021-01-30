@@ -1,6 +1,7 @@
 class Order < ApplicationRecord
     belongs_to :store
     belongs_to :shopper
+    has_one :address, as: :addressable
     has_many :assignments
     has_many :drivers, through: :assignments
     has_many :order_items
@@ -9,4 +10,5 @@ class Order < ApplicationRecord
     validates :total, presence: true
     validates :payment, presence: true
     validates :status, presence: true
+    validates :address, presence: true
 end

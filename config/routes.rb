@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :addresses
   root to: 'shoppers#index'
   resources :carts
   resources :order_items
@@ -11,6 +12,7 @@ Rails.application.routes.draw do
   resources :cart_items
   resources :drivers
   resources :shoppers
+  resources :addresses
   resources :stripe_payments, only: [] do 
     collection do
       post 'checkout'

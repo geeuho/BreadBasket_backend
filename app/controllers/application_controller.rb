@@ -8,7 +8,7 @@ class ApplicationController < ActionController::API
     def auth_header
         request.headers['Authorization']
     end
-    #test
+
     def cart_header
         request.headers["Cart"]
     end

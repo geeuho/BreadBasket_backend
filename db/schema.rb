@@ -10,10 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_09_02_032309) do
+ActiveRecord::Schema.define(version: 2021_01_29_234958) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "addresses", force: :cascade do |t|
+    t.string "street"
+    t.string "city"
+    t.string "state"
+    t.string "zip_code"
+    t.string "addressable_type"
+    t.bigint "addressable_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["addressable_type", "addressable_id"], name: "index_addresses_on_addressable_type_and_addressable_id"
+  end
 
   create_table "assignments", force: :cascade do |t|
     t.integer "driver_id"
@@ -82,10 +94,6 @@ ActiveRecord::Schema.define(version: 2020_09_02_032309) do
 
   create_table "shopper_infos", force: :cascade do |t|
     t.integer "age"
-    t.string "address"
-    t.string "city"
-    t.string "state"
-    t.string "zip_code"
     t.string "phone"
     t.integer "shopper_id"
     t.datetime "created_at", precision: 6, null: false
@@ -103,11 +111,8 @@ ActiveRecord::Schema.define(version: 2020_09_02_032309) do
 
   create_table "stores", force: :cascade do |t|
     t.string "name"
-    t.string "address"
-    t.string "city"
-    t.string "state"
-    t.integer "zip_code"
     t.string "phone"
+    t.string "logo"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
