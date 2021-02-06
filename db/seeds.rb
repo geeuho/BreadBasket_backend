@@ -8,18 +8,23 @@
 # Address seeds
 
 # Store seeds
-Store.create(name: 'Safeway', phone: '5107133180', logo: "https://images.barrons.com/im-78993?width=1280&size=1")
-Store.create(name: 'Costco', phone: '5109213128', logo: "https://sunrisemarketplace.com/wp-content/uploads/2020/03/3979_SMP-cvs-logo.jpg")
-Store.create(name: 'Rite Aid',  phone: '5104893955', logo: "https://d2lnr5mha7bycj.cloudfront.net/store_configuration/logo/212/white_label_landing_page_6217c6f4-ca57-4174-b463-b5508f095889.png")
+Store.create(name: 'Safeway', phone: '5107133180', logo: "https://photos.prnewswire.com/prnfull/20140919/147279")
+Store.create(name: 'Costco', phone: '5109213128', logo: "https://images.barrons.com/im-78993?width=1280&size=1")
+Store.create(name: 'Rite Aid',  phone: '5104893955', logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Rite_Aid.svg/1200px-Rite_Aid.svg.png")
 Store.create(name: 'Smart and Final', phone: '5104752633', logo: "https://pbs.twimg.com/profile_images/1111764791503151104/2kXoX9z-.png")
-Store.create(name: 'FoodMaxx', phone: '5104753663', logo: "https://photos.prnewswire.com/prnfull/20140919/147279")
+Store.create(name: 'FoodMaxx', phone: '5104753663', logo: "https://d2lnr5mha7bycj.cloudfront.net/store_configuration/logo/212/white_label_landing_page_6217c6f4-ca57-4174-b463-b5508f095889.png")
 
 Address.create(street: '5877 Jarvis Avenue', city: 'Newark', state: 'CA', zip_code: 94560, addressable_type: 'Store', addressable_id: 1)
-Address.create( street: '28505 Hesperian Blvd', city: 'Hayward', state: 'CA', zip_code: 94545, addressable_type: 'Store', addressable_id: 2)
+Address.create(street: '28505 Hesperian Blvd', city: 'Hayward', state: 'CA', zip_code: 94545, addressable_type: 'Store', addressable_id: 2)
 Address.create(street: '31836 Alvarado Blvd', city: 'Union City', state: 'CA', zip_code: 94587, addressable_type: 'Store', addressable_id: 3)
 Address.create(street: '31070 Dyer St', city: 'Union City', state: 'CA', zip_code: 94587, addressable_type: 'Store', addressable_id: 4)
 Address.create(street: '30073 Industrial Pkwy SW', city: 'Hayward', state: 'CA', zip_code: 94587, addressable_type: 'Store', addressable_id: 5)
 
+Phone.create(number: '5107133180', phoneable_type: 'Store', phoneable_id: 1)
+Phone.create(number: '5109213128', phoneable_type: 'Store', phoneable_id: 2)
+Phone.create(number: '5104893955', phoneable_type: 'Store', phoneable_id: 3)
+Phone.create(number: '5104752633', phoneable_type: 'Store', phoneable_id: 4)
+Phone.create(number: '5104753663', phoneable_type: 'Store', phoneable_id: 5)
 
 # Shopper seeds
 # Shopper.create(username: Faker::Hipster.word,

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :emails
+  resources :phones
   resources :addresses
   root to: 'shoppers#index'
   resources :carts
