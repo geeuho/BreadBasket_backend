@@ -38,6 +38,6 @@ class PhonesController < ApplicationController
     end
 
     def phone_params 
-        params.require(:phone).permit(:number)
+        params.require(:phone).permit(:number, :phoneable_type, :phoneable_id)
     end
 end

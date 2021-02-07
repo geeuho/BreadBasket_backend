@@ -37,6 +37,6 @@ class EmailsController < ApplicationController
     end
 
     def email_params 
-        params.require(:email).permit(:email)
+        params.require(:email).permit(:email, :emailable_type, :emailable_id)
     end
 end
