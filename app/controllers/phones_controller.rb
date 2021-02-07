@@ -1,7 +1,8 @@
 class PhonesController < ApplicationController
+    skip_before_action :authorized
     def index
-        phone = Phone.where(query_params)
-        render json: PhoneSerializers.new(phonees)
+        phones = Phone.where(query_params)
+        render json: PhoneSerializer.new(phones)
     end
 
     def show

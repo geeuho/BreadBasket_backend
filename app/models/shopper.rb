@@ -3,7 +3,8 @@ class Shopper < ApplicationRecord
     has_one :cart
     has_one :shopper_info
     has_many :addresses, as: :addressable
-    has_many :contacts, as: :contactable
+    has_many :phones, as: :phoneable
+    has_many :emails, as: :emailable
     has_many :orders
     validates :first_name, presence: true
     validates :last_name, presence: true

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_01_29_234958) do
+ActiveRecord::Schema.define(version: 2021_02_06_222830) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -60,6 +60,15 @@ ActiveRecord::Schema.define(version: 2021_01_29_234958) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "emails", force: :cascade do |t|
+    t.string "email"
+    t.string "emailable_type"
+    t.bigint "emailable_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["emailable_type", "emailable_id"], name: "index_emails_on_emailable_type_and_emailable_id"
+  end
+
   create_table "items", force: :cascade do |t|
     t.string "name"
     t.integer "price"
@@ -84,12 +93,27 @@ ActiveRecord::Schema.define(version: 2021_01_29_234958) do
     t.integer "shopper_id"
     t.integer "store_id"
     t.integer "total"
+    t.integer "tax"
     t.integer "payment"
     t.integer "subtotal"
     t.string "status"
+    t.text "note"
+    t.string "payment_method"
+    t.string "delivery_time"
+    t.string "complete_time"
+    t.string "substitute"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "tip"
+  end
+
+  create_table "phones", force: :cascade do |t|
+    t.string "number"
+    t.string "phoneable_type"
+    t.bigint "phoneable_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["phoneable_type", "phoneable_id"], name: "index_phones_on_phoneable_type_and_phoneable_id"
   end
 
   create_table "shopper_infos", force: :cascade do |t|
