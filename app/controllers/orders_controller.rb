@@ -12,6 +12,7 @@ class OrdersController < ApplicationController
 
     def create
         order = Order.create(order_params)
+        p order
         if order.valid?
             render json: OrderSerializer.new(order)
         else 
@@ -35,7 +36,7 @@ class OrdersController < ApplicationController
     private
 
     def order_params
-        params.require(:order).permit(:shopper_id, :store_id, :status, :subtotal, :payment, :tip, :tax, :total, :note, :payment_method, :delivery_time, :complete_time, :substitute)
+        params.require(:order).permit(:shopper_id, :store_id, :status, :subtotal, :payment, :tip, :tax, :total, :note, :payment_method, :delivery_date, :delivery_time, :address, :phone, :complete_time, :substitute)
     end
 
     def query_params

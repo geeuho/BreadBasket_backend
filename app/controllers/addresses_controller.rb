@@ -1,7 +1,7 @@
 class AddressesController < ApplicationController
     def index
         addresses = Address.where(query_params)
-        render json: AddressSerializers.new(addresses)
+        render json: AddressSerializer.new(addresses)
     end
 
     def show

@@ -99,7 +99,10 @@ ActiveRecord::Schema.define(version: 2021_02_06_222830) do
     t.string "status"
     t.text "note"
     t.string "payment_method"
+    t.string "delivery_date"
     t.string "delivery_time"
+    t.string "address"
+    t.string "phone"
     t.string "complete_time"
     t.string "substitute"
     t.datetime "created_at", precision: 6, null: false

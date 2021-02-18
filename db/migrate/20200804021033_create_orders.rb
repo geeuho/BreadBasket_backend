@@ -10,7 +10,10 @@ class CreateOrders < ActiveRecord::Migration[6.0]
       t.string :status
       t.text :note
       t.string :payment_method
+      t.string :delivery_date
       t.string :delivery_time
+      t.string :address
+      t.string :phone
       t.string :complete_time
       t.string :substitute
 
