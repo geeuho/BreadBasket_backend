@@ -3,10 +3,10 @@ class CreateOrders < ActiveRecord::Migration[6.0]
     create_table :orders do |t|
       t.integer :shopper_id
       t.integer :store_id
-      t.integer :total
-      t.integer :tax
-      t.integer :payment
-      t.integer :subtotal
+      t.float :total
+      t.float :tax
+      t.float :payment
+      t.float :subtotal
       t.string :status
       t.text :note
       t.string :payment_method
