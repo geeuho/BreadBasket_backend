@@ -1,5 +1,6 @@
 class CreateOrders < ActiveRecord::Migration[6.0]
   def change
+    #test note
     create_table :orders do |t|
       t.integer :shopper_id
       t.integer :store_id
