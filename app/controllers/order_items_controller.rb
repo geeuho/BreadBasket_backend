@@ -22,7 +22,7 @@ class OrderItemsController < ApplicationController
     def update
         order_item = OrderItem.find(params[:id])
         order_item.update(order_item_params)
-        render json: {update: params[:id]}
+        render json: OrderItemSerializer.new(order_item)
     end
 
     def delete
