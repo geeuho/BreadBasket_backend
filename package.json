@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "express": "^4.17.1",
-    "webpack": "^4.44.2"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {},
   "scripts": {
